@@ -6,8 +6,8 @@ A copy of elyse_pickem (made 2026-11-20, fresh git history) for expanding the da
 Starting point: a free research dashboard for Elyse's weekly college football pick'em. She picks **against the spread** from a set list of games her league gives her. The dashboard collects information in one place; it must never recommend or make picks.
 
 Live pages:
-- Cloudflare (the future home): https://pickem-lab.pickempickers.workers.dev. A Worker serving `docs/` as static assets (`wrangler.jsonc`); deployed by hand with `npx wrangler deploy` for now.
-- GitHub Pages (kept until Cloudflare deploys run from Actions): https://foxwilliam13-ops.github.io/pickem_lab/
+- Cloudflare (the future home): https://pickem-lab.pickempickers.workers.dev. A Worker serving `docs/` as static assets (`wrangler.jsonc`); every workflow run deploys it (`npx wrangler deploy` with the `CLOUDFLARE_API_TOKEN` and `CLOUDFLARE_ACCOUNT_ID` secrets).
+- GitHub Pages (still deployed too, as a backup): https://foxwilliam13-ops.github.io/pickem_lab/
 
 ## Hard rules
 - **$0 budget.** Only free services. No paid APIs, no paid tiers. The owner is on the Claude Pro plan, which has no API credits, so do not add Claude API calls and never set ANTHROPIC_API_KEY.

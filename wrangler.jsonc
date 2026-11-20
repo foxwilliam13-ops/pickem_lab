@@ -1,0 +1,10 @@
+// Cloudflare Worker config. For now it only serves the dashboard in docs/ as static files.
+// Server code (leagues, picks) and the D1 database get added here in later steps.
+{
+  "name": "pickem-lab",                 // site: pickem-lab.pickempickers.workers.dev
+  "compatibility_date": "2026-11-01",
+  "workers_dev": true,
+  "assets": {
+    "directory": "./docs"
+  }
+}

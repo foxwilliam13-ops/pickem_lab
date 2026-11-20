@@ -4,9 +4,9 @@
  "week": 12,
  "season_type": "regular",
  "title": "Week 12",
- "generated_at": "2026-11-20T21:06:37.199901+00:00",
- "generated_label": "Fri, Nov 20 at 3:06 PM CT",
- "news_status": "128 of 128 teams checked (13 had no new headlines since the last run)",
+ "generated_at": "2026-11-20T21:22:25.849538+00:00",
+ "generated_label": "Fri, Nov 20 at 3:22 PM CT",
+ "news_status": "128 of 128 teams checked (115 had no new headlines since the last run)",
  "sp_teams": 138,
  "games": [
   {
@@ -841,7 +841,7 @@
    "neutral": false,
    "venue": "Falcon Stadium, Colorado Springs, CO",
    "final": null,
-   "spread": "Air Force −21.5",
+   "spread": "Air Force −22.5",
    "line_source": "DraftKings",
    "tossup": false,
    "prob_source": "betting odds",

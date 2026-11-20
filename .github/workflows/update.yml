@@ -8,7 +8,7 @@ on:
   #   - cron: '7 14 * * 4,5'
   workflow_dispatch:        # adds the "Run workflow" button on the Actions tab
   push:
-    branches: [main]        # republish the page when you edit notes or the page itself
+    branches: [main]        # republish the page when you edit it
 
 permissions:
   contents: write           # lets the run save the new data files

@@ -162,20 +162,6 @@ function el(tag, attrs, ...children) {
   return node;
 }
 
-// notes.txt: one note per line, "Team name: the note". Lines starting with # are skipped.
-function parseNotes(text) {
-  const notes = {};
-  for (const raw of text.split('\n')) {
-    const line = raw.trim();
-    if (!line || line.startsWith('#')) continue;
-    const cut = line.indexOf(':');
-    if (cut < 1) continue;
-    const team = line.slice(0, cut).trim().toLowerCase();
-    (notes[team] = notes[team] || []).push(line.slice(cut + 1).trim());
-  }
-  return notes;
-}
-
 function teamRow(team, isHome, neutral) {
   return el('div', { class: 'team' },
     el('div', { class: 'who' },
@@ -209,8 +195,7 @@ function ratings(g, spTeams) {
       el('tbody', {}, row(g.away), row(g.home))));
 }
 
-function card(g, notes, spTeams) {
-  const gameNotes = [...(notes[g.away.name.toLowerCase()] || []), ...(notes[g.home.name.toLowerCase()] || [])];
+function card(g, spTeams) {
   return el('article', { class: 'card', id: g.anchor, 'data-game': g.id, 'data-teams': `${g.away.name} ${g.home.name}`.toLowerCase() },
     el('div', { class: 'top' },
       g.final ? el('span', { class: 'final' }, g.final) : el('span', {}, `${g.kickoff}${g.neutral ? ' · Neutral site' : ''}`),
@@ -237,9 +222,8 @@ function card(g, notes, spTeams) {
     el('div', { class: 'history' }, history(g.away), history(g.home)),
     el('div', { class: 'notes' },
       el('p', { class: 'label' }, 'Notes'),
-      gameNotes.length ? gameNotes.map(n => el('p', {}, n)) : null,
       newsBlock(g.away), newsBlock(g.home),
-      !gameNotes.length && !Array.isArray(g.away.news) && !Array.isArray(g.home.news)
+      !Array.isArray(g.away.news) && !Array.isArray(g.home.news)
         ? el('p', { class: 'none' }, 'Nothing notable yet.') : null));
 }
 
@@ -319,8 +303,8 @@ function filter() {
 const bust = `?t=${Date.now()}`;   // always get the newest files, not a cached copy
 const getJSON = path => fetch(path + bust).then(r => { if (!r.ok) throw new Error(`${path}: ${r.status}`); return r.json(); });
 
-// Draws one week. Typed notes (notes.txt) only belong on the current week.
-function render(data, notes, isLatest) {
+// Draws one week.
+function render(data, isLatest) {
   const games = data.games || [];
   document.title = `Pick'em Prep · ${data.title || ''}`;
   document.getElementById('title').textContent = data.title
@@ -340,13 +324,13 @@ function render(data, notes, isLatest) {
     cards.append(el('div', { class: 'empty' }, 'No games to show yet.'));
     return;
   }
-  cards.append(...games.map(g => card(g, isLatest ? notes : {}, data.sp_teams)));
+  cards.append(...games.map(g => card(g, data.sp_teams)));
   buildList(games);
   refreshSlate();
 }
 
 // Week picker: lists every saved week from weeks/index.json. Hidden until there are two.
-function buildWeekPicker(weeks, latest, notes) {
+function buildWeekPicker(weeks, latest) {
   if (weeks.length < 2) return;
   const isLatestWeek = w => w.season === latest.season && w.season_type === latest.season_type && w.week === latest.week;
   const select = document.getElementById('week');
@@ -355,7 +339,7 @@ function buildWeekPicker(weeks, latest, notes) {
   select.addEventListener('change', async () => {
     const w = weeks.find(x => x.file === select.value);
     try {
-      render(isLatestWeek(w) ? latest : await getJSON(`${BASE}weeks/${w.file}`), notes, isLatestWeek(w));
+      render(isLatestWeek(w) ? latest : await getJSON(`${BASE}weeks/${w.file}`), isLatestWeek(w));
     } catch (err) {
       document.getElementById('updated').textContent = 'Could not load that week. Try refreshing the page.';
       console.error(err);
@@ -366,14 +350,12 @@ function buildWeekPicker(weeks, latest, notes) {
 
 async function start() {
   document.getElementById('sport-name').textContent = `${SPORTS[SPORT]} Pick'em`;
-  const [data, notesText, weeks] = await Promise.all([
+  const [data, weeks] = await Promise.all([
     getJSON(`${BASE}data.json`),
-    fetch(`${BASE}notes.txt${bust}`).then(r => (r.ok ? r.text() : '')).catch(() => ''),
     getJSON(`${BASE}weeks/index.json`).catch(() => []),
   ]);
-  const notes = parseNotes(notesText);
-  render(data, notes, true);
-  buildWeekPicker(weeks, data, notes);
+  render(data, true);
+  buildWeekPicker(weeks, data);
   document.getElementById('find').addEventListener('input', filter);
   const onlySlate = document.getElementById('slate-only');
   onlySlate.checked = store.get('slateOnly', false);

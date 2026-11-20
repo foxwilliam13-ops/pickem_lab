@@ -108,7 +108,7 @@
 <body>
 <div class="wrap">
   <header>
-    <p class="eyebrow">Yahoo College Pick'em</p>
+    <p class="eyebrow">College Football Pick'em</p>
     <h1 id="title">Pick'em Prep</h1>
     <p class="updated" id="updated">Loading…</p>
     <label class="label week-picker" id="week-picker" hidden>Week
@@ -117,7 +117,7 @@
   </header>
 
   <div class="info">
-    <span><strong>Spreads shown are the market line.</strong> Yahoo's can differ, so pick against Yahoo's number.</span>
+    <span><strong>Spreads shown are the market line.</strong> Your league's line can differ, so pick against your league's number.</span>
     <span><span class="badge">Toss-up</span> spread under 3 points</span>
     <span><strong>ATS</strong> = record against the spread</span>
     <span><strong>SP+</strong> = efficiency rating; #1 is best, green = top 25. Early in the season it leans on preseason expectations.</span>
@@ -130,11 +130,11 @@
       <label class="label" for="find">Find a team
         <input id="find" type="search" placeholder="Type a team name" autocomplete="off">
       </label>
-      <label class="slate-only"><input id="slate-only" type="checkbox"> Only my Yahoo games <span id="slate-count"></span></label>
+      <label class="slate-only"><input id="slate-only" type="checkbox"> Only my slate <span id="slate-count"></span></label>
       <div id="list"></div>
     </details>
     <main>
-      <div class="empty" id="slate-empty" hidden>No Yahoo games flagged for this week yet. Tap "☆ Add to Yahoo slate" on a game, or uncheck "Only my Yahoo games".</div>
+      <div class="empty" id="slate-empty" hidden>No games flagged for this week yet. Tap "☆ Add to my slate" on a game, or uncheck "Only my slate".</div>
       <div id="cards"></div>
     </main>
   </div>
@@ -269,7 +269,7 @@ function buildList(games) {
     ul.append(el('li', { 'data-game': g.id, 'data-teams': `${g.away.name} ${g.home.name}`.toLowerCase() },
       el('a', { href: `#${g.anchor}` },
         el('span', { class: 'meta' },
-          el('span', {}, el('span', { class: 'star', 'aria-label': 'On Yahoo slate' }, '★ '), g.final ? 'Final' : g.time),
+          el('span', {}, el('span', { class: 'star', 'aria-label': 'On my slate' }, '★ '), g.final ? 'Final' : g.time),
           g.tossup ? el('span', { class: 'toss' }, 'TOSS-UP') : null),
         el('span', { class: 'matchup' }, `${g.away.name} @ ${g.home.name}`),
         el('span', { class: 'line' }, g.spread))));
@@ -282,15 +282,15 @@ const store = {
   set(key, value) { try { localStorage.setItem(key, JSON.stringify(value)); } catch { /* not saved; fine */ } },
 };
 
-// Yahoo slate flags: game ids saved in this browser only (not shared between devices).
-const slate = new Set(store.get('yahooSlate', []).map(String));
+// Slate flags: game ids saved in this browser only (not shared between devices).
+const slate = new Set(store.get('mySlate', []).map(String));
 
 function refreshSlate() {
   document.querySelectorAll('[data-game]').forEach(node => node.classList.toggle('on-slate', slate.has(node.dataset.game)));
   document.querySelectorAll('.slate-btn').forEach(btn => {
     const on = slate.has(btn.dataset.game);
     btn.setAttribute('aria-pressed', String(on));
-    btn.textContent = on ? '★ On Yahoo slate' : '☆ Add to Yahoo slate';
+    btn.textContent = on ? '★ On my slate' : '☆ Add to my slate';
   });
   const flagged = document.querySelectorAll('article.on-slate').length;
   document.getElementById('slate-count').textContent = flagged ? `(${flagged})` : '';
@@ -375,7 +375,7 @@ async function start() {
     const btn = e.target.closest('.slate-btn');
     if (!btn) return;
     slate.has(btn.dataset.game) ? slate.delete(btn.dataset.game) : slate.add(btn.dataset.game);
-    store.set('yahooSlate', [...slate]);
+    store.set('mySlate', [...slate]);
     refreshSlate();
   });
   filter();

@@ -1,6 +1,6 @@
 # Pick'em Prep
 
-A free dashboard for Yahoo College Pick'em research. Every Thursday and Friday morning, GitHub runs a small Python script that collects the week's games, betting lines, recent results, rankings and kickoff weather, then publishes them as one web page. The page helps with research; it never makes the pick.
+A free dashboard for college football pick'em research. Every Thursday and Friday morning, GitHub runs a small Python script that collects the week's games, betting lines, recent results, rankings and kickoff weather, then publishes them as one web page. The page helps with research; it never makes the pick.
 
 ## What's in here
 
@@ -18,7 +18,7 @@ A free dashboard for Yahoo College Pick'em research. Every Thursday and Friday m
 2. **Turn on Pages.** Settings → Pages → Build and deployment → Source: **GitHub Actions**.
 3. **Upload the files** (keep the folders): Code tab → Add file → Upload files.
 4. **Run it once.** Actions tab → Update dashboard → Run workflow.
-5. **Open the page** at `https://<your-username>.github.io/elyse_pickem/`.
+5. **Open the page** at `https://<your-username>.github.io/pickem_lab/`.
 
 ## Everyday use
 

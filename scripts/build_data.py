@@ -31,6 +31,7 @@ from news import team_news
 CFBD_BASE = "https://api.collegefootballdata.com"
 WEATHER_BASE = "https://api.open-meteo.com/v1/forecast"
 CENTRAL = ZoneInfo("America/Chicago")
+EASTERN = ZoneInfo("America/New_York")   # TBA kickoffs come as midnight Eastern on game day
 SPORT = "cfb"           # each sport keeps its files in docs/sports/<key>/ (cfb, later nfl, nba, epl)
 OUT_FILE = Path(os.environ.get("OUT_FILE") or Path(__file__).resolve().parent.parent / "docs" / "sports" / SPORT / "data.json")
 
@@ -503,6 +504,26 @@ def main():
           f"({api_calls['cfbd']} CollegeFootballData calls, {api_calls['weather']} weather calls)")
 
 
+def lock_time(g):
+    """When picks close: kickoff, or for a TBA game 12:00 AM Central at the start of game day."""
+    if not g["tbd"]:
+        return g["start"]
+    day = g["start"].astimezone(EASTERN).date()
+    return dt.datetime.combine(day, dt.time(0), CENTRAL)
+
+
+def freeze_time(lock, season_type):
+    """When the line freezes (spread mode): 1 hour before lock, or earlier if the normal freeze
+    comes first. Normal freeze: regular season, Thursday 9 AM Central of the game's Monday-Sunday
+    week; postseason, 9 AM Central the day before."""
+    day = lock.astimezone(CENTRAL).date()
+    if season_type == "postseason":
+        usual = day - dt.timedelta(days=1)
+    else:
+        usual = day - dt.timedelta(days=day.weekday()) + dt.timedelta(days=3)
+    return min(dt.datetime.combine(usual, dt.time(9), CENTRAL), lock - dt.timedelta(hours=1))
+
+
 def build_feed(games, lines, ap, now, year):
     """Plain game data for the leagues database: no display text, times in UTC, spread from the
     home team's side (-3.5 = home favored by 3.5). Keeps games from FEED_DAYS_BACK days ago to
@@ -513,6 +534,7 @@ def build_feed(games, lines, ap, now, year):
     for g in sorted((g for g in games if g["start"] and lo <= g["start"] <= hi), key=lambda g: (g["start"], g["id"])):
         line = lines.get(g["id"])
         done = g["completed"] and g["home_pts"] is not None and g["away_pts"] is not None
+        lock = lock_time(g)
         rows.append({
             "id": f"{SPORT}:{g['id']}",
             "season": year,
@@ -520,6 +542,8 @@ def build_feed(games, lines, ap, now, year):
             "week": g["week"],
             "start": g["start"].astimezone(dt.timezone.utc).isoformat(),
             "start_tba": g["tbd"],
+            "lock_at": lock.astimezone(dt.timezone.utc).isoformat(),
+            "freeze_at": freeze_time(lock, g["season_type"]).astimezone(dt.timezone.utc).isoformat(),
             "home": g["home"],
             "away": g["away"],
             "home_ap": ranks.get(g["home"]),

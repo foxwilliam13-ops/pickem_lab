@@ -1,10 +1,25 @@
-// Cloudflare Worker config. For now it only serves the dashboard in docs/ as static files.
-// Server code (leagues, picks) and the D1 database get added here in later steps.
+// Cloudflare Worker config (free plan). Static files in docs/ are served as-is; anything that
+// isn't a file (for now only /api/...) runs src/worker.js. Data lives in the D1 database below.
 {
   "name": "pickem-lab",                 // site: pickem-lab.pickempickers.workers.dev
+  "main": "src/worker.js",
   "compatibility_date": "2026-11-01",
   "workers_dev": true,
   "assets": {
     "directory": "./docs"
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "pickem-lab",
+      "database_id": "6e5f1615-feb9-4678-9e45-adc6a7fa267f",
+      "migrations_dir": "migrations"
+    }
+  ],
+  // Hourly: freeze lines whose freeze time has passed.
+  "triggers": {
+    "crons": ["0 * * * *"]
   }
+  // Secret (set with `npx wrangler secret put INGEST_SECRET`, never in this file):
+  //   INGEST_SECRET - shared with GitHub Actions; required to send the game feed.
 }

@@ -9,6 +9,9 @@ Python's standard library, so there is nothing to install.
 Needs one secret: CFBD_API_KEY (your free CollegeFootballData key).
 Optional secret: GEMINI_API_KEY (free) turns on the AI news notes in news.py.
 Optional overrides: SEASON=2026, WEEK=13, SEASON_TYPE=regular (or postseason).
+
+Also writes docs/sports/cfb/feed.json: plain numbers (no display text) for the
+leagues database. See build_feed().
 """
 
 import datetime as dt
@@ -34,6 +37,9 @@ OUT_FILE = Path(os.environ.get("OUT_FILE") or Path(__file__).resolve().parent.pa
 TOSS_UP_POINTS = 3      # spreads smaller than this get the toss-up flag
 SPREAD_SD = 15.0        # rough spread of college results around the line (backup win-probability estimate)
 LAST_N = 4              # recent games shown per team
+FEED_DAYS_BACK = 10     # feed keeps finished games this many days back (late finals, score fixes)
+FEED_DAYS_AHEAD = 16    # and upcoming games this far ahead (covers next week's early games)
+FEED_TOP = 30           # leagues can use the AP top 25 or top 30 (25 ranked + 5 "receiving votes")
 PREFERRED_BOOKS = ["consensus", "DraftKings", "ESPN Bet", "Bovada", "William Hill (New Jersey)"]
 SNOW_CODES = {71, 73, 75, 77, 85, 86}
 STORM_CODES = {95, 96, 99}
@@ -165,6 +171,32 @@ def load_ranks(rows):
             if r.get("school") and r.get("rank"):
                 ranks[r["school"]] = (int(r["rank"]), label)
     return ranks
+
+
+def load_ap(rows):
+    """AP poll for the leagues feed: (team -> rank up to FEED_TOP, info about the poll used).
+    Uses the latest AP poll. Teams past 25 come from "others receiving votes", ordered by points;
+    if the data has no vote-getters, only ranks 1-25 exist (info says how many teams were found)."""
+    latest, when = [], None
+    for week in sorted(rows or [], key=lambda r: (field(r, "seasonType", default="") == "postseason", int(field(r, "week", default=0)))):
+        for poll in week.get("polls") or []:
+            if poll.get("poll") == "AP Top 25":
+                latest = poll.get("ranks") or []
+                when = {"season_type": field(week, "seasonType", default="regular"), "week": int(field(week, "week", default=0))}
+    entries = [r for r in latest if r.get("school")]
+    ranked = sorted((r for r in entries if r.get("rank") and int(r["rank"]) <= 25), key=lambda r: int(r["rank"]))
+    others = sorted((r for r in entries if r not in ranked), key=lambda r: -(r.get("points") or 0))
+    ranks = {r["school"]: int(r["rank"]) for r in ranked}
+    # Others are numbered from 26 by points; ties share a number (they're tied in the poll).
+    last_points, number = None, 25
+    for i, r in enumerate(others, start=26):
+        if r.get("points") != last_points:
+            number, last_points = i, r.get("points")
+        if number > FEED_TOP:
+            break
+        ranks[r["school"]] = number
+    info = dict(when or {}, teams_in_data=len(entries), ranked=len(ranked), receiving_votes=len(others))
+    return ranks, info
 
 
 def load_sp(rows):
@@ -432,11 +464,12 @@ def main():
     for played in history.values():
         played.sort(key=lambda g: g["start"])
 
+    rank_rows = cfbd("/rankings", year=year)
     ctx = {
         "history": history,
         "lines": lines,
         "records": load_records(cfbd("/records", year=year)),
-        "ranks": load_ranks(cfbd("/rankings", year=year)),
+        "ranks": load_ranks(rank_rows),
         "venues": load_venues(cfbd("/venues")),
         "sp": load_sp(optional("/ratings/sp", year=year)),
         "season_type": season_type,
@@ -479,8 +512,47 @@ def main():
     OUT_FILE.parent.mkdir(parents=True, exist_ok=True)
     OUT_FILE.write_text(text, encoding="utf-8")
     save_archive(data, text)
+    write_feed(build_feed(games, lines, load_ap(rank_rows), now, year))
     print(f"Wrote {len(cards)} games to {OUT_FILE} "
           f"({api_calls['cfbd']} CollegeFootballData calls, {api_calls['weather']} weather calls)")
+
+
+def build_feed(games, lines, ap, now, year):
+    """Plain game data for the leagues database: no display text, times in UTC, spread from the
+    home team's side (-3.5 = home favored by 3.5). Keeps games from FEED_DAYS_BACK days ago to
+    FEED_DAYS_AHEAD days ahead, so finals get graded and next week's early games are known."""
+    ranks, poll = ap
+    lo, hi = now - dt.timedelta(days=FEED_DAYS_BACK), now + dt.timedelta(days=FEED_DAYS_AHEAD)
+    rows = []
+    for g in sorted((g for g in games if g["start"] and lo <= g["start"] <= hi), key=lambda g: (g["start"], g["id"])):
+        line = lines.get(g["id"])
+        done = g["completed"] and g["home_pts"] is not None and g["away_pts"] is not None
+        rows.append({
+            "id": f"{SPORT}:{g['id']}",
+            "season": year,
+            "season_type": g["season_type"],
+            "week": g["week"],
+            "start": g["start"].astimezone(dt.timezone.utc).isoformat(),
+            "start_tba": g["tbd"],
+            "home": g["home"],
+            "away": g["away"],
+            "home_ap": ranks.get(g["home"]),
+            "away_ap": ranks.get(g["away"]),
+            "spread": line["spread"] if line else None,
+            "completed": done,
+            "home_pts": g["home_pts"] if done else None,
+            "away_pts": g["away_pts"] if done else None,
+        })
+    return {"sport": SPORT, "season": year, "generated_at": now.isoformat(), "ap_poll": poll,
+            "top": FEED_TOP, "games": rows}
+
+
+def write_feed(feed):
+    path = OUT_FILE.parent / "feed.json"
+    path.write_text(json.dumps(feed, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
+    p = feed["ap_poll"]
+    print(f"Wrote {len(feed['games'])} games to {path} "
+          f"(AP poll: {p.get('ranked', 0)} ranked, {p.get('receiving_votes', 0)} receiving votes)")
 
 
 def previous_news(year, season_type, week):

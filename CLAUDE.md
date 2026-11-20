@@ -21,7 +21,7 @@ Each sport has a short key and its own folder: `docs/sports/<key>/` holds `data.
 1. `.github/workflows/update.yml` runs on "Run workflow" and on push. Its Thu/Fri schedule is commented out for now (see the file).
    - Scheduled and manual runs: run `scripts/build_data.py`, commit `docs/sports/`, deploy Pages.
    - Push runs: only redeploy `docs/` (so page edits go live quickly).
-2. `scripts/build_data.py` (Python standard library only) pulls from CollegeFootballData.com API v2 (about 6 calls a run; free tier is 1,000 a month) and Open-Meteo (free, no key). Writes `docs/sports/cfb/data.json` (`SPORT = "cfb"` at the top).
+2. `scripts/build_data.py` (Python standard library only) pulls from CollegeFootballData.com API v2 (about 6 calls a run; free tier is 1,000 a month) and Open-Meteo (free, no key). Writes `docs/sports/cfb/data.json` (`SPORT = "cfb"` at the top). Also writes `docs/sports/cfb/feed.json` for the leagues database: plain numbers only (UTC kickoff, TBA flag, AP rank up to 30 with 26-30 from "others receiving votes", home-side spread, finals), games from 10 days back to 16 ahead; `ap_poll` in it records how many ranked/vote-getting teams the data had.
 3. `docs/index.html` is plain HTML/CSS/JS. It reads the sport's `data.json` and `weeks/index.json`. It builds DOM with the `el()` helper; never use innerHTML with data.
 4. No hand-typed notes: the old `notes.txt` was removed on purpose (owner doesn't enter anything by hand). Add it back only if asked.
 

@@ -8,10 +8,10 @@ on:
   #   - cron: '7 14 * * 4,5'
   workflow_dispatch:        # adds the "Run workflow" button on the Actions tab
   push:
-    branches: [main]        # republish the page when you edit notes.txt or the page itself
+    branches: [main]        # republish the page when you edit notes or the page itself
 
 permissions:
-  contents: write           # lets the run save the new data.json
+  contents: write           # lets the run save the new data files
   pages: write
   id-token: write
 
@@ -38,12 +38,12 @@ jobs:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}   # optional: turns on AI news notes
         run: python scripts/build_data.py
 
-      - name: Save data.json to the repository
+      - name: Save the data files to the repository
         if: github.event_name != 'push'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add docs/data.json docs/weeks
+          git add docs/sports
           git diff --staged --quiet || git commit -m "Update dashboard data"
           git pull --rebase
           git push

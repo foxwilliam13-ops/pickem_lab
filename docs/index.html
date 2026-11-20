@@ -108,7 +108,7 @@
 <body>
 <div class="wrap">
   <header>
-    <p class="eyebrow">College Football Pick'em</p>
+    <p class="eyebrow" id="sport-name">Pick'em</p>
     <h1 id="title">Pick'em Prep</h1>
     <p class="updated" id="updated">Loading…</p>
     <label class="label week-picker" id="week-picker" hidden>Week
@@ -276,6 +276,12 @@ function buildList(games) {
   }
 }
 
+// Sports: each one's files live in sports/<key>/. Pick with ?sport=<key>; unknown keys fall back to cfb.
+const SPORTS = { cfb: "College Football" };
+const askedSport = new URLSearchParams(location.search).get('sport');
+const SPORT = Object.hasOwn(SPORTS, askedSport ?? '') ? askedSport : 'cfb';
+const BASE = `sports/${SPORT}/`;
+
 // Browser storage can be missing or blocked (private windows), so every use is wrapped.
 const store = {
   get(key, fallback) { try { const v = localStorage.getItem(key); return v === null ? fallback : JSON.parse(v); } catch { return fallback; } },
@@ -283,7 +289,7 @@ const store = {
 };
 
 // Slate flags: game ids saved in this browser only (not shared between devices).
-const slate = new Set(store.get('mySlate', []).map(String));
+const slate = new Set(store.get(`slate-${SPORT}`, []).map(String));
 
 function refreshSlate() {
   document.querySelectorAll('[data-game]').forEach(node => node.classList.toggle('on-slate', slate.has(node.dataset.game)));
@@ -349,7 +355,7 @@ function buildWeekPicker(weeks, latest, notes) {
   select.addEventListener('change', async () => {
     const w = weeks.find(x => x.file === select.value);
     try {
-      render(isLatestWeek(w) ? latest : await getJSON(`weeks/${w.file}`), notes, isLatestWeek(w));
+      render(isLatestWeek(w) ? latest : await getJSON(`${BASE}weeks/${w.file}`), notes, isLatestWeek(w));
     } catch (err) {
       document.getElementById('updated').textContent = 'Could not load that week. Try refreshing the page.';
       console.error(err);
@@ -359,10 +365,11 @@ function buildWeekPicker(weeks, latest, notes) {
 }
 
 async function start() {
+  document.getElementById('sport-name').textContent = `${SPORTS[SPORT]} Pick'em`;
   const [data, notesText, weeks] = await Promise.all([
-    getJSON('data.json'),
-    fetch(`notes.txt${bust}`).then(r => (r.ok ? r.text() : '')).catch(() => ''),
-    getJSON('weeks/index.json').catch(() => []),
+    getJSON(`${BASE}data.json`),
+    fetch(`${BASE}notes.txt${bust}`).then(r => (r.ok ? r.text() : '')).catch(() => ''),
+    getJSON(`${BASE}weeks/index.json`).catch(() => []),
   ]);
   const notes = parseNotes(notesText);
   render(data, notes, true);
@@ -375,7 +382,7 @@ async function start() {
     const btn = e.target.closest('.slate-btn');
     if (!btn) return;
     slate.has(btn.dataset.game) ? slate.delete(btn.dataset.game) : slate.add(btn.dataset.game);
-    store.set('mySlate', [...slate]);
+    store.set(`slate-${SPORT}`, [...slate]);
     refreshSlate();
   });
   filter();

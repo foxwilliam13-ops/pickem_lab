@@ -6,10 +6,10 @@ A free dashboard for college football pick'em research. Every Thursday and Frida
 
 | Path | What it does |
 | --- | --- |
-| `scripts/build_data.py` | Pulls the data and writes `docs/data.json`. Standard library only, nothing to install. |
-| `docs/index.html` | The dashboard page. Reads `data.json` and `notes.txt`. |
-| `docs/notes.txt` | Notes typed by hand, one per line: `Team name: the note`. |
-| `docs/data.json` | This week's data. The workflow rewrites it on every run. |
+| `scripts/build_data.py` | Pulls the data and writes `docs/sports/cfb/data.json`. Standard library only, nothing to install. |
+| `docs/index.html` | The dashboard page. Reads one sport's folder; choose it with `?sport=cfb`. |
+| `docs/sports/cfb/notes.txt` | Notes typed by hand, one per line: `Team name: the note`. |
+| `docs/sports/cfb/data.json` | This week's data. Past weeks are kept in `weeks/` beside it. The workflow rewrites it on every run. |
 | `.github/workflows/update.yml` | The schedule (Thu and Fri, 7:07 AM Central) and the publishing steps. |
 
 ## One-time setup
@@ -22,7 +22,7 @@ A free dashboard for college football pick'em research. Every Thursday and Frida
 
 ## Everyday use
 
-- **Add a note:** open `docs/notes.txt`, click the pencil, add a line such as `Texas A&M: Starting QB questionable`, then Commit changes. The page updates in a minute or two.
+- **Add a note:** open `docs/sports/cfb/notes.txt`, click the pencil, add a line such as `Texas A&M: Starting QB questionable`, then Commit changes. The page updates in a minute or two.
 - **Refresh early:** Actions → Update dashboard → Run workflow.
 - **Rebuild a specific week:** add `WEEK: '13'` under `env:` in the "Pull this week's games" step, run it, then remove it.
 

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Builds docs/data.json for the Pick'em Prep dashboard.
+"""Builds docs/sports/cfb/data.json for the Pick'em Prep dashboard.
 
 GitHub Actions runs this every Thursday and Friday morning, and whenever you
 press "Run workflow". It pulls games, betting lines, records and rankings from
@@ -28,7 +28,8 @@ from news import team_news
 CFBD_BASE = "https://api.collegefootballdata.com"
 WEATHER_BASE = "https://api.open-meteo.com/v1/forecast"
 CENTRAL = ZoneInfo("America/Chicago")
-OUT_FILE = Path(os.environ.get("OUT_FILE") or Path(__file__).resolve().parent.parent / "docs" / "data.json")
+SPORT = "cfb"           # each sport keeps its files in docs/sports/<key>/ (cfb, later nfl, nba, epl)
+OUT_FILE = Path(os.environ.get("OUT_FILE") or Path(__file__).resolve().parent.parent / "docs" / "sports" / SPORT / "data.json")
 
 TOSS_UP_POINTS = 3      # spreads smaller than this get the toss-up flag
 SPREAD_SD = 15.0        # rough spread of college results around the line (backup win-probability estimate)
@@ -463,6 +464,7 @@ def main():
 
     stamp = now.astimezone(CENTRAL)
     data = {
+        "sport": SPORT,
         "season": year,
         "week": week,
         "season_type": season_type,
@@ -486,7 +488,7 @@ def previous_news(year, season_type, week):
     Teams that weren't checked then are left out. ({}, None) if there's nothing to reuse."""
     try:
         old = json.loads(OUT_FILE.read_text(encoding="utf-8"))
-        if (old.get("season"), old.get("season_type"), old.get("week")) != (year, season_type, week):
+        if (old.get("sport"), old.get("season"), old.get("season_type"), old.get("week")) != (SPORT, year, season_type, week):
             return {}, None
         when = dt.datetime.fromisoformat(old["generated_at"])
     except Exception:
@@ -501,7 +503,7 @@ def previous_news(year, season_type, week):
 
 
 def save_archive(data, text):
-    """Keeps a copy of every week in docs/weeks/ plus an index the page uses for its week picker.
+    """Keeps a copy of every week in docs/sports/<sport>/weeks/ plus an index the page uses for its week picker.
     Thursday's and Friday's runs share one file per week; Friday's (newest) wins."""
     folder = OUT_FILE.parent / "weeks"
     folder.mkdir(parents=True, exist_ok=True)
@@ -514,7 +516,7 @@ def save_archive(data, text):
         except ValueError:
             continue
         label = f"Week {week}" if season_type == "regular" else "Bowl season"
-        weeks.append({"file": path.name, "season": season, "season_type": season_type, "week": week,
+        weeks.append({"sport": SPORT, "file": path.name, "season": season, "season_type": season_type, "week": week,
                       "label": f"{season} · {label}"})
     weeks.sort(key=lambda w: (w["season"], w["season_type"] == "postseason", w["week"]), reverse=True)
     (folder / "index.json").write_text(json.dumps(weeks, indent=1) + "\n", encoding="utf-8")

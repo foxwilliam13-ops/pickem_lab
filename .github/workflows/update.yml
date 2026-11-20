@@ -1,0 +1,64 @@
+name: Update dashboard
+
+on:
+  # Schedule is OFF in pickem_lab (manual runs only) so it never competes with elyse_pickem's
+  # runs for the shared free Gemini limit. To turn it on, uncomment these lines (pick a time
+  # that doesn't overlap elyse_pickem's 13:07 UTC run).
+  # schedule:
+  #   - cron: '7 14 * * 4,5'
+  workflow_dispatch:        # adds the "Run workflow" button on the Actions tab
+  push:
+    branches: [main]        # republish the page when you edit notes.txt or the page itself
+
+permissions:
+  contents: write           # lets the run save the new data.json
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 50     # hard stop; news.py gives up on its own after 30 minutes
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: actions/setup-python@v7
+        if: github.event_name != 'push'
+        with:
+          python-version: '3.12'
+
+      - name: Pull this week's games
+        if: github.event_name != 'push'
+        env:
+          CFBD_API_KEY: ${{ secrets.CFBD_API_KEY }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}   # optional: turns on AI news notes
+        run: python scripts/build_data.py
+
+      - name: Save data.json to the repository
+        if: github.event_name != 'push'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs/data.json docs/weeks
+          git diff --staged --quiet || git commit -m "Update dashboard data"
+          git pull --rebase
+          git push
+
+      - uses: actions/configure-pages@v6
+      - uses: actions/upload-pages-artifact@v5
+        with:
+          path: docs
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v5

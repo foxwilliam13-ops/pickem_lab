@@ -1,0 +1,6863 @@
+{
+ "season": 2026,
+ "week": 12,
+ "season_type": "regular",
+ "title": "Week 12",
+ "generated_at": "2026-11-20T15:24:22.016181+00:00",
+ "generated_label": "Fri, Nov 20 at 9:24 AM CT",
+ "news_status": "128 of 128 teams checked (50 had no new headlines since the last run)",
+ "sp_teams": 138,
+ "games": [
+  {
+   "id": 401866465,
+   "anchor": "game-401866465",
+   "start": "2026-11-17T23:00:00+00:00",
+   "day": "Tuesday, Nov 17",
+   "time": "5:00 PM CT",
+   "kickoff": "Tue, Nov 17 · 5:00 PM CT",
+   "neutral": false,
+   "venue": "Waldo Stadium, Kalamazoo, MI",
+   "final": "Final: Eastern Michigan 27, Western Michigan 34",
+   "spread": "Western Michigan −18.5",
+   "line_source": "DraftKings",
+   "tossup": false,
+   "prob_source": "betting odds",
+   "weather": "Game finished",
+   "flags": [
+    "Eastern Michigan: off a bye week"
+   ],
+   "away": {
+    "name": "Eastern Michigan",
+    "rank": "",
+    "record": "4–7",
+    "ats": "ATS 4–6",
+    "sp": {
+     "overall": 128,
+     "offense": 129,
+     "defense": 113
+    },
+    "last": [
+     {
+      "result": "L 7–35",
+      "opponent": "vs Central Michigan (neutral)",
+      "opp_record": "(5–6, SP+ #113)"
+     },
+     {
+      "result": "L 20–24",
+      "opponent": "at Ohio",
+      "opp_record": "(8–3, SP+ #82)"
+     },
+     {
+      "result": "L 14–34",
+      "opponent": "vs Toledo",
+      "opp_record": "(8–2, SP+ #54)"
+     },
+     {
+      "result": "W 25–23",
+      "opponent": "at Akron",
+      "opp_record": "(2–9, SP+ #135)"
+     }
+    ],
+    "win_pct": 14,
+    "news": null
+   },
+   "home": {
+    "name": "Western Michigan",
+    "rank": "",
+    "record": "8–3",
+    "ats": "ATS 4–6",
+    "sp": {
+     "overall": 68,
+     "offense": 83,
+     "defense": 49
+    },
+    "last": [
+     {
+      "result": "W 42–14",
+      "opponent": "at Akron",
+      "opp_record": "(2–9, SP+ #135)"
+     },
+     {
+      "result": "W 23–10",
+      "opponent": "vs Bowling Green",
+      "opp_record": "(3–7, SP+ #127)"
+     },
+     {
+      "result": "L 38–45",
+      "opponent": "at Toledo",
+      "opp_record": "(8–2, SP+ #54)"
+     },
+     {
+      "result": "W 21–14",
+      "opponent": "at Central Michigan",
+      "opp_record": "(5–6, SP+ #113)"
+     }
+    ],
+    "win_pct": 86,
+    "news": null
+   }
+  },
+  {
+   "id": 401866466,
+   "anchor": "game-401866466",
+   "start": "2026-11-18T00:00:00+00:00",
+   "day": "Tuesday, Nov 17",
+   "time": "6:00 PM CT",
+   "kickoff": "Tue, Nov 17 · 6:00 PM CT",
+   "neutral": false,
+   "venue": "Dix Stadium, Kent, OH",
+   "final": "Final: Miami (OH) 20, Kent State 3",
+   "spread": "Miami (OH) −9.5",
+   "line_source": "DraftKings",
+   "tossup": false,
+   "prob_source": "betting odds",
+   "weather": "Game finished",
+   "flags": [],
+   "away": {
+    "name": "Miami (OH)",
+    "rank": "",
+    "record": "7–4",
+    "ats": "ATS 5–5",
+    "sp": {
+     "overall": 85,
+     "offense": 86,
+     "defense": 77
+    },
+    "last": [
+     {
+      "result": "W 34–17",
+      "opponent": "vs Ohio",
+      "opp_record": "(8–3, SP+ #82)"
+     },
+     {
+      "result": "L 31–34",
+      "opponent": "vs Buffalo",
+      "opp_record": "(8–3, SP+ #105)"
+     },
+     {
+      "result": "W 28–27",
+      "opponent": "at Central Michigan",
+      "opp_record": "(5–6, SP+ #113)"
+     },
+     {
+      "result": "W 34–14",
+      "opponent": "vs Akron",
+      "opp_record": "(2–9, SP+ #135)"
+     }
+    ],
+    "win_pct": 75,
+    "news": null
+   },
+   "home": {
+    "name": "Kent State",
+    "rank": "",
+    "record": "3–8",
+    "ats": "ATS 4–6",
+    "sp": {
+     "overall": 132,
+     "offense": 135,
+     "defense": 121
+    },
+    "last": [
+     {
+      "result": "L 28–33",
+      "opponent": "at Bowling Green",
+      "opp_record": "(3–7, SP+ #127)"
+     },
+     {
+      "result": "L 10–31",
+      "opponent": "at Sacramento State",
+      "opp_record": "(2–9, SP+ #137)"
+     },
+     {
+      "result": "W 35–20",
+      "opponent": "vs Akron",
+      "opp_record": "(2–9, SP+ #135)"
+     },
+     {
+      "result": "L 2–29",
+      "opponent": "at South Florida",
+      "opp_record": "(6–4, SP+ #60)"
+     }
+    ],
+    "win_pct": 25,
+    "news": null
+   }
+  },
+  {
+   "id": 401866464,
+   "anchor": "game-401866464",
+   "start": "2026-11-18T00:00:00+00:00",
+   "day": "Tuesday, Nov 17",
+   "time": "6:00 PM CT",
+   "kickoff": "Tue, Nov 17 · 6:00 PM CT",
+   "neutral": false,
+   "venue": "Peden Stadium, Athens, OH",
+   "final": "Final: Ball State 28, Ohio 35",
+   "spread": "Ohio −10",
+   "line_source": "DraftKings",
+   "tossup": false,
+   "prob_source": "betting odds",
+   "weather": "Game finished",
+   "flags": [],
+   "away": {
+    "name": "Ball State",
+    "rank": "",
+    "record": "3–8",
+    "ats": "ATS 6–4",
+    "sp": {
+     "overall": 130,
+     "offense": 121,
+     "defense": 132
+    },
+    "last": [
+     {
+      "result": "L 7–28",
+      "opponent": "vs Buffalo",
+      "opp_record": "(8–3, SP+ #105)"
+     },
+     {
+      "result": "L 30–31",
+      "opponent": "at Massachusetts",
+      "opp_record": "(5–6, SP+ #109)"
+     },
+     {
+      "result": "W 34–17",
+      "opponent": "vs Sacramento State",
+      "opp_record": "(2–9, SP+ #137)"
+     },
+     {
+      "result": "W 32–31",
+      "opponent": "at Bowling Green",
+      "opp_record": "(3–7, SP+ #127)"
+     }
+    ],
+    "win_pct": 23,
+    "news": null
+   },
+   "home": {
+    "name": "Ohio",
+    "rank": "",
+    "record": "8–3",
+    "ats": "ATS 4–6",
+    "sp": {
+     "overall": 82,
+     "offense": 91,
+     "defense": 71
+    },
+    "last": [
+     {
+      "result": "L 17–34",
+      "opponent": "at Miami (OH)",
+      "opp_record": "(7–4, SP+ #85)"
+     },
+     {
+      "result": "W 28–20",
+      "opponent": "at Akron",
+      "opp_record": "(2–9, SP+ #135)"
+     },
+     {
+      "result": "W 24–20",
+      "opponent": "vs Eastern Michigan",
+      "opp_record": "(4–7, SP+ #128)"
+     },
+     {
+      "result": "W 48–7",
+      "opponent": "at Sacramento State",
+      "opp_record": "(2–9, SP+ #137)"
+     }
+    ],
+    "win_pct": 77,
+    "news": null
+   }
+  },
+  {
+   "id": 401866467,
+   "anchor": "game-401866467",
+   "start": "2026-11-19T00:00:00+00:00",
+   "day": "Wednesday, Nov 18",
+   "time": "6:00 PM CT",
+   "kickoff": "Wed, Nov 18 · 6:00 PM CT",
+   "neutral": false,
+   "venue": "Warren McGuirk Alumni Stadium, Hadley, MA",
+   "final": "Final: Akron 34, Massachusetts 33",
+   "spread": "Massachusetts −3",
+   "line_source": "DraftKings",
+   "tossup": false,
+   "prob_source": "betting odds",
+   "weather": "Game finished",
+   "flags": [
+    "Massachusetts: one win from bowl eligibility"
+   ],
+   "away": {
+    "name": "Akron",
+    "rank": "",
+    "record": "2–9",
+    "ats": "ATS 4–6",
+    "sp": {
+     "overall": 135,
+     "offense": 132,
+     "defense": 135
+    },
+    "last": [
+     {
+      "result": "L 14–42",
+      "opponent": "vs Western Michigan",
+      "opp_record": "(8–3, SP+ #68)"
+     },
+     {
+      "result": "L 20–28",
+      "opponent": "vs Ohio",
+      "opp_record": "(8–3, SP+ #82)"
+     },
+     {
+      "result": "L 20–35",
+      "opponent": "at Kent State",
+      "opp_record": "(3–8, SP+ #132)"
+     },
+     {
+      "result": "L 14–34",
+      "opponent": "at Miami (OH)",
+      "opp_record": "(7–4, SP+ #85)"
+     }
+    ],
+    "win_pct": 40,
+    "news": null
+   },
+   "home": {
+    "name": "Massachusetts",
+    "rank": "",
+    "record": "5–6",
+    "ats": "ATS 4–6",
+    "sp": {
+     "overall": 109,
+     "offense": 118,
+     "defense": 93
+    },
+    "last": [
+     {
+      "result": "L 0–24",
+      "opponent": "at Toledo",
+      "opp_record": "(8–2, SP+ #54)"
+     },
+     {
+      "result": "W 31–30",
+      "opponent": "vs Ball State",
+      "opp_record": "(3–8, SP+ #130)"
+     },
+     {
+      "result": "L 16–35",
+      "opponent": "at UConn",
+      "opp_record": "(5–5, SP+ #70)"
+     },
+     {
+      "result": "L 18–25",
+      "opponent": "at Buffalo",
+      "opp_record": "(8–3, SP+ #105)"
+     }
+    ],
+    "win_pct": 60,
+    "news": null
+   }
+  },
+  {
+   "id": 401866469,
+   "anchor": "game-401866469",
+   "start": "2026-11-19T00:30:00+00:00",
+   "day": "Wednesday, Nov 18",
+   "time": "6:30 PM CT",
+   "kickoff": "Wed, Nov 18 · 6:30 PM CT",
+   "neutral": false,
+   "venue": "UB Stadium, Amherst, NY",
+   "final": "Final: Central Michigan 21, Buffalo 40",
+   "spread": "Buffalo −2.5",
+   "line_source": "DraftKings",
+   "tossup": true,
+   "prob_source": "betting odds",
+   "weather": "Game finished",
+   "flags": [
+    "Central Michigan: one win from bowl eligibility"
+   ],
+   "away": {
+    "name": "Central Michigan",
+    "rank": "",
+    "record": "5–6",
+    "ats": "ATS 6–4",
+    "sp": {
+     "overall": 113,
+     "offense": 120,
+     "defense": 87
+    },
+    "last": [
+     {
+      "result": "W 28–7",
+      "opponent": "vs Sacramento State",
+      "opp_record": "(2–9, SP+ #137)"
+     },
+     {
+      "result": "W 35–7",
+      "opponent": "vs Eastern Michigan (neutral)",
+      "opp_record": "(4–7, SP+ #128)"
+     },
+     {
+      "result": "L 27–28",
+      "opponent": "vs Miami (OH)",
+      "opp_record": "(7–4, SP+ #85)"
+     },
+     {
+      "result": "L 14–21",
+      "opponent": "vs Western Michigan",
+      "opp_record": "(8–3, SP+ #68)"
+     }
+    ],
+    "win_pct": 44,
+    "news": null
+   },
+   "home": {
+    "name": "Buffalo",
+    "rank": "",
+    "record": "8–3",
+    "ats": "ATS 6–4",
+    "sp": {
+     "overall": 105,
+     "offense": 118,
+     "defense": 85
+    },
+    "last": [
+     {
+      "result": "W 28–7",
+      "opponent": "at Ball State",
+      "opp_record": "(3–8, SP+ #130)"
+     },
+     {
+      "result": "W 34–31",
+      "opponent": "at Miami (OH)",
+      "opp_record": "(7–4, SP+ #85)"
+     },
+     {
+      "result": "W 31–24",
+      "opponent": "vs Bowling Green",
+      "opp_record": "(3–7, SP+ #127)"
+     },
+     {
+      "result": "W 25–18",
+      "opponent": "vs Massachusetts",
+      "opp_record": "(5–6, SP+ #109)"
+     }
+    ],
+    "win_pct": 56,
+    "news": null
+   }
+  },
+  {
+   "id": 401862830,
+   "anchor": "game-401862830",
+   "start": "2026-11-20T00:30:00+00:00",
+   "day": "Thursday, Nov 19",
+   "time": "6:30 PM CT",
+   "kickoff": "Thu, Nov 19 · 6:30 PM CT",
+   "neutral": false,
+   "venue": "Lincoln Financial Field, Philadelphia, PA",
+   "final": "Final: Rice 31, Temple 27",
+   "spread": "Temple −2.5",
+   "line_source": "DraftKings",
+   "tossup": true,
+   "prob_source": "betting odds",
+   "weather": "Game finished",
+   "flags": [
+    "Rice: short week (played Sat)",
+    "Temple: short week (played Sat)"
+   ],
+   "away": {
+    "name": "Rice",
+    "rank": "",
+    "record": "2–9",
+    "ats": "ATS 4–6",
+    "sp": {
+     "overall": 126,
+     "offense": 115,
+     "defense": 123
+    },
+    "last": [
+     {
+      "result": "L 17–20",
+      "opponent": "vs Tulane",
+      "opp_record": "(5–5, SP+ #112)"
+     },
+     {
+      "result": "L 23–52",
+      "opponent": "at North Texas",
+      "opp_record": "(7–3, SP+ #67)"
+     },
+     {
+      "result": "L 49–51",
+      "opponent": "at Florida Atlantic",
+      "opp_record": "(6–4, SP+ #86)"
+     },
+     {
+      "result": "L 17–38",
+      "opponent": "vs Tulsa",
+      "opp_record": "(6–4, SP+ #64)"
+     }
+    ],
+    "win_pct": 44,
+    "news": null
+   },
+   "home": {
+    "name": "Temple",
+    "rank": "",
+    "record": "2–9",
+    "ats": "ATS 5–4–1",
+    "sp": {
+     "overall": 115,
+     "offense": 97,
+     "defense": 124
+    },
+    "last": [
+     {
+      "result": "L 10–36",
+      "opponent": "vs UAB",
+      "opp_record": "(6–4, SP+ #95)"
+     },
+     {
+      "result": "L 35–42",
+      "opponent": "at Navy",
+      "opp_record": "(3–6, SP+ #88)"
+     },
+     {
+      "result": "L 9–17",
+      "opponent": "at East Carolina",
+      "opp_record": "(6–4, SP+ #88)"
+     },
+     {
+      "result": "L 31–38",
+      "opponent": "vs Charlotte",
+      "opp_record": "(1–9, SP+ #134)"
+     }
+    ],
+    "win_pct": 56,
+    "news": null
+   }
+  },
+  {
+   "id": 401856869,
+   "anchor": "game-401856869",
+   "start": "2026-11-20T23:00:00+00:00",
+   "day": "Friday, Nov 20",
+   "time": "5:00 PM CT",
+   "kickoff": "Fri, Nov 20 · 5:00 PM CT",
+   "neutral": false,
+   "venue": "FBC Mortgage Stadium, Orlando, FL",
+   "final": null,
+   "spread": "Iowa State −1.5",
+   "line_source": "DraftKings",
+   "tossup": true,
+   "prob_source": "betting odds",
+   "weather": "72°F · Wind 7 mph · Rain or snow 18%",
+   "flags": [
+    "Iowa State: one win from bowl eligibility",
+    "UCF: one win from bowl eligibility"
+   ],
+   "away": {
+    "name": "Iowa State",
+    "rank": "",
+    "record": "5–5",
+    "ats": "ATS 4–5–1",
+    "sp": {
+     "overall": 74,
+     "offense": 59,
+     "defense": 89
+    },
+    "last": [
+     {
+      "result": "W 41–13",
+      "opponent": "vs Cincinnati",
+      "opp_record": "(5–5, SP+ #72)"
+     },
+     {
+      "result": "L 31–42",
+      "opponent": "at Baylor",
+      "opp_record": "(6–4, SP+ #32)"
+     },
+     {
+      "result": "W 51–49",
+      "opponent": "vs Oklahoma State",
+      "opp_record": "(6–4, SP+ #25)"
+     },
+     {
+      "result": "L 3–39",
+      "opponent": "at Arizona",
+      "opp_record": "(7–3, SP+ #20)"
+     }
+    ],
+    "win_pct": 51,
+    "news": []
+   },
+   "home": {
+    "name": "UCF",
+    "rank": "",
+    "record": "5–5",
+    "ats": "ATS 6–4",
+    "sp": {
+     "overall": 72,
+     "offense": 74,
+     "defense": 69
+    },
+    "last": [
+     {
+      "result": "L 13–26",
+      "opponent": "vs Arizona State",
+      "opp_record": "(6–4, SP+ #62)"
+     },
+     {
+      "result": "W 33–32",
+      "opponent": "at Kansas",
+      "opp_record": "(4–6, SP+ #50)"
+     },
+     {
+      "result": "L 9–41",
+      "opponent": "vs Baylor",
+      "opp_record": "(6–4, SP+ #32)"
+     },
+     {
+      "result": "W 39–31",
+      "opponent": "vs BYU",
+      "opp_record": "(8–2, SP+ #15)"
+     }
+    ],
+    "win_pct": 49,
+    "news": []
+   }
+  },
+  {
+   "id": 401858303,
+   "anchor": "game-401858303",
+   "start": "2026-11-21T00:30:00+00:00",
+   "day": "Friday, Nov 20",
+   "time": "6:30 PM CT",
+   "kickoff": "Fri, Nov 20 · 6:30 PM CT",
+   "neutral": false,
+   "venue": "Wallace Wade Stadium, Durham, NC",
+   "final": null,
+   "spread": "Duke −12.5",
+   "line_source": "DraftKings",
+   "tossup": false,
+   "prob_source": "betting odds",
+   "weather": "51°F · Wind 5 mph · Rain or snow 0%",
+   "flags": [],
+   "away": {
+    "name": "Clemson",
+    "rank": "",
+    "record": "6–4",
+    "ats": "ATS 4–6",
+    "sp": {
+     "overall": 68,
+     "offense": 110,
+     "defense": 28
+    },
+    "last": [
+     {
+      "result": "L 6–20",
+      "opponent": "vs Georgia Tech",
+      "opp_record": "(3–7, SP+ #97)"
+     },
+     {
+      "result": "W 18–13",
+      "opponent": "at Syracuse",
+      "opp_record": "(5–5, SP+ #83)"
+     },
+     {
+      "result": "W 36–24",
+      "opponent": "at Florida State",
+      "opp_record": "(5–5, SP+ #48)"
+     },
+     {
+      "result": "L 16–20",
+      "opponent": "vs Virginia Tech",
+      "opp_record": "(6–4, SP+ #59)"
+     }
+    ],
+    "win_pct": 19,
+    "news": []
+   },
+   "home": {
+    "name": "Duke",
+    "rank": "",
+    "record": "7–3",
+    "ats": "ATS 8–2",
+    "sp": {
+     "overall": 28,
+     "offense": 33,
+     "defense": 31
+    },
+    "last": [
+     {
+      "result": "L 25–36",
+      "opponent": "at Miami",
+      "opp_record": "(9–1, SP+ #3)"
+     },
+     {
+      "result": "W 41–3",
+      "opponent": "at NC State",
+      "opp_record": "(4–6, SP+ #78)"
+     },
+     {
+      "result": "W 47–2",
+      "opponent": "vs Boston College",
+      "opp_record": "(4–6, SP+ #103)"
+     },
+     {
+      "result": "W 19–16",
+      "opponent": "at Virginia",
+      "opp_record": "(5–5, SP+ #56)"
+     }
+    ],
+    "win_pct": 81,
+    "news": []
+   }
+  },
+  {
+   "id": 401866468,
+   "anchor": "game-401866468",
+   "start": "2026-11-21T00:30:00+00:00",
+   "day": "Friday, Nov 20",
+   "time": "6:30 PM CT",
+   "kickoff": "Fri, Nov 20 · 6:30 PM CT",
+   "neutral": false,
+   "venue": "Glass Bowl, Toledo, OH",
+   "final": null,
+   "spread": "Toledo −16.5",
+   "line_source": "DraftKings",
+   "tossup": false,
+   "prob_source": "betting odds",
+   "weather": "51°F · Wind 6 mph · Rain or snow 0%",
+   "flags": [],
+   "away": {
+    "name": "Bowling Green",
+    "rank": "",
+    "record": "3–7",
+    "ats": "ATS 5–5",
+    "sp": {
+     "overall": 127,
+     "offense": 127,
+     "defense": 116
+    },
+    "last": [
+     {
+      "result": "W 33–28",
+      "opponent": "vs Kent State",
+      "opp_record": "(3–8, SP+ #132)"
+     },
+     {
+      "result": "L 10–23",
+      "opponent": "at Western Michigan",
+      "opp_record": "(8–3, SP+ #68)"
+     },
+     {
+      "result": "L 24–31",
+      "opponent": "at Buffalo",
+      "opp_record": "(8–3, SP+ #105)"
+     },
+     {
+      "result": "L 31–32",
+      "opponent": "vs Ball State",
+      "opp_record": "(3–8, SP+ #130)"
+     }
+    ],
+    "win_pct": 15,
+    "news": []
+   },
+   "home": {
+    "name": "Toledo",
+    "rank": "",
+    "record": "8–2",
+    "ats": "ATS 5–4–1",
+    "sp": {
+     "overall": 54,
+     "offense": 67,
+     "defense": 42
+    },
+    "last": [
+     {
+      "result": "W 24–0",
+      "opponent": "vs Massachusetts",
+      "opp_record": "(5–6, SP+ #109)"
+     },
+     {
+      "result": "W 20–17",
+      "opponent": "at Sacramento State",
+      "opp_record": "(2–9, SP+ #137)"
+     },
+     {
+      "result": "W 45–38",
+      "opponent": "vs Western Michigan",
+      "opp_record": "(8–3, SP+ #68)"
+     },
+     {
+      "result": "W 34–14",
+      "opponent": "at Eastern Michigan",
+      "opp_record": "(4–7, SP+ #128)"
+     }
+    ],
+    "win_pct": 85,
+    "news": []
+   }
+  },
+  {
+   "id": 401864545,
+   "anchor": "game-401864545",
+   "start": "2026-11-21T01:00:00+00:00",
+   "day": "Friday, Nov 20",
+   "time": "7:00 PM CT",
+   "kickoff": "Fri, Nov 20 · 7:00 PM CT",
+   "neutral": false,
+   "venue": "Falcon Stadium, Colorado Springs, CO",
+   "final": null,
+   "spread": "Air Force −21.5",
+   "line_source": "DraftKings",
+   "tossup": false,
+   "prob_source": "betting odds",
+   "weather": "43°F · Wind 10 mph · Rain or snow 0%",
+   "flags": [],
+   "away": {
+    "name": "UTEP",
+    "rank": "",
+    "record": "1–9",
+    "ats": "ATS 2–8",
+    "sp": {
+     "overall": 135,
+     "offense": 137,
+     "defense": 131
+    },
+    "last": [
+     {
+      "result": "L 15–27",
+      "opponent": "vs Wyoming",
+      "opp_record": "(7–3, SP+ #90)"
+     },
+     {
+      "result": "L 14–17",
+      "opponent": "vs Hawai'i",
+      "opp_record": "(3–7, SP+ #109)"
+     },
+     {
+      "result": "L 7–31",
+      "opponent": "at North Dakota State",
+      "opp_record": "(8–2, SP+ #31)"
+     },
+     {
+      "result": "L 11–24",
+      "opponent": "vs San José State",
+      "opp_record": "(5–6, SP+ #118)"
+     }
+    ],
+    "win_pct": 8,
+    "news": [
+     {
+      "text": "Following the exit of Walden, Kyle Beyer faces the challenge of bringing stability to UTEP.",
+      "sources": [
+       {
+        "title": "After Walden exit, Kyle Beyer’s biggest challenge at UTEP is stability",
+        "source": "El Paso Times",
+        "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQcmdBMXpnRW9reDhuc1ZJd2oyejJOeTZrLTQwOEEzN0dIN0hRUTlFZ0VWTWpqTDE2b1ZWZVZEeXJnN0N0SEQyVzlXTndlQm5Vbkw5VUdtXy1xVDhxUlhtc2RZSTRTZnU5Z2lUalotNjNybEJqNXBmbXI0S0dHaWdzUlppY1Z6SGNXeDhORUwxV2w2TElLR3hpdjFmX2E3cVpOVlN1Q3JGdWt3NGw5US1MeF9mbkRaVGNxRElCd1ZUMUdlWkdHVXJCRlZyMmplZw?oc=5"
+       }
+      ]
+     }
+    ]
+   },
+   "home": {
+    "name": "Air Force",
+    "rank": "",
+    "record": "8–2",
+    "ats": "ATS 7–3",
+    "sp": {
+     "overall": 65,
+     "offense": 62,
+     "defense": 63
+    },
+    "last": [
+     {
+      "result": "W 24–3",
+      "opponent": "vs San José State",
+      "opp_record": "(5–6, SP+ #118)"
+     },
+     {
+      "result": "W 24–21",
+      "opponent": "at Army",
+      "opp_record": "(5–4, SP+ #79)"
+     },
+     {
+      "result": "W 35–26",
+      "opponent": "vs UConn",
+      "opp_record": "(5–5, SP+ #70)"
+     },
+     {
+      "result": "L 14–28",
+      "opponent": "at Wyoming",
+      "opp_record": "(7–3, SP+ #90)"
+     }
+    ],
+    "win_pct": 92,
+    "news": [
+     {
+      "text": "Air Force has been winning despite facing a war of attrition.",
+      "sources": [
+       {
+        "title": "Air Force Football: Winning despite the War of Attrition",
+        "source": "Yahoo Sports",
+        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOY2ZGSUJFbk1DYmRFR3B2Y0NsRWdLTXhhNEJZN1FSN2EwM1pRZWtWMnFQRnJ3VGlKMEt3NnpBR1VjVmlzUzdMYjdEUzY3Q1RuUkxnRk1jbWJxUkhJTndicjB6UUlzeXcycE5mRndldlRUZWdVS2Z0TDgwaHEtM2pGSzJKT1B4cTlLMVBV?oc=5"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": 401858529,
+   "anchor": "game-401858529",
+   "start": "2026-11-21T01:00:00+00:00",
+   "day": "Friday, Nov 20",
+   "time": "7:00 PM CT",
+   "kickoff": "Fri, Nov 20 · 7:00 PM CT",
+   "neutral": false,
+   "venue": "Spartan Stadium, East Lansing, MI",
+   "final": null,
+   "spread": "Oregon −17.5",
+   "line_source": "DraftKings",
+   "tossup": false,
+   "prob_source": "betting odds",
+   "weather": "50°F · Wind 7 mph · Rain or snow 0%",
+   "flags": [
+    "Oregon: ranked #13 (CFP)"
+   ],
+   "away": {
+    "name": "Oregon",
+    "rank": "#13",
+    "record": "7–3",
+    "ats": "ATS 5–5",
+    "sp": {
+     "overall": 14,
+     "offense": 20,
+     "defense": 20
+    },
+    "last": [
+     {
+      "result": "W 31–7",
+      "opponent": "vs Michigan",
+      "opp_record": "(5–5, SP+ #43)"
+     },
+     {
+      "result": "W 41–28",
+      "opponent": "at Ohio State",
+      "opp_record": "(7–3, SP+ #4)"
+     },
+     {
+      "result": "W 34–26",
+      "opponent": "vs Northwestern",
+      "opp_record": "(6–4, SP+ #32)"
+     },
+     {
+      "result": "L 10–21",
+      "opponent": "at Illinois",
+      "opp_record": "(6–4, SP+ #44)"
+     }
+    ],
+    "win_pct": 87,
+    "news": []
+   },
+   "home": {
+    "name": "Michigan State",
+    "rank": "",
+    "record": "3–7",
+    "ats": "ATS 5–4–1",
+    "sp": {
+     "overall": 86,
+     "offense": 108,
+     "defense": 56
+    },
+    "last": [
+     {
+      "result": "L 14–21",
+      "opponent": "vs Washington",
+      "opp_record": "(6–4, SP+ #37)"
+     },
+     {
+      "result": "W 15–6",
+      "opponent": "at Michigan",
+      "opp_record": "(5–5, SP+ #43)"
+     },
+     {
+      "result": "L 10–28",
+      "opponent": "at UCLA",
+      "opp_record": "(10–0, SP+ #12)"
+     },
+     {
+      "result": "L 21–24",
+      "opponent": "vs Northwestern",
+      "opp_record": "(6–4, SP+ #32)"
+     }
+    ],
+    "win_pct": 13,
+    "news": []
+   }
+  },
+  {
+   "id": 401864542,
+   "anchor": "game-401864542",
+   "start": "2026-11-21T02:00:00+00:00",
+   "day": "Friday, Nov 20",
+   "time": "8:00 PM CT",
+   "kickoff": "Fri, Nov 20 · 8:00 PM CT",
+   "neutral": false,
+   "venue": "War Memorial Stadium, Laramie, WY",
+   "final": null,
+   "spread": "New Mexico −9.5",
+   "line_source": "DraftKings",
+   "tossup": false,
+   "prob_source": "betting odds",
+   "weather": "29°F · Wind 15 mph · Rain or snow 0%",
+   "flags": [],
+   "away": {
+    "name": "New Mexico",
+    "rank": "",
+    "record": "8–2",
+    "ats": "ATS 7–3",
+    "sp": {
+     "overall": 23,
+     "offense": 66,
+     "defense": 11
+    },
+    "last": [
+     {
+      "result": "L 17–21",
+      "opponent": "vs UNLV",
+      "opp_record": "(6–4, SP+ #84)"
+     },
+     {
+      "result": "W 31–3",
+      "opponent": "at Nevada",
+      "opp_record": "(4–6, SP+ #92)"
+     },
+     {
+      "result": "W 21–16",
+      "opponent": "at San José State",
+      "opp_record": "(5–6, SP+ #118)"
+     },
+     {
+      "result": "W 21–16",
+      "opponent": "vs North Dakota State",
+      "opp_record": "(8–2, SP+ #31)"
+     }
+    ],
+    "win_pct": 75,
+    "news": [
+     {
+      "text": "The New Mexico coach hinted at a quarterback change prior to the crucial game against Wyoming.",
+      "sources": [
+       {
+        "title": "New Mexico Coach Hints at QB Change Before Crucial Wyoming Game",
+        "source": "Yahoo Sports",
+        "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQM1ZFcUhKX25vNjRlUG5JMG5BdkpMOFdRSU1qbnk1X1c3VmtpdW1RUTc2eWpCcVBubWJUZFpFT2xUYkpqNkpPWmpERHN1bnlXb1U0djJNaFltaG9wVWJYMy0wOW5uZ09QbmtfUlZXMXp0QUFjQXF4cEFMRnJhS2wydF9Jcw?oc=5"
+       }
+      ]
+     }
+    ]
+   },
+   "home": {
+    "name": "Wyoming",
+    "rank": "",
+    "record": "7–3",
+    "ats": "ATS 6–4",
+    "sp": {
+     "overall": 90,
+     "offense": 103,
+     "defense": 59
+    },
+    "last": [
+     {
+      "result": "W 27–15",
+      "opponent": "at UTEP",
+      "opp_record": "(1–9, SP+ #135)"
+     },
+     {
+      "result": "W 41–35",
+      "opponent": "at UNLV",
+      "opp_record": "(6–4, SP+ #84)"
+     },
+     {
+      "result": "W 28–14",
+      "opponent": "vs Air Force",
+      "opp_record": "(8–2, SP+ #65)"
+     },
+     {
+      "result": "W 41–23",
+      "opponent": "vs Northern Illinois",
+      "opp_record": "(0–10, SP+ #138)"
+     }
+    ],
+    "win_pct": 25,
+    "news": [
+     {
+      "text": "There is a weather forecast for the Wyoming game against New Mexico in Laramie.",
+      "sources": [
+       {
+        "title": "Wyoming Football Weather Forecast vs. New Mexico – Laramie (Nov. 20)",
+        "source": "sports.betmgm.com",
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPWXJ3cDluc2pFaHlZZXp3UjJsdTJtellLX2NHbWZlenVoajd5Qms5aHhZOEhwaFBlUGdNVUtNbnpVaHV4YlQzaDZFWTF4b3FmNGpVcnFPNjJpdm0tWmowSGFUWWx0Q09GRDdLRzRqZ21YeXBrRjk0cFB3NS1HTVNOOFRBOWNvUVBaVmZBUlZpQktaQi1IeXQwOEFIU1NoNU5NdEJ5YktqQkV1YmU4Qnc5NXJBM1NjYmR3MmVj?oc=5"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": 401862831,
+   "anchor": "game-401862831",
+   "start": "2026-11-21T17:00:00+00:00",
+   "day": "Saturday, Nov 21",
+   "time": "11:00 AM CT",
+   "kickoff": "Sat, Nov 21 · 11:00 AM CT",
+   "neutral": false,
+   "venue": "Michie Stadium, West Point, NY",
+   "final": null,
+   "spread": "Army −6",
+   "line_source": "DraftKings",
+   "tossup": false,
+   "prob_source": "betting odds",
+   "weather": "60°F · Wind 5 mph · Rain or snow 0%",
+   "flags": [
+    "Army: one win from bowl eligibility",
+    "Army: off a bye week"
+   ],
+   "away": {
+    "name": "East Carolina",
+    "rank": "",
+    "record": "6–4",
+    "ats": "ATS 5–5",
+    "sp": {
+     "overall": 88,
+     "offense": 111,
+     "defense": 51
+    },
+    "last": [
+     {
+      "result": "W 17–16",
+      "opponent": "at Charlotte",
+      "opp_record": "(1–9, SP+ #134)"
+     },
+     {
+      "result": "W 20–17",
+      "opponent": "vs South Florida",
+      "opp_record": "(6–4, SP+ #60)"
+     },
+     {
+      "result": "W 17–9",
+      "opponent": "vs Temple",
+      "opp_record": "(2–9, SP+ #115)"
+     },
+     {
+      "result": "L 34–41",
+      "opponent": "at Memphis",
+      "opp_record": "(8–2, SP+ #36)"
+     }
+    ],
+    "win_pct": 32,
+    "news": []
+   },
+   "home": {
+    "name": "Army",
+    "rank": "",
+    "record": "5–4",
+    "ats": "ATS 3–5–1",
+    "sp": {
+     "overall": 79,
+     "offense": 46,
+     "defense": 108
+    },
+    "last": [
+     {
+      "result": "L 21–24",
+      "opponent": "vs Air Force",
+      "opp_record": "(8–2, SP+ #65)"
+     },
+     {
+      "result": "L 22–49",
+      "opponent": "at Memphis",
+      "opp_record": "(8–2, SP+ #36)"
+     },
+     {
+      "result": "W 38–35",
+      "opponent": "at Tulsa",
+      "opp_record": "(6–4, SP+ #64)"
+     },
+     {
+      "result": "W 56–24",
+      "opponent": "vs Florida Atlantic",
+      "opp_record": "(6–4, SP+ #86)"
+     }
+    ],
+    "win_pct": 68,
+    "news": []
+   }
+  },
+  {
+   "id": 401858309,
+   "anchor": "game-401858309",
+   "start": "2026-11-21T17:00:00+00:00",
+   "day": "Saturday, Nov 21",
+   "time": "11:00 AM CT",
+   "kickoff": "Sat, Nov 21 · 11:00 AM CT",
+   "neutral": false,
+   "venue": "Alumni Stadium (Chestnut Hill, MA), Chestnut Hill, MA",
+   "final": null,
+   "spread": "Syracuse −2.5",
+   "line_source": "DraftKings",
+   "tossup": true,
+   "prob_source": "betting odds",
+   "weather": "60°F · Wind 5 mph · Rain or snow 0%",
+   "flags": [
+    "Syracuse: one win from bowl eligibility"
+   ],
+   "away": {
+    "name": "Syracuse",
+    "rank": "",
+    "record": "5–5",
+    "ats": "ATS 5–4–1",
+    "sp": {
+     "overall": 83,
+     "offense": 75,
+     "defense": 90
+    },
+    "last": [
+     {
+      "result": "W 34–31",
+      "opponent": "at NC State",
+      "opp_record": "(4–6, SP+ #78)"
+     },
+     {
+      "result": "L 13–18",
+      "opponent": "vs Clemson",
+      "opp_record": "(6–4, SP+ #68)"
+     },
+     {
+      "result": "W 30–27",
+      "opponent": "vs SMU",
+      "opp_record": "(7–3, SP+ #28)"
+     },
+     {
+      "result": "W 31–30",
+      "opponent": "at North Carolina",
+      "opp_record": "(5–5, SP+ #50)"
+     }
+    ],
+    "win_pct": 55,
+    "news": [
+     {
+      "text": "Syracuse's starting offensive lineman is unlikely to play against Boston College.",
+      "sources": [
+       {
+        "title": "Syracuse football starting offensive lineman unlikely to play vs. Boston College",
+        "source": "Syracuse.com",
+        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQM0NfZnQtUmZONkM2ZjFwaDVIbVNub1Z4V01nN3cwNFd6WW9hX0tlbWxpakZhWWRiX21zdkFqdlNvQnZqV3BXOVk4bWJNTmdxTG1jWGNZekgtdmd3b3hVRzNXS2hHRFN5Znl2cFktZWIxZDBKM2t5WHBVWkNKcmlISEVQZnlMR2MweWJyd1dHeXZZZ2xLQ0xyT3MxanBQMHNNZnctcnNIQVFEcTBDd2sxNUhnc3c0eHU2YWxhaXFHUlRUUFhDbGxkdU5uLXY?oc=5"
+       }
+      ]
+     }
+    ]
+   },
+   "home": {
+    "name": "Boston College",
+    "rank": "",
+    "record": "4–6",
+    "ats": "ATS 5–5",
+    "sp": {
+     "overall": 103,
+     "offense": 105,
+     "defense": 91
+    },
+    "last": [
+     {
+      "result": "L 7–41",
+      "opponent": "at Notre Dame",
+      "opp_record": "(9–1, SP+ #2)"
+     },
+     {
+      "result": "L 24–31",
+      "opponent": "vs Florida State",
+      "opp_record": "(5–5, SP+ #48)"
+     },
+     {
+      "result": "L 2–47",
+      "opponent": "at Duke",
+      "opp_record": "(7–3, SP+ #28)"
+     },
+     {
+      "result": "W 49–27",
+      "opponent": "at Georgia Tech",
+      "opp_record": "(3–7, SP+ #97)"
+     }
+    ],
+    "win_pct": 45,
+    "news": []
+   }
+  },
+  {
+   "id": 401856867,
+   "anchor": "game-401856867",
+   "start": "2026-11-21T17:00:00+00:00",
+   "day": "Saturday, Nov 21",
+   "time": "11:00 AM CT",
+   "kickoff": "Sat, Nov 21 · 11:00 AM CT",
+   "neutral": false,
+   "venue": "Nippert Stadium, Cincinnati, OH",
+   "final": null,
+   "spread": "Cincinnati −3",
+   "line_source": "DraftKings",
+   "tossup": false,
+   "prob_source": "betting odds",
+   "weather": "63°F · Wind 4 mph · Rain or snow 0%",
+   "flags": [
+    "Cincinnati: one win from bowl eligibility"
+   ],
+   "away": {
+    "name": "Colorado",
+    "rank": "",
+    "record": "4–6",
+    "ats": "ATS 3–6–1",
+    "sp": {
+     "overall": 93,
+     "offense": 88,
+     "defense": 81
+    },
+    "last": [
+     {
+      "result": "W 42–32",
+      "opponent": "vs Houston",
+      "opp_record": "(7–3, SP+ #25)"
+     },
+     {
+      "result": "L 10–20",
+      "opponent": "at Arizona State",
+      "opp_record": "(6–4, SP+ #62)"
+     },
+     {
+      "result": "W 27–24",
+      "opponent": "vs Kansas State",
+      "opp_record": "(4–6, SP+ #52)"
+     },
+     {
+      "result": "L 24–57",
+      "opponent": "at Oklahoma State",
+      "opp_record": "(6–4, SP+ #25)"
+     }
+    ],
+    "win_pct": 42,
+    "news": []
+   },
+   "home": {
+    "name": "Cincinnati",
+    "rank": "",
+    "record": "5–5",
+    "ats": "ATS 5–5",
+    "sp": {
+     "overall": 72,
+     "offense": 31,
+     "defense": 110
+    },
+    "last": [
+     {
+      "result": "L 13–41",
+      "opponent": "at Iowa State",
+      "opp_record": "(5–5, SP+ #74)"
+     },
+     {
+      "result": "L 24–31",
+      "opponent": "at Houston",
+      "opp_record": "(7–3, SP+ #25)"
+     },
+     {
+      "result": "L 25–49",
+      "opponent": "vs Utah",
+      "opp_record": "(10–0, SP+ #10)"
+     },
+     {
+      "result": "W 37–24",
+      "opponent": "vs Texas Tech",
+      "opp_record": "(9–1, SP+ #13)"
+     }
+    ],
+    "win_pct": 58,
+    "news": []
+   }
+  },
+  {
+   "id": 401856748,
+   "anchor": "game-401856748",
+   "start": "2026-11-21T17:00:00+00:00",
+   "day": "Saturday, Nov 21",
+   "time": "11:00 AM CT",
+   "kickoff": "Sat, Nov 21 · 11:00 AM CT",
+   "neutral": false,
+   "venue": "Ben Hill Griffin Stadium, Gainesville, FL",
+   "final": null,
+   "spread": "Florida −13.5",
+   "line_source": "DraftKings",
+   "tossup": false,
+   "prob_source": "betting odds",
+   "weather": "70°F · Wind 6 mph · Rain or snow 6%",
+   "flags": [
+    "Florida: ranked #24 (CFP)"
+   ],
+   "away": {
+    "name": "Vanderbilt",
+    "rank": "",
+    "record": "4–6",
+    "ats": "ATS 5–5",
+    "sp": {
+     "overall": 80,
+     "offense": 86,
+     "defense": 79
+    },
+    "last": [
+     {
+      "result": "L 6–21",
+      "opponent": "vs Alabama",
+      "opp_record": "(8–2, SP+ #6)"
+     },
+     {
+      "result": "W 25–23",
+      "opponent": "at Mississippi State",
+      "opp_record": "(4–6, SP+ #71)"
+     },
+     {
+      "result": "L 17–34",
+      "opponent": "at Kentucky",
+      "opp_record": "(7–3, SP+ #42)"
+     },
+     {
+      "result": "L 21–31",
+      "opponent": "vs Arkansas",
+      "opp_record": "(4–6, SP+ #76)"
+     }
+    ],
+    "win_pct": 19,
+    "news": [
+     {
+      "text": "Coach Clark Lea provided injury updates ahead of the game against Florida.",
+      "sources": [
+       {
+        "title": "Clark Lea Gives Injury Updates Ahead of Vanderbilt Football’s Game Against Florida",
+        "source": "Sports Illustrated",
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPNjZaOGRYanExaUpveWFFU1dmeU5FczBuQ0Jtc2FQaklvR08wWkUwRTJPay1ieTFYZjNRNFp6OHJNLXFNdjdSb1A1dGxNLTFUckdhUEpUWDBsdlFKZDZEUHBYZnpnaFpYcEF2cTJ1YzNoNzdpdy0yUFlyZ3h1SmpYM21jajY3SExEUFVmaWh4QnQ3Z3BNcmVnNmVPanZrZWdTMS1jVFhpMDVUaW1uRWZhSGpVVG1jQm1xWmFDRkhJTDctaVhBUlRlWQ?oc=5"
+       }
+      ]
+     },
+     {
+      "text": "A Thursday availability report was released for the Florida and Vanderbilt matchup.",
+      "sources": [
+       {
+        "title": "Thursday availability report for Florida Gators vs. Vanderbilt Commodores",
+        "source": "On3",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOdWxVYzBNMkZCZWx0QmhIMU92MFg4czFZb0k1TW53UldsRU9sZ2xQLVE1TjBRZjdDWUk5cURnem9TUUhpdVRrWHBMbXpCYy1PYWFqNnAwd2tnazd5QlM3bmI1aTRMaU5aSm9DZGl1dDZrVEl2TmtIb0V4WEgyWXRfeFllTDBtQ2M2MEdJMFVlLUZsWklFZnNYT3U4bnEzWWtPUTF0MGhuX3QzeTIz?oc=5"
+       }
+      ]
+     },
+     {
+      "text": "A weather forecast is available for the game between Florida and Vanderbilt.",
+      "sources": [
+       {
+        "title": "Here's the weather forecast for Florida vs Vanderbilt in the Swamp",
+        "source": "Gators Wire",
+        "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxOUFB4UGlvclhWSmpnaVA5b3U4WVA5S0VaZ3gtRUg3YWQ2YXFRNlFOYXJvMEZ2NVE2dWJiYktsQUFyU2FwWUc3dGRIRFVlWWc1RXU3ZHNOcTJGR09lWUowQ1Y3dENzODE0cjAydkdKTk5PZXJIa2ZKcXEzV18wX2hSZlpNS0V0YmFhTEUtVnJXVmtLdzFQeHprMkxSLTJaSXp1aUxyOFZ6YmMyUDZpakIybV9CeHF4T29IWGF1aHRqelhweEhCMkVUaFhPNk5xd0lITXFXa2l1V0xJdmZSZEhnNWR5WWJpTU1wMFdDVEl4dUZGTnV1ZFE?oc=5"
+       }
+      ]
+     }
+    ]
+   },
+   "home": {
+    "name": "Florida",
+    "rank": "#24",
+    "record": "6–4",
+    "ats": "ATS 5–5",
+    "sp": {
+     "overall": 47,
+     "offense": 46,
+     "defense": 51
+    },
+    "last": [
+     {
+      "result": "W 21–14",
+      "opponent": "at Kentucky",
+      "opp_record": "(7–3, SP+ #42)"
+     },
+     {
+      "result": "L 7–23",
+      "opponent": "vs Oklahoma",
+      "opp_record": "(6–4, SP+ #41)"
+     },
+     {
+      "result": "L 8–27",
+      "opponent": "vs Georgia (neutral)",
+      "opp_record": "(9–1, SP+ #1)"
+     },
+     {
+      "result": "W 27–24",
+      "opponent": "at Texas",
+      "opp_record": "(8–2, SP+ #8)"
+     }
+    ],
+    "win_pct": 81,
+    "news": []
+   }
+  },
+  {
+   "id": 401858310,
+   "anchor": "game-401858310",
+   "start": "2026-11-21T17:00:00+00:00",
+   "day": "Saturday, Nov 21",
+   "time": "11:00 AM CT",
+   "kickoff": "Sat, Nov 21 · 11:00 AM CT",
+   "neutral": false,
+   "venue": "Bobby Dodd Stadium, Atlanta, GA",
+   "final": null,
+   "spread": "Wake Forest −20.5",
+   "line_source": "DraftKings",
+   "tossup": false,
+   "prob_source": "betting odds",
+   "weather": "66°F · Wind 14 mph · Rain or snow 8%",
+   "flags": [
+    "Wake Forest: ranked #11 (CFP)"
+   ],
+   "away": {
+    "name": "Wake Forest",
+    "rank": "#11",
+    "record": "9–1",
+    "ats": "ATS 8–2",
+    "sp": {
+     "overall": 7,
+     "offense": 9,
+     "defense": 18
+    },
+    "last": [
+     {
+      "result": "W 49–7",
+      "opponent": "at SMU",
+      "opp_record": "(7–3, SP+ #28)"
+     },
+     {
+      "result": "W 77–0",
+      "opponent": "vs Merrimack",
+      "opp_record": "(5–6)"
+     },
+     {
+      "result": "W 51–7",
+      "opponent": "vs Virginia",
+      "opp_record": "(5–5, SP+ #56)"
+     },
+     {
+      "result": "W 41–7",
+      "opponent": "at California",
+      "opp_record": "(3–7, SP+ #119)"
+     }
+    ],
+    "win_pct": 90,
+    "news": [
+     {
+      "text": "Wake Forest is finalizing a multi-year contract extension for defensive coordinator Scottie Hazelton.",
+      "sources": [
+       {
+        "title": "Former MSU DC thriving, reportedly gets extension with CFP contender",
+        "source": "Yahoo Sports",
+        "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOLW5rR3lWY05DRkhUTDI5aXhYMXB3T3FLMVA4Z1Z4YUhqNFZwcGxYRzBqYTNZajFzUHNfdUp2eWh1eWhkc0lYcHBFdjBqT2JaekxtTjd1aEZIUWhmaTIzN1BPZzVzRzFUSElkUF9VYWN0azg2Z2kxSkppcUg2ckNkTGRyb1FxWVA5ZWc?oc=5"
+       },
+       {
+        "title": "Wake Forest finalizing multi-year contract extension for DC Scottie Hazelton",
+        "source": "Saturday Down South",
+        "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPekR4Vnp3MmlhdE91T0tRSFZCWm5Wb3RUNVBLRndZRWhWUWMtcndBSUZyZ3pjMEhhRGZ1NGYwRk8xTDdJc1laOFVJbTVDSjduWmxJQWx0Yl9iNndoOWVfYVctZUFzVTZiazl6UXpEOW00TF84dHVCS0NyNDRuTk9kMDB6Ynlmbl9Qd0c4RkpxS0x5OFN6RWJlOTRoUkNFTURidWlaTWlNUTVMb0JTU3hmVmpDdVR6dnpxWlJxQS1BVHRLclIwN09xbGxOdXdjQQ?oc=5"
+       }
+      ]
+     }
+    ]
+   },
+   "home": {
+    "name": "Georgia Tech",
+    "rank": "",
+    "record": "3–7",
+    "ats": "ATS 2–8",
+    "sp": {
+     "overall": 97,
+     "offense": 83,
+     "defense": 99
+    },
+    "last": [
+     {
+      "result": "W 20–6",
+      "opponent": "at Clemson",
+      "opp_record": "(6–4, SP+ #68)"
+     },
+     {
+      "result": "L 17–44",
+      "opponent": "vs Louisville",
+      "opp_record": "(7–3, SP+ #17)"
+     },
+     {
+      "result": "L 11–34",
+      "opponent": "at Pittsburgh",
+      "opp_record": "(6–4, SP+ #38)"
+     },
+     {
+      "result": "L 27–49",
+      "opponent": "vs Boston College",
+      "opp_record": "(4–6, SP+ #103)"
+     }
+    ],
+    "win_pct": 10,
+    "news": []
+   }
+  },
+  {
+   "id": 401856866,
+   "anchor": "game-401856866",
+   "start": "2026-11-21T17:00:00+00:00",
+   "day": "Saturday, Nov 21",
+   "time": "11:00 AM CT",
+   "kickoff": "Sat, Nov 21 · 11:00 AM CT",
+   "neutral": false,
+   "venue": "Memorial Stadium, Lawrence, KS",
+   "final": null,
+   "spread": "BYU −5.5",
+   "line_source": "DraftKings",
+   "tossup": false,
+   "prob_source": "betting odds",
+   "weather": "65°F · Wind 14 mph · Rain or snow 2%",
+   "flags": [
+    "BYU: ranked #10 (CFP)"
+   ],
+   "away": {
+    "name": "BYU",
+    "rank": "#10",
+    "record": "8–2",
+    "ats": "ATS 7–3",
+    "sp": {
+     "overall": 15,
+     "offense": 24,
+     "defense": 18
+    },
+    "last": [
+     {
+      "result": "W 28–7",
+      "opponent": "vs Baylor",
+      "opp_record": "(6–4, SP+ #32)"
+     },
+     {
+      "result": "L 20–28",
+      "opponent": "at Utah",
+      "opp_record": "(10–0, SP+ #10)"
+     },
+     {
+      "result": "W 27–20",
+      "opponent": "vs Arizona State",
+      "opp_record": "(6–4, SP+ #62)"
+     },
+     {
+      "result": "L 31–39",
+      "opponent": "at UCF",
+      "opp_record": "(5–5, SP+ #72)"
+     }
+    ],
+    "win_pct": 66,
+    "news": [
+     {
+      "text": "Puka Nacua is suspended three games for violating the personal conduct policy.",
+      "sources": [
+       {
+        "title": "Puka Nacua suspended 3 games for violating personal conduct policy",
+        "source": "BYU Cougars Wire",
+        "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxNbXM5Z3hVV1JkdzZBaHU0UEk5dS1keUVERDMzekttVTd1M2w5R2RuWEdxV2pKWUUzTzBGbE8tX1pFTGVEZ0hveUhYaDVISUY2Sks1d2tHbXJKTklXSURsUk1RSjRjLUd3ZEdpS3NQNXZjZ3liY214djQ2TDc1b3VGTnk2ZjFBZEllOTc5Qm1XTDZZYmJfMXJVRnk5TmRZcVB6WEV0V0ZhTFdxb3ZvaE1xTndnQnYyQ04xNjRIbUFLa3duRWFlcDN0cnlhaHc1VG5NMHE0MkdNSXo4RVlzNkFlM0c5eDByYl92Nlk0dnRsMWNNS2dGZGhpYU1LVQ?oc=5"
+       }
+      ]
+     }
+    ]
+   },
+   "home": {
+    "name": "Kansas",
+    "rank": "",
+    "record": "4–6",
+    "ats": "ATS 4–6",
+    "sp": {
+     "overall": 50,
+     "offense": 56,
+     "defense": 53
+    },
+    "last": [
+     {
+      "result": "W 37–14",
+      "opponent": "at West Virginia",
+      "opp_record": "(5–5, SP+ #81)"
+     },
+     {
+      "result": "L 32–33",
+      "opponent": "vs UCF",
+      "opp_record": "(5–5, SP+ #72)"
+     },
+     {
+      "result": "L 16–22",
+      "opponent": "at TCU",
+      "opp_record": "(5–5, SP+ #40)"
+     },
+     {
+      "result": "W 25–24",
+      "opponent": "vs Baylor",
+      "opp_record": "(6–4, SP+ #32)"
+     }
+    ],
+    "win_pct": 34,
+    "news": []
+   }
+  },
+  {
+   "id": 401858530,
+   "anchor": "game-401858530",
+   "start": "2026-11-21T17:00:00+00:00",
+   "day": "Saturday, Nov 21",
+   "time": "11:00 AM CT",
+   "kickoff": "Sat, Nov 21 · 11:00 AM CT",
+   "neutral": false,
+   "venue": "Huntington Bank Stadium, Minneapolis, MN",
+   "final": null,
+   "spread": "Northwestern −2.5",
+   "line_source": "DraftKings",
+   "tossup": true,
+   "prob_source": "betting odds",
+   "weather": "48°F · Wind 11 mph · Rain 52%",
+   "flags": [
+    "Minnesota: one win from bowl eligibility"
+   ],
+   "away": {
+    "name": "Northwestern",
+    "rank": "",
+    "record": "6–4",
+    "ats": "ATS 6–4",
+    "sp": {
+     "overall": 32,
+     "offense": 36,
+     "defense": 32
+    },
+    "last": [
+     {
+      "result": "L 19–28",
+      "opponent": "at Ohio State",
+      "opp_record": "(7–3, SP+ #4)"
+     },
+     {
+      "result": "L 10–24",
+      "opponent": "vs Iowa",
+      "opp_record": "(8–2, SP+ #16)"
+     },
+     {
+      "result": "L 26–34",
+      "opponent": "at Oregon",
+      "opp_record": "(7–3, SP+ #14)"
+     },
+     {
+      "result": "W 42–14",
+      "opponent": "vs Rutgers",
+      "opp_record": "(2–8, SP+ #114)"
+     }
+    ],
+    "win_pct": 55,
+    "news": [
+     {
+      "text": "Northwestern's Aidan Chiles will miss his third straight week due to an upper body injury.",
+      "sources": [
+       {
+        "title": "Northwestern football’s Aidan Chiles to miss 3rd-straight week with upper body injury",
+        "source": "Yahoo Sports",
+        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOblhpTGZUbWlVWHBQREZNMFl0V184VU53YWkzQ3ZpeUo1cGRXdllSUy1HRVE0U0xxTGtIU3I0S0syWFB3QVFFNVVZQWdpVVFGLVRMbXFUYUU1Ylg3c1NQZDRKc0VEODRxTU81QnhCMEZiTDR2UUFwcjhOMW41R3I2UWpKNVBtRzVrVmxBSmpKNFp5UQ?oc=5"
+       }
+      ]
+     }
+    ]
+   },
+   "home": {
+    "name": "Minnesota",
+    "rank": "",
+    "record": "5–5",
+    "ats": "ATS 6–4",
+    "sp": {
+     "overall": 77,
+     "offense": 109,
+     "defense": 40
+    },
+    "last": [
+     {
+      "result": "L 14–42",
+      "opponent": "at Penn State",
+      "opp_record": "(6–4, SP+ #27)"
+     },
+     {
+      "result": "L 20–34",
+      "opponent": "vs UCLA",
+      "opp_record": "(10–0, SP+ #12)"
+     },
+     {
+      "result": "L 16–23",
+      "opponent": "at Indiana",
+      "opp_record": "(9–1, SP+ #5)"
+     },
+     {
+      "result": "W 13–10",
+      "opponent": "vs Iowa",
+      "opp_record": "(8–2, SP+ #16)"
+     }
+    ],
+    "win_pct": 45,
+    "news": []
+   }
+  },
+  {
+   "id": 401862834,
+   "anchor": "game-401862834",
+   "start": "2026-11-21T17:00:00+00:00",
+   "day": "Saturday, Nov 21",
+   "time": "11:00 AM CT",
+   "kickoff": "Sat, Nov 21 · 11:00 AM CT",
+   "neutral": false,
+   "venue": "Navy-Marine Corps Memorial Stadium, Annapolis, MD",
+   "final": null,
+   "spread": "Memphis −3",
+   "line_source": "DraftKings",
+   "tossup": false,
+   "prob_source": "betting odds",
+   "weather": "60°F · Wind 3 mph · Rain or snow 0%",
+   "flags": [
+    "Memphis: ranked #24 (AP)",
+    "Navy: off a bye week"
+   ],
+   "away": {
+    "name": "Memphis",
+    "rank": "#24",
+    "record": "8–2",
+    "ats": "ATS 6–4",
+    "sp": {
+     "overall": 36,
+     "offense": 14,
+     "defense": 80
+    },
+    "last": [
+     {
+      "result": "W 52–41",
+      "opponent": "at South Florida",
+      "opp_record": "(6–4, SP+ #60)"
+     },
+     {
+      "result": "W 49–22",
+      "opponent": "vs Army",
+      "opp_record": "(5–4, SP+ #79)"
+     },
+     {
+      "result": "W 41–34",
+      "opponent": "vs East Carolina",
+      "opp_record": "(6–4, SP+ #88)"
+     },
+     {
+      "result": "L 17–31",
+      "opponent": "at Tulane",
+      "opp_record": "(5–5, SP+ #112)"
+     }
+    ],
+    "win_pct": 57,
+    "news": []
+   },
+   "home": {
+    "name": "Navy",
+    "rank": "",
+    "record": "3–6",
+    "ats": "ATS 3–6",
+    "sp": {
+     "overall": 88,
+     "offense": 43,
+     "defense": 115
+    },
+    "last": [
+     {
+      "result": "W 42–35",
+      "opponent": "vs Temple",
+      "opp_record": "(2–9, SP+ #115)"
+     },
+     {
+      "result": "L 13–35",
+      "opponent": "vs Notre Dame (neutral)",
+      "opp_record": "(9–1, SP+ #2)"
+     },
+     {
+      "result": "L 39–49",
+      "opponent": "vs North Texas",
+      "opp_record": "(7–3, SP+ #67)"
+     },
+     {
+      "result": "L 34–38",
+      "opponent": "at UTSA",
+      "opp_record": "(8–2, SP+ #61)"
+     }
+    ],
+    "win_pct": 43,
+    "news": []
+   }
+  },
+  {
+   "id": 401858531,
+   "anchor": "game-401858531",
+   "start": "2026-11-21T17:00:00+00:00",
+   "day": "Saturday, Nov 21",
+   "time": "11:00 AM CT",
+   "kickoff": "Sat, Nov 21 · 11:00 AM CT",
+   "neutral": false,
+   "venue": "Memorial Stadium (Lincoln, NE), Lincoln, NE",
+   "final": null,
+   "spread": "Ohio State −3.5",
+   "line_source": "DraftKings",
+   "tossup": false,
+   "prob_source": "betting odds",
+   "weather": "54°F · Wind 10 mph · Rain or snow 5%",
+   "flags": [
+    "Ohio State: ranked #14 (CFP)"
+   ],
+   "away": {
+    "name": "Ohio State",
+    "rank": "#14",
+    "record": "7–3",
+    "ats": "ATS 5–5",
+    "sp": {
+     "overall": 4,
+     "offense": 10,
+     "defense": 8
+    },
+    "last": [
+     {
+      "result": "W 28–19",
+      "opponent": "vs Northwestern",
+      "opp_record": "(6–4, SP+ #32)"
+     },
+     {
+      "result": "L 28–41",
+      "opponent": "vs Oregon",
+      "opp_record": "(7–3, SP+ #14)"
+     },
+     {
+      "result": "L 18–30",
+      "opponent": "at USC",
+      "opp_record": "(7–3, SP+ #21)"
+     },
+     {
+      "result": "W 19–15",
+      "opponent": "at Indiana",
+      "opp_record": "(9–1, SP+ #5)"
+     }
+    ],
+    "win_pct": 60,
+    "news": []
+   },
+   "home": {
+    "name": "Nebraska",
+    "rank": "",
+    "record": "6–4",
+    "ats": "ATS 7–3",
+    "sp": {
+     "overall": 18,
+     "offense": 40,
+     "defense": 9
+    },
+    "last": [
+     {
+      "result": "W 31–0",
+      "opponent": "at Rutgers",
+      "opp_record": "(2–8, SP+ #114)"
+     },
+     {
+      "result": "L 13–24",
+      "opponent": "at Illinois",
+      "opp_record": "(6–4, SP+ #44)"
+     },
+     {
+      "result": "L 10–17",
+      "opponent": "vs Washington",
+      "opp_record": "(6–4, SP+ #37)"
+     },
+     {
+      "result": "L 14–17",
+      "opponent": "at Oregon",
+      "opp_record": "(7–3, SP+ #14)"
+     }
+    ],
+    "win_pct": 40,
+    "news": [
+     {
+      "text": "Three defensive starters headline Nebraska's availability report for the Ohio State game.",
+      "sources": [
+       {
+        "title": "Three Defensive Starters Headline Nebraska-Ohio State Wednesday Availability Report",
+        "source": "Sports Illustrated",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNc1F1bldGLU16UDlrWFdGNFp6Ym16Q0xuMEVPTWpBdTFsUURSTS1MdjVvc0d3ZzlmR0QxUjF6Wl9wa1JwWUxUT3ZDNzNVcm51NlZlNm9iQ21KRFNVOEpva0c4Mnloay1IQS1EZ1N0YWtnSmxiNGlkS0ZCX1Z0Y05RWnowRVpGbVdsTXliS01MNmRtdEl2WFlodk00WGowSzBEMFNSbG9kWHdEZw?oc=5"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": 401856749,
+   "anchor": "game-401856749",
+   "start": "2026-11-21T17:00:00+00:00",
+   "day": "Saturday, Nov 21",
+   "time": "11:00 AM CT",
+   "kickoff": "Sat, Nov 21 · 11:00 AM CT",
+   "neutral": false,
+   "venue": "Vaught-Hemingway Stadium, Oxford, MS",
+   "final": null,
+   "spread": "Ole Miss −49.5",
+   "line_source": "DraftKings",
+   "tossup": false,
+   "prob_source": "the spread",
+   "weather": "68°F · Wind 6 mph · Rain or snow 3%",
+   "flags": [
+    "Wofford: off a bye week",
+    "Ole Miss: ranked #25 (CFP)"
+   ],
+   "away": {
+    "name": "Wofford",
+    "rank": "",
+    "record": "5–6",
+    "ats": "ATS 0–1",
+    "sp": null,
+    "last": [
+     {
+      "result": "L 15–36",
+      "opponent": "at Kent State",
+      "opp_record": "(3–8, SP+ #132)"
+     }
+    ],
+    "win_pct": 1,
+    "news": []
+   },
+   "home": {
+    "name": "Ole Miss",
+    "rank": "#25",
+    "record": "6–4",
+    "ats": "ATS 4–6",
+    "sp": {
+     "overall": 24,
+     "offense": 18,
+     "defense": 48
+    },
+    "last": [
+     {
+      "result": "L 17–24",
+      "opponent": "at Oklahoma",
+      "opp_record": "(6–4, SP+ #41)"
+     },
+     {
+      "result": "L 7–42",
+      "opponent": "vs Georgia",
+      "opp_record": "(9–1, SP+ #1)"
+     },
+     {
+      "result": "W 45–15",
+      "opponent": "vs Auburn",
+      "opp_record": "(6–4, SP+ #49)"
+     },
+     {
+      "result": "L 27–34",
+      "opponent": "at Texas",
+      "opp_record": "(8–2, SP+ #8)"
+     }
+    ],
+    "win_pct": 99,
+    "news": []
+   }
+  },
+  {
+   "id": 401858533,
+   "anchor": "game-401858533",
+   "start": "2026-11-21T17:00:00+00:00",
+   "day": "Saturday, Nov 21",
+   "time": "11:00 AM CT",
+   "kickoff": "Sat, Nov 21 · 11:00 AM CT",
+   "neutral": false,
+   "venue": "Ross-Ade Stadium, West Lafayette, IN",
+   "final": null,
+   "spread": "Wisconsin −6",
+   "line_source": "DraftKings",
+   "tossup": false,
+   "prob_source": "betting odds",
+   "weather": "61°F · Wind 7 mph · Rain or snow 0%",
+   "flags": [],
+   "away": {
+    "name": "Wisconsin",
+    "rank": "",
+    "record": "6–4",
+    "ats": "ATS 5–5",
+    "sp": {
+     "overall": 39,
+     "offense": 91,
+     "defense": 16
+    },
+    "last": [
+     {
+      "result": "L 21–24",
+      "opponent": "at Maryland",
+      "opp_record": "(4–6, SP+ #75)"
+     },
+     {
+      "result": "W 31–10",
+      "opponent": "vs Rutgers",
+      "opp_record": "(2–8, SP+ #114)"
+     },
+     {
+      "result": "L 0–30",
+      "opponent": "at Iowa",
+      "opp_record": "(8–2, SP+ #16)"
+     },
+     {
+      "result": "W 24–7",
+      "opponent": "vs USC",
+      "opp_record": "(7–3, SP+ #21)"
+     }
+    ],
+    "win_pct": 67,
+    "news": [
+     {
+      "text": "The initial Purdue injury report revealed bad news for Wisconsin regarding Javan Robinson and the offensive line.",
+      "sources": [
+       {
+        "title": "Wisconsin Football Gets Bad News on Javan Robinson, O-Line From Initial Purdue Injury Report",
+        "source": "Sports Illustrated",
+        "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNM1JZSnhDLS1GZGU2NHk0MnlqNkZpdTc0RF9zQzAwUXFpYXJsZWxDMl9qc21xNWhMdTVuaWJXdUl5c19IdFFzdzh4MzAxaFJTR19RQi1OMENhOE50ajlCcEJ4QXRLS29LU2hYRTF4MEVvTzhsTG1nYlZWLVVsVHJ1NXlUSU1vdlVRWmNQMjBSRTFfSnpkZWdNQXVDd3g0Z3JuMWJqTzRtSTlZLXA4THQxeXVIVnBKcjMxLS05Y3JtNlBxMXlRV3l3Yk8xa1NHdDVqYTFv?oc=5"
+       }
+      ]
+     },
+     {
+      "text": "Wisconsin stands on the availability report ahead of the game against Purdue.",
+      "sources": [
+       {
+        "title": "Where the Wisconsin Badgers stand on the Nov. 19 availability report",
+        "source": "Milwaukee Journal Sentinel",
+        "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQNThsSmxqd1V6MURBVGx2MTJMZFo4c3dpV2JwajJDOE96WkFjZFNHeFRWdWlwU1ZGcDdZU1N4eVdUdGhSSVJrenBxQnQ0ZFphb0VGTWxmYWVDLTduenQ1WEc2dFJuZUc3UC04Q1NOOUZOZGJNUDVxTmVLNG1jNGVlNGtPTTlsSm5pbFBaZms3Y29RMDFXLXk3MHVKaHdBeWQ5MmtZa29ic01NU1J2YUl0WTZsWDZKWUJMcnRzeUhHeVpTTFNnaGtRVGVwRllxUG9FWEZSTUFZVk04SVhSR00zXzdnYzM?oc=5"
+       }
+      ]
+     }
+    ]
+   },
+   "home": {
+    "name": "Purdue",
+    "rank": "",
+    "record": "3–7",
+    "ats": "ATS 3–7",
+    "sp": {
+     "overall": 91,
+     "offense": 64,
+     "defense": 108
+    },
+    "last": [
+     {
+      "result": "L 7–28",
+      "opponent": "at Iowa",
+      "opp_record": "(8–2, SP+ #16)"
+     },
+     {
+      "result": "L 29–34",
+      "opponent": "vs Maryland",
+      "opp_record": "(4–6, SP+ #75)"
+     },
+     {
+      "result": "L 17–31",
+      "opponent": "at Penn State",
+      "opp_record": "(6–4, SP+ #27)"
+     },
+     {
+      "result": "L 26–38",
+      "opponent": "vs Washington",
+      "opp_record": "(6–4, SP+ #37)"
+     }
+    ],
+    "win_pct": 33,
+    "news": []
+   }
+  },
+  {
+   "id": 401862835,
+   "anchor": "game-401862835",
+   "start": "2026-11-21T17:00:00+00:00",
+   "day": "Saturday, Nov 21",
+   "time": "11:00 AM CT",
+   "kickoff": "Sat, Nov 21 · 11:00 AM CT",
+   "neutral": false,
+   "venue": "Yulman Stadium, New Orleans, LA",
+   "final": null,
+   "spread": "North Texas −6.5",
+   "line_source": "DraftKings",
+   "tossup": false,
+   "prob_source": "betting odds",
+   "weather": "67°F · Wind 9 mph · Rain or snow 1%",
+   "flags": [
+    "Tulane: one win from bowl eligibility"
+   ],
+   "away": {
+    "name": "North Texas",
+    "rank": "",
+    "record": "7–3",
+    "ats": "ATS 6–4",
+    "sp": {
+     "overall": 67,
+     "offense": 17,
+     "defense": 118
+    },
+    "last": [
+     {
+      "result": "L 16–35",
+      "opponent": "at UTSA",
+      "opp_record": "(8–2, SP+ #61)"
+     },
+     {
+      "result": "W 52–23",
+      "opponent": "vs Rice",
+      "opp_record": "(2–9, SP+ #126)"
+     },
+     {
+      "result": "W 48–41",
+      "opponent": "vs Florida Atlantic",
+      "opp_record": "(6–4, SP+ #86)"
+     },
+     {
+      "result": "W 49–39",
+      "opponent": "at Navy",
+      "opp_record": "(3–6, SP+ #88)"
+     }
+    ],
+    "win_pct": 69,
+    "news": []
+   },
+   "home": {
+    "name": "Tulane",
+    "rank": "",
+    "record": "5–5",
+    "ats": "ATS 4–6",
+    "sp": {
+     "overall": 112,
+     "offense": 116,
+     "defense": 101
+    },
+    "last": [
+     {
+      "result": "W 20–17",
+      "opponent": "at Rice",
+      "opp_record": "(2–9, SP+ #126)"
+     },
+     {
+      "result": "L 10–60",
+      "opponent": "vs Tulsa",
+      "opp_record": "(6–4, SP+ #64)"
+     },
+     {
+      "result": "W 38–31",
+      "opponent": "at Charlotte",
+      "opp_record": "(1–9, SP+ #134)"
+     },
+     {
+      "result": "L 19–42",
+      "opponent": "vs UTSA",
+      "opp_record": "(8–2, SP+ #61)"
+     }
+    ],
+    "win_pct": 31,
+    "news": [
+     {
+      "text": "A billboard effort was made to oust Tulane football coach Will Hall.",
+      "sources": [
+       {
+        "title": "The man behind the billboard effort to oust Tulane football coach Will Hall explains himself",
+        "source": "NOLA.com",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOMWVYcVNzWG5zOTJKMUlGLVZrRlowQ3JnTHlZMVkzbHFIRzZYcFpuQnVCMVJwTzhsZzVEWWFyS3lpZ3R4WXh1ZkVIVW5BSU9sbHBHZ2pqcHFOTmc3V2FDNzhiLXhkdGpVNmZHVlhqN0x2ZzlGd0hDd05FNHl2RXdWODNQVkFuN1liVy1DXzNvTWRITXlMUTJwRkx2YjRPRjhGbnNndF9jNFZwZTJZeU5RMdIBtgFBVV95cUxPUDc2VjlCdEFZZ3pvc0xGRWtsR28tTV9wUEVMcElhVkZkMklHbVRfbm0tSnhLd3FRTWJacmh5YzY2WXFraHhNZUdKVV9DVGtWOHNHVExMQXJ2ZVJ2RFFuNXhqZy1ZTDB3dzhlWEhXRTB3Z08xVGdvX1l3NTY1X2wxSWNLVDZaMDFwQjZ3LUF5MUFNWV80X3NibEtyZmtVbTVoYlJpQ1FfdGlIZHQyNlphbnVDcVVNZw?oc=5"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": 401858305,
+   "anchor": "game-401858305",
+   "start": "2026-11-21T17:30:00+00:00",
+   "day": "Saturday, Nov 21",
+   "time": "11:30 AM CT",
+   "kickoff": "Sat, Nov 21 · 11:30 AM CT",
+   "neutral": false,
+   "venue": "Scott Stadium, Charlottesville, VA",
+   "final": null,
+   "spread": "Virginia −1.5",
+   "line_source": "DraftKings",
+   "tossup": true,
+   "prob_source": "betting odds",
+   "weather": "62°F · Wind 4 mph · Rain or snow 0%",
+   "flags": [
+    "North Carolina: one win from bowl eligibility",
+    "Virginia: one win from bowl eligibility"
+   ],
+   "away": {
+    "name": "North Carolina",
+    "rank": "",
+    "record": "5–5",
+    "ats": "ATS 7–3",
+    "sp": {
+     "overall": 50,
+     "offense": 57,
+     "defense": 46
+    },
+    "last": [
+     {
+      "result": "L 14–16",
+      "opponent": "vs Louisville",
+      "opp_record": "(7–3, SP+ #17)"
+     },
+     {
+      "result": "W 38–21",
+      "opponent": "at UConn",
+      "opp_record": "(5–5, SP+ #70)"
+     },
+     {
+      "result": "L 35–38",
+      "opponent": "vs Miami",
+      "opp_record": "(9–1, SP+ #3)"
+     },
+     {
+      "result": "L 30–31",
+      "opponent": "vs Syracuse",
+      "opp_record": "(5–5, SP+ #83)"
+     }
+    ],
+    "win_pct": 48,
+    "news": [
+     {
+      "text": "An initial availability report negatively impacts North Carolina's chances against Virginia.",
+      "sources": [
+       {
+        "title": "Initial availability report dents North Carolina's chances against UVA",
+        "source": "Tar Heels Wire",
+        "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxNeFhhQWV2R0M4MXZCYW1WN1VIemtwNHctdWhMeFl5Q2JiNmNqQl9FZEVpcHhmSjJndlhmb0FOT3Y2WTM1aUwxRExtbzJXbThMbHlEOGJVNHh5ZkRfUDFVYVdGTnpfaml6bDhyZG9wWU9IQTRybHVKQ1cxM1FOVXFPZGpOTktOZVd6V1hQTW5XY1lQMmEzbklSVXpiTEVWOGg1aGFFTnF2bWN2Tk5WaHoxWHdGWWdYbG42b1hDN0RtSXh1ZGlaNlY0MG5rUjdnSWM4TGRQWTRFM3N5cDhuMGw0Z0RMQ1REZU0wTkM0WWViOWdFbGFoZWc?oc=5"
+       }
+      ]
+     }
+    ]
+   },
+   "home": {
+    "name": "Virginia",
+    "rank": "",
+    "record": "5–5",
+    "ats": "ATS 4–5–1",
+    "sp": {
+     "overall": 56,
+     "offense": 79,
+     "defense": 37
+    },
+    "last": [
+     {
+      "result": "W 36–7",
+      "opponent": "vs California",
+      "opp_record": "(3–7, SP+ #119)"
+     },
+     {
+      "result": "L 7–51",
+      "opponent": "at Wake Forest",
+      "opp_record": "(9–1, SP+ #7)"
+     },
+     {
+      "result": "L 16–19",
+      "opponent": "vs Duke",
+      "opp_record": "(7–3, SP+ #28)"
+     },
+     {
+      "result": "L 13–23",
+      "opponent": "at SMU",
+      "opp_record": "(7–3, SP+ #28)"
+     }
+    ],
+    "win_pct": 52,
+    "news": []
+   }
+  },
+  {
+   "id": 401871080,
+   "anchor": "game-401871080",
+   "start": "2026-11-21T18:00:00+00:00",
+   "day": "Saturday, Nov 21",
+   "time": "12:00 PM CT",
+   "kickoff": "Sat, Nov 21 · 12:00 PM CT",
+   "neutral": false,
+   "venue": "Williams Stadium (VA), Lynchburg, VA",
+   "final": null,
+   "spread": "Liberty −17.5",
+   "line_source": "DraftKings",
+   "tossup": false,
+   "prob_source": "betting odds",
+   "weather": "60°F · Wind 7 mph · Rain or snow 0%",
+   "flags": [
+    "Liberty: ranked #22 (AP)"
+   ],
+   "away": {
+    "name": "Western Kentucky",
+    "rank": "",
+    "record": "4–6",
+    "ats": "ATS 5–5",
+    "sp": {
+     "overall": 116,
+     "offense": 102,
+     "defense": 117
+    },
+    "last": [
+     {
+      "result": "W 34–24",
+      "opponent": "vs Jacksonville State",
+      "opp_record": "(7–3, SP+ #65)"
+     },
+     {
+      "result": "L 42–51",
+      "opponent": "at Middle Tennessee",
+      "opp_record": "(5–5, SP+ #122)"
+     },
+     {
+      "result": "L 21–35",
+      "opponent": "vs Delaware",
+      "opp_record": "(5–5, SP+ #99)"
+     },
+     {
+      "result": "W 16–3",
+      "opponent": "at Sam Houston",
+      "opp_record": "(1–9, SP+ #131)"
+     }
+    ],
+    "win_pct": 14,
+    "news": []
+   },
+   "home": {
+    "name": "Liberty",
+    "rank": "#22",
+    "record": "9–1",
+    "ats": "ATS 7–3",
+    "sp": {
+     "overall": 19,
+     "offense": 28,
+     "defense": 21
+    },
+    "last": [
+     {
+      "result": "W 28–23",
+      "opponent": "vs Middle Tennessee",
+      "opp_record": "(5–5, SP+ #122)"
+     },
+     {
+      "result": "W 30–14",
+      "opponent": "at New Mexico State",
+      "opp_record": "(3–7, SP+ #125)"
+     },
+     {
+      "result": "W 49–10",
+      "opponent": "vs Florida International",
+      "opp_record": "(4–6, SP+ #108)"
+     },
+     {
+      "result": "W 34–6",
+      "opponent": "at Kennesaw State",
+      "opp_record": "(4–6, SP+ #102)"
+     }
+    ],
+    "win_pct": 86,
+    "news": []
+   }
+  },
+  {
+   "id": 401856750,
+   "anchor": "game-401856750",
+   "start": "2026-11-21T18:00:00+00:00",
+   "day": "Saturday, Nov 21",
+   "time": "12:00 PM CT",
+   "kickoff": "Sat, Nov 21 · 12:00 PM CT",
+   "neutral": false,
+   "venue": "Davis Wade Stadium, Starkville, MS",
+   "final": null,
+   "spread": "Mississippi State −35.5",
+   "line_source": "DraftKings",
+   "tossup": false,
+   "prob_source": "the spread",
+   "weather": "71°F · Wind 6 mph · Rain or snow 2%",
+   "flags": [],
+   "away": {
+    "name": "Tennessee Tech",
+    "rank": "",
+    "record": "9–2",
+    "ats": "ATS 0–0",
+    "sp": null,
+    "last": [],
+    "win_pct": 1,
+    "news": [
+     {
+      "text": "AJ Swann's injury status remains unclear ahead of the game for Tennessee Tech.",
+      "sources": [
+       {
+        "title": "Why AJ Swann's Injury Status Remains Unclear Ahead of Tennessee Tech",
+        "source": "Sports Illustrated",
+        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQN0J0VnUxT2lmZlQxdm1SbU1MMjAwSm5BanJVbU16Znhwa3FxNWRyWDRMWVNDQTlMWkZ6bzI1a0p4YU1ZVWVUWVFUX3RaNW5NbUpYc2w5MnFRMXZ4aGl2MDFUZ2E0SjRjVHdsZ2Q2d1hpdzBsVzZhazNHZFNINU1tbXJtSWxkRUt3UHFEWEltUVlBNFNDWjVnZVJqN09YRlBVN2g2QjhjV1I5bEZzUzFTYVc3R3Z1Umdrb0hqNkFR?oc=5"
+       }
+      ]
+     }
+    ]
+   },
+   "home": {
+    "name": "Mississippi State",
+    "rank": "",
+    "record": "4–6",
+    "ats": "ATS 4–6",
+    "sp": {
+     "overall": 71,
+     "offense": 67,
+     "defense": 74
+    },
+    "last": [
+     {
+      "result": "L 9–41",
+      "opponent": "vs Auburn",
+      "opp_record": "(6–4, SP+ #49)"
+     },
+     {
+      "result": "L 23–25",
+      "opponent": "vs Vanderbilt",
+      "opp_record": "(4–6, SP+ #80)"
+     },
+     {
+      "result": "L 3–31",
+      "opponent": "at Texas",
+      "opp_record": "(8–2, SP+ #8)"
+     },
+     {
+      "result": "L 15–23",
+      "opponent": "vs Oklahoma",
+      "opp_record": "(6–4, SP+ #41)"
+     }
+    ],
+    "win_pct": 99,
+    "news": [
+     {
+      "text": "Running back Fluff Bothwell made a transfer decision and announced he will return to Mississippi State in 2027.",
+      "sources": [
+       {
+        "title": "Mississippi State RB Fluff Bothwell Makes Transfer Decision",
+        "source": "Heavy.com",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOTzRtZXpZejdGRGZCOVphN3lHLUxsWk5yUWstRHNfYi1WRHNsN3dDaHNGVGEyOVBVTndlb0p4ek1DR2ROa2ZTZlRDanUwclZhUFJTLTBUQ08ta2RKckhzZ3hyX2hHME1NbW1aNjl1dEZGV3VBWnpmaGdVQ1RueWRodWF0VkljVDZKN0JFdzNXd0g2VmtpQkd0NndDdExQZm9iVlZfcA?oc=5"
+       },
+       {
+        "title": "Fluff Bothwell News, Rumors, Updates - Mississippi State Bulldogs",
+        "source": "FOX Sports",
+        "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE13U01aa3EwWVhJLXhPSDl4RXloZjl0UkRDRWFJME83RWZoX0s3YlFjY0dPY1lhTkVjZ1NJOHh5SUJfTldhMkZrVldxUFpfejNubUZCeHNpRHpFLUtOX0tHVzM5dUNOOWdvYkFmS2JwelItMzVETHc?oc=5"
+       },
+       {
+        "title": "Mississippi State running back Fluff Bothwell says he'll return to the Bulldogs in 2027",
+        "source": "FOX Sports",
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPSTNpVDY5WVN3SmxXZEhEcV9OVDZVckMwcWxJWjRkU2NqSm15SmhzTDAxZlBnbnVnOTlJSnc1YjlDUEJzUS10TE1QcnJWeTJ4RFZlSDc2YnUzNFNIdHl3U21ZSWRRZWdsdWFtY0xjV1Q5OG5TYTR0N2JCUy0wc1lkM0VwalhMeUppUkprYVhmeDVPbmRkTVppOHB3ZWpnbU1SZzhCQWlLYnFubTlvSUxZamppaDhxM2VwS2ozcWlzRTdDTU0?oc=5"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": 401856868,
+   "anchor": "game-401856868",
+   "start": "2026-11-21T18:00:00+00:00",
+   "day": "Saturday, Nov 21",
+   "time": "12:00 PM CT",
+   "kickoff": "Sat, Nov 21 · 12:00 PM CT",
+   "neutral": false,
+   "venue": "Milan Puskar Stadium, Morgantown, WV",
+   "final": null,
+   "spread": "Houston −7.5",
+   "line_source": "DraftKings",
+   "tossup": false,
+   "prob_source": "betting odds",
+   "weather": "68°F · Wind 4 mph · Rain or snow 0%",
+   "flags": [
+    "Houston: ranked #20 (CFP)",
+    "West Virginia: one win from bowl eligibility"
+   ],
+   "away": {
+    "name": "Houston",
+    "rank": "#20",
+    "record": "7–3",
+    "ats": "ATS 3–7",
+    "sp": {
+     "overall": 25,
+     "offense": 13,
+     "defense": 61
+    },
+    "last": [
+     {
+      "result": "L 32–42",
+      "opponent": "at Colorado",
+      "opp_record": "(4–6, SP+ #93)"
+     },
+     {
+      "result": "W 31–24",
+      "opponent": "vs Cincinnati",
+      "opp_record": "(5–5, SP+ #72)"
+     },
+     {
+      "result": "L 13–21",
+      "opponent": "at Utah",
+      "opp_record": "(10–0, SP+ #10)"
+     },
+     {
+      "result": "W 35–32",
+      "opponent": "vs Oklahoma State",
+      "opp_record": "(6–4, SP+ #25)"
+     }
+    ],
+    "win_pct": 72,
+    "news": []
+   },
+   "home": {
+    "name": "West Virginia",
+    "rank": "",
+    "record": "5–5",
+    "ats": "ATS 5–4–1",
+    "sp": {
+     "overall": 81,
+     "offense": 28,
+     "defense": 127
+    },
+    "last": [
+     {
+      "result": "L 14–37",
+      "opponent": "vs Kansas",
+      "opp_record": "(4–6, SP+ #50)"
+     },
+     {
+      "result": "L 48–53",
+      "opponent": "at Texas Tech",
+      "opp_record": "(9–1, SP+ #13)"
+     },
+     {
+      "result": "W 24–20",
+      "opponent": "at TCU",
+      "opp_record": "(5–5, SP+ #40)"
+     },
+     {
+      "result": "W 45–42",
+      "opponent": "vs Cincinnati",
+      "opp_record": "(5–5, SP+ #72)"
+     }
+    ],
+    "win_pct": 28,
+    "news": [
+     {
+      "text": "West Virginia received an encouraging injury update regarding quarterback Michael Hawkins Jr. ahead of the Houston game.",
+      "sources": [
+       {
+        "title": "WVU Football Gets Encouraging Michael Hawkins Jr. Injury Update Before Houston",
+        "source": "Yahoo Sports",
+        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNb3VlOGpLYXhINmVERUMzenNBWEtfSU1fbG5Qb0Vxb0hRQVhJdElZT1NhMVZXRkxOdVBHMmdqLWNpaEtlc3VHVllmWjVBcWIzZlZYZ2ppelBuSkgwc1ZQckotX0ktZUpabTJiOWhMVW55U0JQVWE4QnRBTm1DLVBGTHZ5RjZ2US11UUN6N2E1UQ?oc=5"
+       },
+       {
+        "title": "Latest Update on WVU QB Mike Hawkins Jr.'s Status for Houston Game",
+        "source": "Sports Illustrated",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOUVNnYldLMHVyU2t5YjNrM1VxNTN0OTFpUGV2ZGNQNlhmMGFFSUMxSHpzTENHUFBxS2g4VzRwV24tTEFZNUV6QWh4NlRDT2FKSE5MOXUtbzBHZlZoeTR6aVJsdy10NkVrbXFzQ3NSUENOX3I1aFVTaG9DYV9VU3AwU0JkVkVxV0dyNzVWSjVwb0s3eFRwRlRtd3llMnc1SkVCcEdQOElna2NpaE9YY0tYRkVaVmw?oc=5"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": 401856746,
+   "anchor": "game-401856746",
+   "start": "2026-11-21T19:00:00+00:00",
+   "day": "Saturday, Nov 21",
+   "time": "1:00 PM CT",
+   "kickoff": "Sat, Nov 21 · 1:00 PM CT",
+   "neutral": false,
+   "venue": "Bryant-Denny Stadium, Tuscaloosa, AL",
+   "final": null,
+   "spread": "Alabama −49.5",
+   "line_source": "DraftKings",
+   "tossup": false,
+   "prob_source": "the spread",
+   "weather": "75°F · Wind 9 mph · Rain or snow 1%",
+   "flags": [
+    "Alabama: ranked #3 (CFP)"
+   ],
+   "away": {
+    "name": "Chattanooga",
+    "rank": "",
+    "record": "7–4",
+    "ats": "ATS 0–0",
+    "sp": null,
+    "last": [],
+    "win_pct": 1,
+    "news": []
+   },
+   "home": {
+    "name": "Alabama",
+    "rank": "#3",
+    "record": "8–2",
+    "ats": "ATS 5–5",
+    "sp": {
+     "overall": 6,
+     "offense": 16,
+     "defense": 11
+    },
+    "last": [
+     {
+      "result": "W 21–6",
+      "opponent": "at Vanderbilt",
+      "opp_record": "(4–6, SP+ #80)"
+     },
+     {
+      "result": "W 31–13",
+      "opponent": "at LSU",
+      "opp_record": "(6–4, SP+ #9)"
+     },
+     {
+      "result": "W 31–20",
+      "opponent": "vs Texas A&M",
+      "opp_record": "(4–6, SP+ #44)"
+     },
+     {
+      "result": "L 10–26",
+      "opponent": "at Tennessee",
+      "opp_record": "(8–2, SP+ #11)"
+     }
+    ],
+    "win_pct": 99,
+    "news": [
+     {
+      "text": "AK Dear has departed from the Alabama Crimson Tide.",
+      "sources": [
+       {
+        "title": "Alabama Crimson Tide news: Men's basketball signs Top 5 class, AK Dear's departure, more",
+        "source": "Bama Hammer",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQTVJOak9YZldMTHVDMFNLZm1ubDA5UWtCSGE3UFBVNUtwWXdBOHVfYkEtTkNIZi1US1kzbVA1YTNkNzRIZTBPcFQteU85cFJ1WDdhX1ZCX3JkQjlKd2JMb2pHUTE3c0lNaG9ZN3I0dHJvS1N1WDF6THByY18tM00xYUhENGlSNEU1QUNQcVpMNDJOLWNTVFhTcXdkSzdPWGpWaDg1RFdxNTJ5ZEZQ?oc=5"
+       }
+      ]
+     },
+     {
+      "text": "Keelon Russell is ready to play against Chattanooga.",
+      "sources": [
+       {
+        "title": "Jumbo Package: Keelon Russell good to go vs Chattanooga",
+        "source": "Roll 'Bama Roll",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNZ3RGQTJFOG45VG83S1M3TV82UnFienJiczA1cl9hcFA2TkFSZWQwTm5HcTZSWG4xZFAtZFNFbnI2M3JjSjRucW41Xy1nS3JNa000Ui1sRWxGNnFtT0c4QmpqcGFrNFc5bHI4R2ZfM1YxLVlNVUxsQUpmbnZUZlV1aW5ablQxQWo2QzV4QmZ6c1J5VlJJcXNaLTdnUzNZbE56NzJjVERIakhxeTk5TlNDcXEyLXRTVzZ2anMwOFhxVQ?oc=5"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": 401871079,
+   "anchor": "game-401871079",
+   "start": "2026-11-21T19:00:00+00:00",
+   "day": "Saturday, Nov 21",
+   "time": "1:00 PM CT",
+   "kickoff": "Sat, Nov 21 · 1:00 PM CT",
+   "neutral": false,
+   "venue": "AmFirst Stadium, Jacksonville, AL",
+   "final": null,
+   "spread": "Jacksonville State −10.5",
+   "line_source": "DraftKings",
+   "tossup": false,
+   "prob_source": "betting odds",
+   "weather": "72°F · Wind 11 mph · Rain or snow 2%",
+   "flags": [],
+   "away": {
+    "name": "Missouri State",
+    "rank": "",
+    "record": "4–6",
+    "ats": "ATS 6–4",
+    "sp": {
+     "overall": 121,
+     "offense": 113,
+     "defense": 111
+    },
+    "last": [
+     {
+      "result": "W 27–21",
+      "opponent": "vs New Mexico State",
+      "opp_record": "(3–7, SP+ #125)"
+     },
+     {
+      "result": "L 20–23",
+      "opponent": "at Florida International",
+      "opp_record": "(4–6, SP+ #108)"
+     },
+     {
+      "result": "W 24–3",
+      "opponent": "vs Sam Houston",
+      "opp_record": "(1–9, SP+ #131)"
+     },
+     {
+      "result": "L 38–61",
+      "opponent": "at Delaware",
+      "opp_record": "(5–5, SP+ #99)"
+     }
+    ],
+    "win_pct": 23,
+    "news": []
+   },
+   "home": {
+    "name": "Jacksonville State",
+    "rank": "",
+    "record": "7–3",
+    "ats": "ATS 5–4–1",
+    "sp": {
+     "overall": 65,
+     "offense": 63,
+     "defense": 62
+    },
+    "last": [
+     {
+      "result": "L 24–34",
+      "opponent": "at Western Kentucky",
+      "opp_record": "(4–6, SP+ #116)"
+     },
+     {
+      "result": "W 47–14",
+      "opponent": "vs Sam Houston",
+      "opp_record": "(1–9, SP+ #131)"
+     },
+     {
+      "result": "W 24–0",
+      "opponent": "at New Mexico State",
+      "opp_record": "(3–7, SP+ #125)"
+     },
+     {
+      "result": "W 27–24",
+      "opponent": "vs Florida International",
+      "opp_record": "(4–6, SP+ #108)"
+     }
+    ],
+    "win_pct": 77,
+    "news": []
+   }
+  },
+  {
+   "id": 401871081,
+   "anchor": "game-401871081",
+   "start": "2026-11-21T19:00:00+00:00",
+   "day": "Saturday, Nov 21",
+   "time": "1:00 PM CT",
+   "kickoff": "Sat, Nov 21 · 1:00 PM CT",
+   "neutral": false,
+   "venue": "Elliott T. Bowers Stadium, Huntsville, TX",
+   "final": null,
+   "spread": "Middle Tennessee −6",
+   "line_source": "DraftKings",
+   "tossup": false,
+   "prob_source": "betting odds",
+   "weather": "75°F · Wind 8 mph · Rain or snow 0%",
+   "flags": [
+    "Middle Tennessee: one win from bowl eligibility"
+   ],
+   "away": {
+    "name": "Middle Tennessee",
+    "rank": "",
+    "record": "5–5",
+    "ats": "ATS 7–3",
+    "sp": {
+     "overall": 122,
+     "offense": 99,
+     "defense": 129
+    },
+    "last": [
+     {
+      "result": "L 23–28",
+      "opponent": "at Liberty",
+      "opp_record": "(9–1, SP+ #19)"
+     },
+     {
+      "result": "W 51–42",
+      "opponent": "vs Western Kentucky",
+      "opp_record": "(4–6, SP+ #116)"
+     },
+     {
+      "result": "L 28–44",
+      "opponent": "vs Kennesaw State",
+      "opp_record": "(4–6, SP+ #102)"
+     },
+     {
+      "result": "W 26–23",
+      "opponent": "at Florida International",
+      "opp_record": "(4–6, SP+ #108)"
+     }
+    ],
+    "win_pct": 67,
+    "news": []
+   },
+   "home": {
+    "name": "Sam Houston",
+    "rank": "",
+    "record": "1–9",
+    "ats": "ATS 3–7",
+    "sp": {
+     "overall": 131,
+     "offense": 136,
+     "defense": 114
+    },
+    "last": [
+     {
+      "result": "L 7–26",
+      "opponent": "vs Kennesaw State",
+      "opp_record": "(4–6, SP+ #102)"
+     },
+     {
+      "result": "L 14–47",
+      "opponent": "at Jacksonville State",
+      "opp_record": "(7–3, SP+ #65)"
+     },
+     {
+      "result": "L 3–24",
+      "opponent": "at Missouri State",
+      "opp_record": "(4–6, SP+ #121)"
+     },
+     {
+      "result": "L 24–30",
+      "opponent": "vs New Mexico State",
+      "opp_record": "(3–7, SP+ #125)"
+     }
+    ],
+    "win_pct": 33,
+    "news": []
+   }
+  },
+  {
+   "id": 401862832,
+   "anchor": "game-401862832",
+   "start": "2026-11-21T19:00:00+00:00",
+   "day": "Saturday, Nov 21",
+   "time": "1:00 PM CT",
+   "kickoff": "Sat, Nov 21 · 1:00 PM CT",
+   "neutral": false,
+   "venue": "Chapman Stadium, Tulsa, OK",
+   "final": null,
+   "spread": "Tulsa −22.5",
+   "line_source": "DraftKings",
+   "tossup": false,
+   "prob_source": "betting odds",
+   "weather": "68°F · Wind 14 mph · Rain or snow 1%",
+   "flags": [],
+   "away": {
+    "name": "Charlotte",
+    "rank": "",
+    "record": "1–9",
+    "ats": "ATS 5–5",
+    "sp": {
+     "overall": 134,
+     "offense": 130,
+     "defense": 136
+    },
+    "last": [
+     {
+      "result": "L 16–17",
+      "opponent": "vs East Carolina",
+      "opp_record": "(6–4, SP+ #88)"
+     },
+     {
+      "result": "L 12–23",
+      "opponent": "at UAB",
+      "opp_record": "(6–4, SP+ #95)"
+     },
+     {
+      "result": "L 31–38",
+      "opponent": "vs Tulane",
+      "opp_record": "(5–5, SP+ #112)"
+     },
+     {
+      "result": "W 38–31",
+      "opponent": "at Temple",
+      "opp_record": "(2–9, SP+ #115)"
+     }
+    ],
+    "win_pct": 8,
+    "news": []
+   },
+   "home": {
+    "name": "Tulsa",
+    "rank": "",
+    "record": "6–4",
+    "ats": "ATS 6–4",
+    "sp": {
+     "overall": 64,
+     "offense": 45,
+     "defense": 75
+    },
+    "last": [
+     {
+      "result": "W 38–21",
+      "opponent": "vs Florida Atlantic",
+      "opp_record": "(6–4, SP+ #86)"
+     },
+     {
+      "result": "W 60–10",
+      "opponent": "at Tulane",
+      "opp_record": "(5–5, SP+ #112)"
+     },
+     {
+      "result": "L 35–38",
+      "opponent": "vs Army",
+      "opp_record": "(5–4, SP+ #79)"
+     },
+     {
+      "result": "W 38–17",
+      "opponent": "at Rice",
+      "opp_record": "(2–9, SP+ #126)"
+     }
+    ],
+    "win_pct": 92,
+    "news": [
+     {
+      "text": "Head coach Tre Lamb has expressed high-alert concern regarding the team's performance.",
+      "sources": [
+       {
+        "title": "Bill Haisten: Tre Lamb’s ‘high-alert concern’ – a TU stumble",
+        "source": "Tulsa World",
+        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQY0hJNUtTTExleWNRbTgtZnB3bmxwQ3FpWExoeU5NcmZUS1F5REEzMFQyTVk2V25ERVljdmJjS3lTWldyOFBDTWlES0VoTHM5WElsekxVQVktUHZPWDVWNk52bUlfR3JtTXBEX0lPb1M2SWNFQi1aR1VtNG5HbFRsNXBpN3RfUWZjc3VHQVJYa0FfTHN0?oc=5"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": 401869929,
+   "anchor": "game-401869929",
+   "start": "2026-11-21T19:30:00+00:00",
+   "day": "Saturday, Nov 21",
+   "time": "1:30 PM CT",
+   "kickoff": "Sat, Nov 21 · 1:30 PM CT",
+   "neutral": false,
+   "venue": "Kidd Brewer Stadium, Boone, NC",
+   "final": null,
+   "spread": "App State −14",
+   "line_source": "DraftKings",
+   "tossup": false,
+   "prob_source": "betting odds",
+   "weather": "53°F · Wind 8 mph · Rain or snow 5%",
+   "flags": [],
+   "away": {
+    "name": "UL Monroe",
+    "rank": "",
+    "record": "2–8",
+    "ats": "ATS 3–7",
+    "sp": {
+     "overall": 133,
+     "offense": 128,
+     "defense": 134
+    },
+    "last": [
+     {
+      "result": "L 21–42",
+      "opponent": "vs Louisiana",
+      "opp_record": "(7–3, SP+ #54)"
+     },
+     {
+      "result": "W 19–17",
+      "opponent": "at Arkansas State",
+      "opp_record": "(4–6, SP+ #100)"
+     },
+     {
+      "result": "L 21–35",
+      "opponent": "vs Southern Miss",
+      "opp_record": "(3–7, SP+ #128)"
+     },
+     {
+      "result": "W 21–14",
+      "opponent": "at Troy",
+      "opp_record": "(4–6, SP+ #123)"
+     }
+    ],
+    "win_pct": 17,
+    "news": []
+   },
+   "home": {
+    "name": "App State",
+    "rank": "",
+    "record": "6–4",
+    "ats": "ATS 6–4",
+    "sp": {
+     "overall": 94,
+     "offense": 95,
+     "defense": 86
+    },
+    "last": [
+     {
+      "result": "W 20–16",
+      "opponent": "at Marshall",
+      "opp_record": "(5–5, SP+ #116)"
+     },
+     {
+      "result": "L 23–39",
+      "opponent": "vs Georgia State",
+      "opp_record": "(5–5, SP+ #104)"
+     },
+     {
+      "result": "L 3–19",
+      "opponent": "at Georgia Southern",
+      "opp_record": "(6–4, SP+ #62)"
+     },
+     {
+      "result": "W 34–31",
+      "opponent": "vs James Madison",
+      "opp_record": "(8–3, SP+ #35)"
+     }
+    ],
+    "win_pct": 83,
+    "news": []
+   }
+  },
+  {
+   "id": 401862833,
+   "anchor": "game-401862833",
+   "start": "2026-11-21T19:30:00+00:00",
+   "day": "Saturday, Nov 21",
+   "time": "1:30 PM CT",
+   "kickoff": "Sat, Nov 21 · 1:30 PM CT",
+   "neutral": false,
+   "venue": "FAU Stadium, Boca Raton, FL",
+   "final": null,
+   "spread": "South Florida −1.5",
+   "line_source": "DraftKings",
+   "tossup": true,
+   "prob_source": "betting odds",
+   "weather": "78°F · Wind 7 mph · Rain 24%",
+   "flags": [],
+   "away": {
+    "name": "South Florida",
+    "rank": "",
+    "record": "6–4",
+    "ats": "ATS 4–6",
+    "sp": {
+     "overall": 60,
+     "offense": 69,
+     "defense": 54
+    },
+    "last": [
+     {
+      "result": "L 41–52",
+      "opponent": "vs Memphis",
+      "opp_record": "(8–2, SP+ #36)"
+     },
+     {
+      "result": "L 17–20",
+      "opponent": "at East Carolina",
+      "opp_record": "(6–4, SP+ #88)"
+     },
+     {
+      "result": "W 30–10",
+      "opponent": "vs UAB",
+      "opp_record": "(6–4, SP+ #95)"
+     },
+     {
+      "result": "W 29–2",
+      "opponent": "vs Kent State",
+      "opp_record": "(3–8, SP+ #132)"
+     }
+    ],
+    "win_pct": 51,
+    "news": [
+     {
+      "text": "The South Florida Bulls are traveling to Boca Raton to face Florida Atlantic this Saturday.",
+      "sources": [
+       {
+        "title": "USF vs. FAU: Bulls Seek Road Victory in Boca Raton",
+        "source": "NGSC Sports",
+        "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5kMTlCcWhnNVk1b1JOWnpIaUJyMldLdFRoZFBFYllDaVpEcFFZVDFPWnZYZEJWNmdFcFlLcGt2ZDN6WEtZaWtGcnlreHV4RW5aYzlIdXhzMFJiTHN6SWlTVm9VZmJiYjNob2IyWnpsTzFuWWdmQkNWVEk1SzQ?oc=5"
+       },
+       {
+        "title": "Bulls Head South to Face Florida Atlantic on Saturday",
+        "source": "USF Athletics",
+        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQbFZ4YkVKZ3hfVkU0aGUyc0ZYdTNBY3o4c2tJN0JuSFJMQVhRbFVnbERBb0VCQTA1WU5PeGhUSjZyRGZRVFZJcVFvVmFDQ2V1YXd3dGRyTWJMWnlDVGZpeEFrT0hXUEJSWTEwb2N1LXEyd2pKWkFWYmw1MVlEVkZZMlJyT3ZycmVqdk5qSVNwNFFXYXVURE5yU0dFSURDYWloVTVr?oc=5"
+       }
+      ]
+     }
+    ]
+   },
+   "home": {
+    "name": "Florida Atlantic",
+    "rank": "",
+    "record": "6–4",
+    "ats": "ATS 6–4",
+    "sp": {
+     "overall": 86,
+     "offense": 35,
+     "defense": 126
+    },
+    "last": [
+     {
+      "result": "L 21–38",
+      "opponent": "at Tulsa",
+      "opp_record": "(6–4, SP+ #64)"
+     },
+     {
+      "result": "W 60–29",
+      "opponent": "vs UTSA",
+      "opp_record": "(8–2, SP+ #61)"
+     },
+     {
+      "result": "L 41–48",
+      "opponent": "at North Texas",
+      "opp_record": "(7–3, SP+ #67)"
+     },
+     {
+      "result": "W 51–49",
+      "opponent": "vs Rice",
+      "opp_record": "(2–9, SP+ #126)"
+     }
+    ],
+    "win_pct": 49,
+    "news": []
+   }
+  },
+  {
+   "id": 401858527,
+   "anchor": "game-401858527",
+   "start": "2026-11-21T19:30:00+00:00",
+   "day": "Saturday, Nov 21",
+   "time": "1:30 PM CT",
+   "kickoff": "Sat, Nov 21 · 1:30 PM CT",
+   "neutral": false,
+   "venue": "Memorial Stadium (Champaign, IL), Champaign, IL",
+   "final": null,
+   "spread": "Iowa −8.5",
+   "line_source": "DraftKings",
+   "tossup": false,
+   "prob_source": "betting odds",
+   "weather": "69°F · Wind 10 mph · Rain or snow 0%",
+   "flags": [
+    "Iowa: ranked #15 (CFP)"
+   ],
+   "away": {
+    "name": "Iowa",
+    "rank": "#15",
+    "record": "8–2",
+    "ats": "ATS 7–3",
+    "sp": {
+     "overall": 16,
+     "offense": 52,
+     "defense": 4
+    },
+    "last": [
+     {
+      "result": "W 28–7",
+      "opponent": "vs Purdue",
+      "opp_record": "(3–7, SP+ #91)"
+     },
+     {
+      "result": "W 24–10",
+      "opponent": "at Northwestern",
+      "opp_record": "(6–4, SP+ #32)"
+     },
+     {
+      "result": "W 30–0",
+      "opponent": "vs Wisconsin",
+      "opp_record": "(6–4, SP+ #39)"
+     },
+     {
+      "result": "L 10–13",
+      "opponent": "at Minnesota",
+      "opp_record": "(5–5, SP+ #77)"
+     }
+    ],
+    "win_pct": 73,
+    "news": []
+   },
+   "home": {
+    "name": "Illinois",
+    "rank": "",
+    "record": "6–4",
+    "ats": "ATS 5–4–1",
+    "sp": {
+     "overall": 44,
+     "offense": 52,
+     "defense": 43
+    },
+    "last": [
+     {
+      "result": "L 14–22",
+      "opponent": "at UCLA",
+      "opp_record": "(10–0, SP+ #12)"
+     },
+     {
+      "result": "W 24–13",
+      "opponent": "vs Nebraska",
+      "opp_record": "(6–4, SP+ #18)"
+     },
+     {
+      "result": "W 20–17",
+      "opponent": "at Maryland",
+      "opp_record": "(4–6, SP+ #75)"
+     },
+     {
+      "result": "W 21–10",
+      "opponent": "vs Oregon",
+      "opp_record": "(7–3, SP+ #14)"
+     }
+    ],
+    "win_pct": 27,
+    "news": [
+     {
+      "text": "Bret Bielema provided an update regarding the status of quarterback Katin Houser and other options at the position.",
+      "sources": [
+       {
+        "title": "Bret Bielema Provides Update on Illinois Katin Houser, Other QB Options",
+        "source": "Yahoo Sports",
+        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNSUlYMUZGTFFDQnhYTWtNdk5rVzVGYm5DdFJVam05ZVh3SzNWbkhqZUZGWlRBQkV3dEFYQVpLSmhhUmxGR3BZTDhoWTJBa000eVBIa1p4NFk1a0hiRTlzT2x1VTJIbklHd2YzOUhta1pHcmRVMnh1V0M2OXNpRWhLZmNCWEhLMXc4Tk1mT2xB?oc=5"
+       }
+      ]
+     },
+     {
+      "text": "The status of the starting quarterback remains a key factor shaping the matchup for this week's game.",
+      "sources": [
+       {
+        "title": "Iowa vs Illinois Prediction: QB Status Shapes Week 12",
+        "source": "ATS.io",
+        "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQOFdJdVNnYWxFNmgzeW5icHJIQlFRUGx0b3VoeS0tenZEWDg4cHYybGNDOERxZzVZTGJZLXhiRVZ3MnVEWThNNjdjdVA5M1Y1QXFpeVctTGlQTGRleEQ0UlpleVg2UDBDVzU1RW54MTEzaHJyNDZvSDYwR1RMeTcwOWxGbw?oc=5"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": 401871078,
+   "anchor": "game-401871078",
+   "start": "2026-11-21T20:00:00+00:00",
+   "day": "Saturday, Nov 21",
+   "time": "2:00 PM CT",
+   "kickoff": "Sat, Nov 21 · 2:00 PM CT",
+   "neutral": false,
+   "venue": "Fifth Third Stadium, Kennesaw, GA",
+   "final": null,
+   "spread": "Kennesaw State −3",
+   "line_source": "DraftKings",
+   "tossup": false,
+   "prob_source": "betting odds",
+   "weather": "70°F · Wind 13 mph · Rain or snow 10%",
+   "flags": [],
+   "away": {
+    "name": "Florida International",
+    "rank": "",
+    "record": "4–6",
+    "ats": "ATS 3–6–1",
+    "sp": {
+     "overall": 108,
+     "offense": 123,
+     "defense": 72
+    },
+    "last": [
+     {
+      "result": "L 16–24",
+      "opponent": "at Delaware",
+      "opp_record": "(5–5, SP+ #99)"
+     },
+     {
+      "result": "W 23–20",
+      "opponent": "vs Missouri State",
+      "opp_record": "(4–6, SP+ #121)"
+     },
+     {
+      "result": "L 10–49",
+      "opponent": "at Liberty",
+      "opp_record": "(9–1, SP+ #19)"
+     },
+     {
+      "result": "L 23–26",
+      "opponent": "vs Middle Tennessee",
+      "opp_record": "(5–5, SP+ #122)"
+     }
+    ],
+    "win_pct": 45,
+    "news": []
+   },
+   "home": {
+    "name": "Kennesaw State",
+    "rank": "",
+    "record": "4–6",
+    "ats": "ATS 7–3",
+    "sp": {
+     "overall": 102,
+     "offense": 101,
+     "defense": 96
+    },
+    "last": [
+     {
+      "result": "W 26–7",
+      "opponent": "at Sam Houston",
+      "opp_record": "(1–9, SP+ #131)"
+     },
+     {
+      "result": "W 42–40",
+      "opponent": "vs Delaware",
+      "opp_record": "(5–5, SP+ #99)"
+     },
+     {
+      "result": "W 44–28",
+      "opponent": "at Middle Tennessee",
+      "opp_record": "(5–5, SP+ #122)"
+     },
+     {
+      "result": "L 6–34",
+      "opponent": "vs Liberty",
+      "opp_record": "(9–1, SP+ #19)"
+     }
+    ],
+    "win_pct": 55,
+    "news": []
+   }
+  },
+  {
+   "id": 401869946,
+   "anchor": "game-401869946",
+   "start": "2026-11-21T20:00:00+00:00",
+   "day": "Saturday, Nov 21",
+   "time": "2:00 PM CT",
+   "kickoff": "Sat, Nov 21 · 2:00 PM CT",
+   "neutral": false,
+   "venue": "Cajun Field, Lafayette, LA",
+   "final": null,
+   "spread": "Louisiana −10.5",
+   "line_source": "DraftKings",
+   "tossup": false,
+   "prob_source": "betting odds",
+   "weather": "76°F · Wind 3 mph · Rain or snow 1%",
+   "flags": [],
+   "away": {
+    "name": "Coastal Carolina",
+    "rank": "",
+    "record": "4–6",
+    "ats": "ATS 5–5",
+    "sp": {
+     "overall": 101,
+     "offense": 96,
+     "defense": 103
+    },
+    "last": [
+     {
+      "result": "W 28–21",
+      "opponent": "vs Arkansas State",
+      "opp_record": "(4–6, SP+ #100)"
+     },
+     {
+      "result": "L 8–21",
+      "opponent": "vs Old Dominion",
+      "opp_record": "(3–7, SP+ #124)"
+     },
+     {
+      "result": "W 31–20",
+      "opponent": "at Georgia State",
+      "opp_record": "(5–5, SP+ #104)"
+     },
+     {
+      "result": "L 32–35",
+      "opponent": "vs App State",
+      "opp_record": "(6–4, SP+ #94)"
+     }
+    ],
+    "win_pct": 23,
+    "news": []
+   },
+   "home": {
+    "name": "Louisiana",
+    "rank": "",
+    "record": "7–3",
+    "ats": "ATS 6–3–1",
+    "sp": {
+     "overall": 54,
+     "offense": 42,
+     "defense": 67
+    },
+    "last": [
+     {
+      "result": "W 42–21",
+      "opponent": "at UL Monroe",
+      "opp_record": "(2–8, SP+ #133)"
+     },
+     {
+      "result": "W 28–26",
+      "opponent": "vs South Alabama",
+      "opp_record": "(5–5, SP+ #107)"
+     },
+     {
+      "result": "L 31–35",
+      "opponent": "at Southern Miss",
+      "opp_record": "(3–7, SP+ #128)"
+     },
+     {
+      "result": "W 33–6",
+      "opponent": "vs Troy",
+      "opp_record": "(4–6, SP+ #123)"
+     }
+    ],
+    "win_pct": 77,
+    "news": []
+   }
+  },
+  {
+   "id": 401871077,
+   "anchor": "game-401871077",
+   "start": "2026-11-21T20:00:00+00:00",
+   "day": "Saturday, Nov 21",
+   "time": "2:00 PM CT",
+   "kickoff": "Sat, Nov 21 · 2:00 PM CT",
+   "neutral": false,
+   "venue": "Aggie Memorial Stadium, Las Cruces, NM",
+   "final": null,
+   "spread": "Delaware −3",
+   "line_source": "DraftKings",
+   "tossup": false,
+   "prob_source": "betting odds",
+   "weather": "58°F · Wind 14 mph · Rain or snow 2%",
+   "flags": [
+    "Delaware: one win from bowl eligibility"
+   ],
+   "away": {
+    "name": "Delaware",
+    "rank": "",
+    "record": "5–5",
+    "ats": "ATS 6–4",
+    "sp": {
+     "overall": 99,
+     "offense": 70,
+     "defense": 119
+    },
+    "last": [
+     {
+      "result": "W 24–16",
+      "opponent": "vs Florida International",
+      "opp_record": "(4–6, SP+ #108)"
+     },
+     {
+      "result": "L 40–42",
+      "opponent": "at Kennesaw State",
+      "opp_record": "(4–6, SP+ #102)"
+     },
+     {
+      "result": "W 35–21",
+      "opponent": "at Western Kentucky",
+      "opp_record": "(4–6, SP+ #116)"
+     },
+     {
+      "result": "W 61–38",
+      "opponent": "vs Missouri State",
+      "opp_record": "(4–6, SP+ #121)"
+     }
+    ],
+    "win_pct": 58,
+    "news": []
+   },
+   "home": {
+    "name": "New Mexico State",
+    "rank": "",
+    "record": "3–7",
+    "ats": "ATS 4–6",
+    "sp": {
+     "overall": 125,
+     "offense": 126,
+     "defense": 104
+    },
+    "last": [
+     {
+      "result": "L 21–27",
+      "opponent": "at Missouri State",
+      "opp_record": "(4–6, SP+ #121)"
+     },
+     {
+      "result": "L 14–30",
+      "opponent": "vs Liberty",
+      "opp_record": "(9–1, SP+ #19)"
+     },
+     {
+      "result": "L 0–24",
+      "opponent": "vs Jacksonville State",
+      "opp_record": "(7–3, SP+ #65)"
+     },
+     {
+      "result": "W 30–24",
+      "opponent": "at Sam Houston",
+      "opp_record": "(1–9, SP+ #131)"
+     }
+    ],
+    "win_pct": 42,
+    "news": []
+   }
+  },
+  {
+   "id": 401856747,
+   "anchor": "game-401856747",
+   "start": "2026-11-21T20:30:00+00:00",
+   "day": "Saturday, Nov 21",
+   "time": "2:30 PM CT",
+   "kickoff": "Sat, Nov 21 · 2:30 PM CT",
+   "neutral": false,
+   "venue": "Jordan-Hare Stadium, Auburn, AL",
+   "final": null,
+   "spread": "Auburn −48.5",
+   "line_source": "DraftKings",
+   "tossup": false,
+   "prob_source": "the spread",
+   "weather": "71°F · Wind 10 mph · Rain or snow 8%",
+   "flags": [
+    "Samford: off a bye week"
+   ],
+   "away": {
+    "name": "Samford",
+    "rank": "",
+    "record": "4–7",
+    "ats": "ATS 1–0",
+    "sp": null,
+    "last": [
+     {
+      "result": "L 14–33",
+      "opponent": "at UAB",
+      "opp_record": "(6–4, SP+ #95)"
+     }
+    ],
+    "win_pct": 1,
+    "news": []
+   },
+   "home": {
+    "name": "Auburn",
+    "rank": "",
+    "record": "6–4",
+    "ats": "ATS 3–7",
+    "sp": {
+     "overall": 49,
+     "offense": 73,
+     "defense": 33
+    },
+    "last": [
+     {
+      "result": "W 41–9",
+      "opponent": "at Mississippi State",
+      "opp_record": "(4–6, SP+ #71)"
+     },
+     {
+      "result": "W 26–23",
+      "opponent": "vs Arkansas",
+      "opp_record": "(4–6, SP+ #76)"
+     },
+     {
+      "result": "L 15–45",
+      "opponent": "at Ole Miss",
+      "opp_record": "(6–4, SP+ #24)"
+     },
+     {
+      "result": "L 17–38",
+      "opponent": "vs LSU",
+      "opp_record": "(6–4, SP+ #9)"
+     }
+    ],
+    "win_pct": 99,
+    "news": []
+   }
+  },
+  {
+   "id": 401856871,
+   "anchor": "game-401856871",
+   "start": "2026-11-21T20:30:00+00:00",
+   "day": "Saturday, Nov 21",
+   "time": "2:30 PM CT",
+   "kickoff": "Sat, Nov 21 · 2:30 PM CT",
+   "neutral": false,
+   "venue": "McLane Stadium, Waco, TX",
+   "final": null,
+   "spread": "Texas Tech −4.5",
+   "line_source": "DraftKings",
+   "tossup": false,
+   "prob_source": "betting odds",
+   "weather": "71°F · Wind 10 mph · Rain or snow 2%",
+   "flags": [
+    "Texas Tech: ranked #12 (CFP)"
+   ],
+   "away": {
+    "name": "Texas Tech",
+    "rank": "#12",
+    "record": "9–1",
+    "ats": "ATS 5–5",
+    "sp": {
+     "overall": 13,
+     "offense": 6,
+     "defense": 33
+    },
+    "last": [
+     {
+      "result": "W 52–27",
+      "opponent": "at Oklahoma State",
+      "opp_record": "(6–4, SP+ #25)"
+     },
+     {
+      "result": "W 53–48",
+      "opponent": "vs West Virginia",
+      "opp_record": "(5–5, SP+ #81)"
+     },
+     {
+      "result": "W 34–26",
+      "opponent": "vs Arizona",
+      "opp_record": "(7–3, SP+ #20)"
+     },
+     {
+      "result": "L 24–37",
+      "opponent": "at Cincinnati",
+      "opp_record": "(5–5, SP+ #72)"
+     }
+    ],
+    "win_pct": 64,
+    "news": []
+   },
+   "home": {
+    "name": "Baylor",
+    "rank": "",
+    "record": "6–4",
+    "ats": "ATS 7–3",
+    "sp": {
+     "overall": 32,
+     "offense": 51,
+     "defense": 25
+    },
+    "last": [
+     {
+      "result": "L 7–28",
+      "opponent": "at BYU",
+      "opp_record": "(8–2, SP+ #15)"
+     },
+     {
+      "result": "W 42–31",
+      "opponent": "vs Iowa State",
+      "opp_record": "(5–5, SP+ #74)"
+     },
+     {
+      "result": "W 41–9",
+      "opponent": "at UCF",
+      "opp_record": "(5–5, SP+ #72)"
+     },
+     {
+      "result": "L 24–25",
+      "opponent": "at Kansas",
+      "opp_record": "(4–6, SP+ #50)"
+     }
+    ],
+    "win_pct": 36,
+    "news": []
+   }
+  },
+  {
+   "id": 401858304,
+   "anchor": "game-401858304",
+   "start": "2026-11-21T20:30:00+00:00",
+   "day": "Saturday, Nov 21",
+   "time": "2:30 PM CT",
+   "kickoff": "Sat, Nov 21 · 2:30 PM CT",
+   "neutral": false,
+   "venue": "Doak Campbell Stadium, Tallahassee, FL",
+   "final": null,
+   "spread": "Florida State −10.5",
+   "line_source": "DraftKings",
+   "tossup": false,
+   "prob_source": "betting odds",
+   "weather": "67°F · Wind 8 mph · Rain or snow 12%",
+   "flags": [
+    "Florida State: one win from bowl eligibility"
+   ],
+   "away": {
+    "name": "NC State",
+    "rank": "",
+    "record": "4–6",
+    "ats": "ATS 3–6–1",
+    "sp": {
+     "overall": 78,
+     "offense": 54,
+     "defense": 105
+    },
+    "last": [
+     {
+      "result": "L 31–34",
+      "opponent": "vs Syracuse",
+      "opp_record": "(5–5, SP+ #83)"
+     },
+     {
+      "result": "L 3–41",
+      "opponent": "vs Duke",
+      "opp_record": "(7–3, SP+ #28)"
+     },
+     {
+      "result": "W 31–10",
+      "opponent": "vs California",
+      "opp_record": "(3–7, SP+ #119)"
+     },
+     {
+      "result": "L 28–31",
+      "opponent": "at Stanford",
+      "opp_record": "(5–5, SP+ #106)"
+     }
+    ],
+    "win_pct": 23,
+    "news": [
+     {
+      "text": "Twenty-three players have already been ruled out for the Florida State versus NC State game.",
+      "sources": [
+       {
+        "title": "FSU Football vs. North Carolina State Wolfpack: 23 Players Already Ruled Out",
+        "source": "Yahoo Sports",
+        "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQdVVqVFA0SGZQcjNxY3JHaVZXYmJiZ29XcXNIdVN0dzFBZ0cxcXJXQXZmQnVoR1lEUy1IWWsyT3dTUWRBTGtwT3YxbnhYREVxRzBiT2tiT053OEdHUE1EWEtTRklxbmxpdUNpUFlUempJNXcwTXhMNE5FTTUwNnpUYnl2dW5aZw?oc=5"
+       }
+      ]
+     },
+     {
+      "text": "Florida State has downgraded two additional starters for the upcoming game against NC State.",
+      "sources": [
+       {
+        "title": "FSU Football vs. NC State Wolfpack: Seminoles Downgrade Two More Starters",
+        "source": "Sports Illustrated",
+        "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOMWpsZG9pbUNKRnJ6M3ZTa2tWV0VKTkNEME9UYzRKSFVWWGI3elR0TUthRnhjeGJDUU1hcnVubWNBY01rczVaWW1zQ2F3TFVyVUhHaF90c3hJMW10UkhfOFc3aFdnNWdYNnluUzZ3WEZMOGRHa1VkQmFVMzAyVEd0RTB2ZDhUclV6Sm9kTWh2YW9tajJENHFXZXBCY2VDUzNiWFRkQW44RnJSS3gyNzM5aEFCYXhDaExqLS1mMk9ja3B5Z2FfTHhqOXJoeVMtNW5lMnYyUDRRd2l0OE5uMWRFS01xTkprOEU3?oc=5"
+       }
+      ]
+     }
+    ]
+   },
+   "home": {
+    "name": "Florida State",
+    "rank": "",
+    "record": "5–5",
+    "ats": "ATS 5–4–1",
+    "sp": {
+     "overall": 48,
+     "offense": 36,
+     "defense": 66
+    },
+    "last": [
+     {
+      "result": "W 16–10",
+      "opponent": "at Pittsburgh",
+      "opp_record": "(6–4, SP+ #38)"
+     },
+     {
+      "result": "W 31–24",
+      "opponent": "at Boston College",
+      "opp_record": "(4–6, SP+ #103)"
+     },
+     {
+      "result": "L 24–36",
+      "opponent": "vs Clemson",
+      "opp_record": "(6–4, SP+ #68)"
+     },
+     {
+      "result": "L 35–43",
+      "opponent": "at Miami",
+      "opp_record": "(9–1, SP+ #3)"
+     }
+    ],
+    "win_pct": 77,
+    "news": [
+     {
+      "text": "Florida State has downgraded two additional starters ahead of the game against NC State.",
+      "sources": [
+       {
+        "title": "FSU Football vs. NC State Wolfpack: Seminoles Downgrade Two More Starters",
+        "source": "Sports Illustrated",
+        "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOMWpsZG9pbUNKRnJ6M3ZTa2tWV0VKTkNEME9UYzRKSFVWWGI3elR0TUthRnhjeGJDUU1hcnVubWNBY01rczVaWW1zQ2F3TFVyVUhHaF90c3hJMW10UkhfOFc3aFdnNWdYNnluUzZ3WEZMOGRHa1VkQmFVMzAyVEd0RTB2ZDhUclV6Sm9kTWh2YW9tajJENHFXZXBCY2VDUzNiWFRkQW44RnJSS3gyNzM5aEFCYXhDaExqLS1mMk9ja3B5Z2FfTHhqOXJoeVMtNW5lMnYyUDRRd2l0OE5uMWRFS01xTkprOEU3?oc=5"
+       }
+      ]
+     },
+     {
+      "text": "The Seminoles' starting edge player is ruled out for the upcoming matchup.",
+      "sources": [
+       {
+        "title": "Updated FSU-NC State injury report: Starting edge out for Seminoles",
+        "source": "FSU Wire",
+        "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOTjgtcE5VYzdJcVA1eTFxUFNfR1RfR3M3WDZfMlRhN3k0ZldOV3NWS2ZYYlpPZ3I4S25NcnNBd3YzTnZnRG5TQVI3WWRYbXlUUHRDcmhQcmpnTkhEWWMtQk9vaTlhbm1NZlE0RE9ncjk1eFRmai0xdndNWjVQME1RREdVOUFqQjBqT2lZZjdSZ0cySHJkZWFxWVRQenloVEg1LUIwRnR1ekRqY3pFWVEzOEx1RHlENWpoajdhNVdlS1VPZlBaWEdDdUVkY0hUWTNyU1N4aTIyZE5YeG5V?oc=5"
+       }
+      ]
+     },
+     {
+      "text": "Florida State is conducting a coaching search with various top candidates.",
+      "sources": [
+       {
+        "title": "Florida State football coaching search: Who are the top candidates?",
+        "source": "Yahoo Sports",
+        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQblRjcTdFZzNfaU43bWNIaWtvTkpPblF2UXR4UklsV0hkMmx4aTA3RWRPOXFuN2J4VUUxRFNaOHRlRUpFYnQyMmNVS2lnaWVvZVRnR25XSnZhRWRYb0RHXzdOdmlfSE52M29mUWVzU3ZrX2Vya3BYZFBBcGI4cFlmSFZHZkRvX3FWbXVLUHl4a1k?oc=5"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": 401858528,
+   "anchor": "game-401858528",
+   "start": "2026-11-21T20:30:00+00:00",
+   "day": "Saturday, Nov 21",
+   "time": "2:30 PM CT",
+   "kickoff": "Sat, Nov 21 · 2:30 PM CT",
+   "neutral": false,
+   "venue": "Michigan Stadium, Ann Arbor, MI",
+   "final": null,
+   "spread": "UCLA −3.5",
+   "line_source": "DraftKings",
+   "tossup": false,
+   "prob_source": "betting odds",
+   "weather": "63°F · Wind 8 mph · Rain or snow 0%",
+   "flags": [
+    "UCLA: ranked #4 (CFP)",
+    "Michigan: one win from bowl eligibility"
+   ],
+   "away": {
+    "name": "UCLA",
+    "rank": "#4",
+    "record": "10–0",
+    "ats": "ATS 9–1",
+    "sp": {
+     "overall": 12,
+     "offense": 27,
+     "defense": 3
+    },
+    "last": [
+     {
+      "result": "W 22–14",
+      "opponent": "vs Illinois",
+      "opp_record": "(6–4, SP+ #44)"
+     },
+     {
+      "result": "W 34–20",
+      "opponent": "at Minnesota",
+      "opp_record": "(5–5, SP+ #77)"
+     },
+     {
+      "result": "W 27–0",
+      "opponent": "vs Nevada",
+      "opp_record": "(4–6, SP+ #92)"
+     },
+     {
+      "result": "W 28–10",
+      "opponent": "vs Michigan State",
+      "opp_record": "(3–7, SP+ #86)"
+     }
+    ],
+    "win_pct": 62,
+    "news": [
+     {
+      "text": "UCLA faces a depleted Michigan team in Week 12.",
+      "sources": [
+       {
+        "title": "UCLA vows to avoid overlooking depleted Michigan in pursuit of record-setting win",
+        "source": "Yahoo Sports",
+        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQR2xoR09nUV9KWG1Vc2JDY1hjZXBad0NWUEZEa0JxNG5VcEFvNzFEaGFfTkRQNXJrSlpWYk5vanNiX08wRjB2a2ZWaVZxY29zWlN0VHJWQlZoUU5HbUhISXVaNXgzclJ6dHdlVnlReFhGZUQ1LTVySFQyUGZCZkFBS2VMTm0yWmZGY0NnMnp3?oc=5"
+       }
+      ]
+     }
+    ]
+   },
+   "home": {
+    "name": "Michigan",
+    "rank": "",
+    "record": "5–5",
+    "ats": "ATS 3–7",
+    "sp": {
+     "overall": 43,
+     "offense": 103,
+     "defense": 7
+    },
+    "last": [
+     {
+      "result": "L 7–31",
+      "opponent": "at Oregon",
+      "opp_record": "(7–3, SP+ #14)"
+     },
+     {
+      "result": "L 6–15",
+      "opponent": "vs Michigan State",
+      "opp_record": "(3–7, SP+ #86)"
+     },
+     {
+      "result": "W 28–21",
+      "opponent": "at Rutgers",
+      "opp_record": "(2–8, SP+ #114)"
+     },
+     {
+      "result": "L 6–13",
+      "opponent": "vs Indiana",
+      "opp_record": "(9–1, SP+ #5)"
+     }
+    ],
+    "win_pct": 38,
+    "news": [
+     {
+      "text": "Michigan football star Andrew Marsh has been charged.",
+      "sources": [
+       {
+        "title": "Andrew Marsh charged: What we know about Michigan football star’s case",
+        "source": "ClickOnDetroit | WDIV Local 4",
+        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNSTMzTWYwc0RJUGNONVJOdHhBSU5SX3BtSU43dDBKYkNDVlZtcHEyLWJVWW9ETXN1eEFWZmNXbmt6RTVOcWt1Y3NjYk4zUHczcVpPTF8zVGw5OElfTHMydlJGNG50dkFjV0JBanFtZUFLQkptQ2VkRFNoLU9wWTQxZ2F2X19MVEU2dVl0WndFTndSRE8wcS10NXdBNU9aalh6U3FURndkT2N1YmFHX3ZXYnlUMDkzTnNsX05fNkF2UnVFRERWS00tZ1RpZw?oc=5"
+       }
+      ]
+     },
+     {
+      "text": "Coaches admitted that outside criticism is starting to weigh on 5-5 Michigan.",
+      "sources": [
+       {
+        "title": "Outside criticism starting to weigh on 5-5 Michigan, coaches admit",
+        "source": "MLive.com",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOUDQwWm1mVGE5eTRYTldYdVpxSERidmJNZ0UzVGZ1X2dzWlcwWTI2Qk5NLU1YeldLX1FtZkRuRjVJWTRyMGE5UHY0eW1wRGtreHhYRFM2ZmhobUFaM2lPRl9xeXFIWm5MV0NMejdIV0gtWW95WUlqWkRNSXZBaFVhOHlSUFdpZmw5LTZKWndKRFpfNkJUaTBwY0x4cE1MYl9BbkFHUDlxeDVzYXJNUHFHYzBTNU5kQmlaZ1g1Y9IB0AFBVV95cUxQMTlma3ZYV05aSG44Y2Z0ZE1sMlBtdTl4eHM4RWQxVURILWZTYWtRai0tellpcG5YUE4zekEwLVpyTHlua1N0dUdSbnkzbmFjT2RNR1VYVk5ySEhyaUZEZHJ4MTZqdGhQMnJybW9PVUladHNYSy15Tnd1VVlrWDBXXzdVYVduZzBUaUs1YU51Xy1BV05kMzBRaEFxTl9XeHMwaEdaYXpHblZ1eG8wSGN3djd0ZkpOcC1OMENBOEVGU211a1hSUTRnbTF0eXZIcmVy?oc=5"
+       }
+      ]
+     },
+     {
+      "text": "Trev Alberts is coming to Ann Arbor to hire a football coach.",
+      "sources": [
+       {
+        "title": "Trev Alberts is coming to Ann Arbor to hire a football coach and raise money. In that order. Mostly because the former is essential to the latter. See link below ⬇️ 📸 Dylan Widger, Dylan Widger-Imagn Images",
+        "source": "Facebook",
+        "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNQVJFTDhodGdLTzVUR0xDb2hjSkxGdFJjTUpjb2gyVHo3U0JINVY3WjBJZjE1eHVIdzZpQ2hGeEstWGp5cG5uYVhYZlE0MjRFM2VDc0d0QjYwN2hOOVlVa1hLU2xzSzYwNExBYXh3QktlTWJ0Q1ZlUFozd0xnSlduR01BcFBNX0NjZS1DYVdISVJmY3RESFRlY2lON1NaZ0dwVElrMkNlMUs0azM1TkQzckZNRmY3NDBmbkVYM284NkZsTEpVMHdNM2hJQWxxQXY2TTVmS00wUkZtdVlpaEVn?oc=5"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": 401858532,
+   "anchor": "game-401858532",
+   "start": "2026-11-21T20:30:00+00:00",
+   "day": "Saturday, Nov 21",
+   "time": "2:30 PM CT",
+   "kickoff": "Sat, Nov 21 · 2:30 PM CT",
+   "neutral": false,
+   "venue": "Beaver Stadium, University Park, PA",
+   "final": null,
+   "spread": "Penn State −26.5",
+   "line_source": "DraftKings",
+   "tossup": false,
+   "prob_source": "betting odds",
+   "weather": "60°F · Wind 8 mph · Rain or snow 0%",
+   "flags": [],
+   "away": {
+    "name": "Rutgers",
+    "rank": "",
+    "record": "2–8",
+    "ats": "ATS 4–6",
+    "sp": {
+     "overall": 114,
+     "offense": 93,
+     "defense": 125
+    },
+    "last": [
+     {
+      "result": "L 0–31",
+      "opponent": "vs Nebraska",
+      "opp_record": "(6–4, SP+ #18)"
+     },
+     {
+      "result": "L 10–31",
+      "opponent": "at Wisconsin",
+      "opp_record": "(6–4, SP+ #39)"
+     },
+     {
+      "result": "L 21–28",
+      "opponent": "vs Michigan",
+      "opp_record": "(5–5, SP+ #43)"
+     },
+     {
+      "result": "L 14–42",
+      "opponent": "at Northwestern",
+      "opp_record": "(6–4, SP+ #32)"
+     }
+    ],
+    "win_pct": 6,
+    "news": []
+   },
+   "home": {
+    "name": "Penn State",
+    "rank": "",
+    "record": "6–4",
+    "ats": "ATS 6–4",
+    "sp": {
+     "overall": 27,
+     "offense": 41,
+     "defense": 22
+    },
+    "last": [
+     {
+      "result": "W 42–14",
+      "opponent": "vs Minnesota",
+      "opp_record": "(5–5, SP+ #77)"
+     },
+     {
+      "result": "W 28–25",
+      "opponent": "at Washington",
+      "opp_record": "(6–4, SP+ #37)"
+     },
+     {
+      "result": "W 31–17",
+      "opponent": "vs Purdue",
+      "opp_record": "(3–7, SP+ #91)"
+     },
+     {
+      "result": "L 18–21",
+      "opponent": "at Michigan",
+      "opp_record": "(5–5, SP+ #43)"
+     }
+    ],
+    "win_pct": 94,
+    "news": []
+   }
+  },
+  {
+   "id": 401856754,
+   "anchor": "game-401856754",
+   "start": "2026-11-21T20:30:00+00:00",
+   "day": "Saturday, Nov 21",
+   "time": "2:30 PM CT",
+   "kickoff": "Sat, Nov 21 · 2:30 PM CT",
+   "neutral": false,
+   "venue": "Neyland Stadium, Knoxville, TN",
+   "final": null,
+   "spread": "LSU −1.5",
+   "line_source": "DraftKings",
+   "tossup": true,
+   "prob_source": "betting odds",
+   "weather": "70°F · Wind 1 mph · Rain or snow 1%",
+   "flags": [
+    "Tennessee: ranked #9 (CFP)"
+   ],
+   "away": {
+    "name": "LSU",
+    "rank": "",
+    "record": "6–4",
+    "ats": "ATS 4–6",
+    "sp": {
+     "overall": 9,
+     "offense": 15,
+     "defense": 10
+    },
+    "last": [
+     {
+      "result": "L 21–22",
+      "opponent": "vs Texas",
+      "opp_record": "(8–2, SP+ #8)"
+     },
+     {
+      "result": "L 13–31",
+      "opponent": "vs Alabama",
+      "opp_record": "(8–2, SP+ #6)"
+     },
+     {
+      "result": "W 38–17",
+      "opponent": "at Auburn",
+      "opp_record": "(6–4, SP+ #49)"
+     },
+     {
+      "result": "W 31–0",
+      "opponent": "vs Mississippi State",
+      "opp_record": "(4–6, SP+ #71)"
+     }
+    ],
+    "win_pct": 51,
+    "news": [
+     {
+      "text": "A star LSU wide receiver is listed as questionable for the game against Tennessee.",
+      "sources": [
+       {
+        "title": "LSU football star wide receiver questionable for Tennessee game",
+        "source": "AOL.com",
+        "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOaFdDWW1PLWZQZFJoVzVEN2Z6Q29UaUFKbzB0ZWFFeExBNXgxT2FwWTR2TjY2OHREOTBRNzBubWg0ZlZhVUFiVWd2UjhIb3BZYmotQXRwWmp5WXVJZjdybVF4dG5LTEJva010YkVBcFdERXBUeHZlVjlZc2hvY2g2SA?oc=5"
+       }
+      ]
+     },
+     {
+      "text": "An updated Thursday night injury report has been released for the LSU vs. Tennessee game.",
+      "sources": [
+       {
+        "title": "Tennessee Football vs. LSU's Updated Thursday Night Injury Report",
+        "source": "Sports Illustrated",
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNazZ1WTZNVVdDWjBCczlkUWhKMGYxdVppOXREY1RkS1VpUkxVVHNQdHBYSmRRYUw3bWlxWjVVRXFMVU1KWnh6akJ6ZFNPTkEtTXZPMnl4OGdLa2thM1Z0dXo1aEx6ajdFTk1vRG5WUFExTWdDR0oyZjc3eTBQUThKOHQ4Sjg5SUxJLVpId3JFZWlSbGc2ZjRTS2VBcGl4QlM3RW9PUlV2VWNEQmNrSTVuT1lwa0N1WkEwaWtyZmZUcmk?oc=5"
+       }
+      ]
+     }
+    ]
+   },
+   "home": {
+    "name": "Tennessee",
+    "rank": "#9",
+    "record": "8–2",
+    "ats": "ATS 6–4",
+    "sp": {
+     "overall": 11,
+     "offense": 23,
+     "defense": 6
+    },
+    "last": [
+     {
+      "result": "W 22–7",
+      "opponent": "at Texas A&M",
+      "opp_record": "(4–6, SP+ #44)"
+     },
+     {
+      "result": "W 34–6",
+      "opponent": "vs Kentucky",
+      "opp_record": "(7–3, SP+ #42)"
+     },
+     {
+      "result": "L 24–27",
+      "opponent": "at South Carolina",
+      "opp_record": "(6–4, SP+ #30)"
+     },
+     {
+      "result": "W 26–10",
+      "opponent": "vs Alabama",
+      "opp_record": "(8–2, SP+ #6)"
+     }
+    ],
+    "win_pct": 49,
+    "news": [
+     {
+      "text": "An updated Thursday night injury report has been released for the game between Tennessee and LSU.",
+      "sources": [
+       {
+        "title": "Tennessee Football vs. LSU's Updated Thursday Night Injury Report",
+        "source": "Sports Illustrated",
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNazZ1WTZNVVdDWjBCczlkUWhKMGYxdVppOXREY1RkS1VpUkxVVHNQdHBYSmRRYUw3bWlxWjVVRXFMVU1KWnh6akJ6ZFNPTkEtTXZPMnl4OGdLa2thM1Z0dXo1aEx6ajdFTk1vRG5WUFExTWdDR0oyZjc3eTBQUThKOHQ4Sjg5SUxJLVpId3JFZWlSbGc2ZjRTS2VBcGl4QlM3RW9PUlV2VWNEQmNrSTVuT1lwa0N1WkEwaWtyZmZUcmk?oc=5"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": 401856755,
+   "anchor": "game-401856755",
+   "start": "2026-11-21T20:30:00+00:00",
+   "day": "Saturday, Nov 21",
+   "time": "2:30 PM CT",
+   "kickoff": "Sat, Nov 21 · 2:30 PM CT",
+   "neutral": false,
+   "venue": "DKR-Texas Memorial Stadium, Austin, TX",
+   "final": null,
+   "spread": "Texas −20.5",
+   "line_source": "DraftKings",
+   "tossup": false,
+   "prob_source": "betting odds",
+   "weather": "72°F · Wind 8 mph · Rain or snow 2%",
+   "flags": [
+    "Texas: ranked #5 (CFP)"
+   ],
+   "away": {
+    "name": "Arkansas",
+    "rank": "",
+    "record": "4–6",
+    "ats": "ATS 5–5",
+    "sp": {
+     "overall": 76,
+     "offense": 81,
+     "defense": 73
+    },
+    "last": [
+     {
+      "result": "W 34–6",
+      "opponent": "vs South Carolina",
+      "opp_record": "(6–4, SP+ #30)"
+     },
+     {
+      "result": "L 23–26",
+      "opponent": "at Auburn",
+      "opp_record": "(6–4, SP+ #49)"
+     },
+     {
+      "result": "L 10–34",
+      "opponent": "vs Missouri",
+      "opp_record": "(6–4, SP+ #32)"
+     },
+     {
+      "result": "W 31–21",
+      "opponent": "at Vanderbilt",
+      "opp_record": "(4–6, SP+ #80)"
+     }
+    ],
+    "win_pct": 10,
+    "news": []
+   },
+   "home": {
+    "name": "Texas",
+    "rank": "#5",
+    "record": "8–2",
+    "ats": "ATS 5–5",
+    "sp": {
+     "overall": 8,
+     "offense": 22,
+     "defense": 5
+    },
+    "last": [
+     {
+      "result": "W 22–21",
+      "opponent": "at LSU",
+      "opp_record": "(6–4, SP+ #9)"
+     },
+     {
+      "result": "W 34–20",
+      "opponent": "at Missouri",
+      "opp_record": "(6–4, SP+ #32)"
+     },
+     {
+      "result": "W 31–3",
+      "opponent": "vs Mississippi State",
+      "opp_record": "(4–6, SP+ #71)"
+     },
+     {
+      "result": "W 34–27",
+      "opponent": "vs Ole Miss",
+      "opp_record": "(6–4, SP+ #24)"
+     }
+    ],
+    "win_pct": 90,
+    "news": [
+     {
+      "text": "Texas offensive guard Laurence Seymore was added to Thursday's player availability report with a new injury status.",
+      "sources": [
+       {
+        "title": "Laurence Seymore's New Injury Status Tests Texas O-Line Depth vs. Arkansas",
+        "source": "Sports Illustrated",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOS29JM0hwbUJTZjBqYkk3dG0yMDdwbzdKTHNQeU52LThrdmstR1RjckxPYXdkUDdLOHVFVmU4RDFaV2lZc2ZyNXlXTXREb3VqV3N0N1BTNEQzS29wc3NvanV2LXhuT1ZkVHM2ZlVwOUdGa3BPRElaX1pPYlhWQXlNbXYxR2V4VC05ZnNRQ180aDNJWlNWNktjS1BhVlNLMm51YWhlWW01d1VlaVRlVUlxTHdsTQ?oc=5"
+       },
+       {
+        "title": "Texas OG Laurence Seymore added to Thursday player availability report",
+        "source": "Burnt Orange Nation",
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPN0ZUV0dtQWJEY0FqTkRLbmZGSjNxdWpkRjBrUHRCdkx5R0JkRjlOSG5WWWxSdDZOZENKM0hHdTFjbksyZnltMkkxdk1pZFp4UzNKMEQ5LTlaQ2ptWHRIZ21RLXVVeFp1OG1vS3RPOHotWFdBNTZNSzRtYVhQTmtYZ3ZmLU9XeVFPWnp6NmlxaEJMOWljLXc4LWhNdEZxNGkwVy1icUdWdnlvUVIzcEt6OW43ZlNlOVNRMkE?oc=5"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": 401861968,
+   "anchor": "game-401861968",
+   "start": "2026-11-21T20:30:00+00:00",
+   "day": "Saturday, Nov 21",
+   "time": "2:30 PM CT",
+   "kickoff": "Sat, Nov 21 · 2:30 PM CT",
+   "neutral": false,
+   "venue": "Pratt & Whitney Stadium, East Hartford, CT",
+   "final": null,
+   "spread": "UConn −13.5",
+   "line_source": "DraftKings",
+   "tossup": false,
+   "prob_source": "betting odds",
+   "weather": "62°F · Wind 5 mph · Rain or snow 0%",
+   "flags": [
+    "Old Dominion: off a bye week",
+    "UConn: one win from bowl eligibility"
+   ],
+   "away": {
+    "name": "Old Dominion",
+    "rank": "",
+    "record": "3–7",
+    "ats": "ATS 2–8",
+    "sp": {
+     "overall": 124,
+     "offense": 133,
+     "defense": 81
+    },
+    "last": [
+     {
+      "result": "W 21–8",
+      "opponent": "at Coastal Carolina",
+      "opp_record": "(4–6, SP+ #101)"
+     },
+     {
+      "result": "L 23–36",
+      "opponent": "vs Marshall",
+      "opp_record": "(5–5, SP+ #116)"
+     },
+     {
+      "result": "L 0–26",
+      "opponent": "at Louisiana Tech",
+      "opp_record": "(8–2, SP+ #53)"
+     },
+     {
+      "result": "L 15–23",
+      "opponent": "vs Georgia Southern",
+      "opp_record": "(6–4, SP+ #62)"
+     }
+    ],
+    "win_pct": 18,
+    "news": []
+   },
+   "home": {
+    "name": "UConn",
+    "rank": "",
+    "record": "5–5",
+    "ats": "ATS 6–4",
+    "sp": {
+     "overall": 70,
+     "offense": 38,
+     "defense": 99
+    },
+    "last": [
+     {
+      "result": "W 46–22",
+      "opponent": "vs James Madison",
+      "opp_record": "(8–3, SP+ #35)"
+     },
+     {
+      "result": "L 21–38",
+      "opponent": "vs North Carolina",
+      "opp_record": "(5–5, SP+ #50)"
+     },
+     {
+      "result": "L 26–35",
+      "opponent": "at Air Force",
+      "opp_record": "(8–2, SP+ #65)"
+     },
+     {
+      "result": "W 35–16",
+      "opponent": "vs Massachusetts",
+      "opp_record": "(5–6, SP+ #109)"
+     }
+    ],
+    "win_pct": 82,
+    "news": []
+   }
+  },
+  {
+   "id": 401858535,
+   "anchor": "game-401858535",
+   "start": "2026-11-21T20:30:00+00:00",
+   "day": "Saturday, Nov 21",
+   "time": "2:30 PM CT",
+   "kickoff": "Sat, Nov 21 · 2:30 PM CT",
+   "neutral": false,
+   "venue": "Husky Stadium, Seattle, WA",
+   "final": null,
+   "spread": "Indiana −7.5",
+   "line_source": "DraftKings",
+   "tossup": false,
+   "prob_source": "betting odds",
+   "weather": "51°F · Wind 1 mph · Rain or snow 2%",
+   "flags": [
+    "Indiana: ranked #8 (CFP)"
+   ],
+   "away": {
+    "name": "Indiana",
+    "rank": "#8",
+    "record": "9–1",
+    "ats": "ATS 2–8",
+    "sp": {
+     "overall": 5,
+     "offense": 25,
+     "defense": 2
+    },
+    "last": [
+     {
+      "result": "W 27–13",
+      "opponent": "vs USC",
+      "opp_record": "(7–3, SP+ #21)"
+     },
+     {
+      "result": "W 23–16",
+      "opponent": "vs Minnesota",
+      "opp_record": "(5–5, SP+ #77)"
+     },
+     {
+      "result": "W 13–6",
+      "opponent": "at Michigan",
+      "opp_record": "(5–5, SP+ #43)"
+     },
+     {
+      "result": "L 15–19",
+      "opponent": "vs Ohio State",
+      "opp_record": "(7–3, SP+ #4)"
+     }
+    ],
+    "win_pct": 73,
+    "news": [
+     {
+      "text": "Coach Curt Cignetti discussed the team's quarterbacks and the need for improvement ahead of the Washington game.",
+      "sources": [
+       {
+        "title": "Curt Cignetti Talks Indiana's Quarterbacks, Need For Improvement Ahead Of Washington",
+        "source": "Sports Illustrated",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNdG53bGYzV2xoMm9wMndXbGM0ZWNZX1BEOVgwSFV1eFZ6bVRnTkdIWmRUX1VNbWNuTk5PMUtGYV8xVXRzV19PeFlFOG5qMk50eDhyMWtQT1QwMjMwQWhFdmZzTmxoNVdveXVvOExCUXJWaGNjdm15UHRSbTdOdWlnNzVMMlNhamhTMVZDSWpkZ3A1bjhOV0lrRGxzcjhvQ0MtWGQ2RGdObkpGUG9CTDctanQ1VHNmbzJ2dFRldzV4ekJPSk9Qd3c?oc=5"
+       }
+      ]
+     }
+    ]
+   },
+   "home": {
+    "name": "Washington",
+    "rank": "",
+    "record": "6–4",
+    "ats": "ATS 4–6",
+    "sp": {
+     "overall": 37,
+     "offense": 57,
+     "defense": 26
+    },
+    "last": [
+     {
+      "result": "W 21–14",
+      "opponent": "at Michigan State",
+      "opp_record": "(3–7, SP+ #86)"
+     },
+     {
+      "result": "L 25–28",
+      "opponent": "vs Penn State",
+      "opp_record": "(6–4, SP+ #27)"
+     },
+     {
+      "result": "W 17–10",
+      "opponent": "at Nebraska",
+      "opp_record": "(6–4, SP+ #18)"
+     },
+     {
+      "result": "W 38–26",
+      "opponent": "at Purdue",
+      "opp_record": "(3–7, SP+ #91)"
+     }
+    ],
+    "win_pct": 27,
+    "news": []
+   }
+  },
+  {
+   "id": 401856752,
+   "anchor": "game-401856752",
+   "start": "2026-11-21T20:45:00+00:00",
+   "day": "Saturday, Nov 21",
+   "time": "2:45 PM CT",
+   "kickoff": "Sat, Nov 21 · 2:45 PM CT",
+   "neutral": false,
+   "venue": "Memorial Stadium (Norman, OK), Norman, OK",
+   "final": null,
+   "spread": "Oklahoma −7.5",
+   "line_source": "DraftKings",
+   "tossup": false,
+   "prob_source": "betting odds",
+   "weather": "67°F · Wind 18 mph · Rain or snow 2%",
+   "flags": [
+    "Oklahoma: ranked #22 (CFP)"
+   ],
+   "away": {
+    "name": "Texas A&M",
+    "rank": "",
+    "record": "4–6",
+    "ats": "ATS 4–6",
+    "sp": {
+     "overall": 44,
+     "offense": 77,
+     "defense": 29
+    },
+    "last": [
+     {
+      "result": "L 7–22",
+      "opponent": "vs Tennessee",
+      "opp_record": "(8–2, SP+ #11)"
+     },
+     {
+      "result": "L 9–17",
+      "opponent": "at South Carolina",
+      "opp_record": "(6–4, SP+ #30)"
+     },
+     {
+      "result": "L 20–31",
+      "opponent": "at Alabama",
+      "opp_record": "(8–2, SP+ #6)"
+     },
+     {
+      "result": "W 41–0",
+      "opponent": "vs The Citadel",
+      "opp_record": "(3–8)"
+     }
+    ],
+    "win_pct": 29,
+    "news": [
+     {
+      "text": "Texas A&M defensive back Marcus Ratcliffe is a surprise addition to the injury report against Oklahoma.",
+      "sources": [
+       {
+        "title": "Texas A&M DB Marcus Ratcliffe Surprise Addition to Injury Report vs. Oklahoma",
+        "source": "Sports Illustrated",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPME91NzNuTjVEUDUwNDFpTTNxTjVUNkNlZjdDN0tlSTZJLV9QdDlpU0thUlZfODNnWnE3MWtZYjhOTzBZMGEzUElpX0ZBZGtLcHdqdGF1QzRORm03cVhsekN3NEVXZjJjRGVtMldfanRsZkszMGFsWmU0b0dJTEQ1aWNMMWV5Mjk1VGNvRVd1YTZCT2Zsc3NxT2Zpb3V2d29ZeTdwTkJSZmdkeU0xY0xnNV9wZw?oc=5"
+       }
+      ]
+     },
+     {
+      "text": "A Texas A&M five-star wide receiver has left the program and revealed transfer portal plans.",
+      "sources": [
+       {
+        "title": "Texas A&M 5-Star WR Leaves Program; Transfer Portal Plans Revealed",
+        "source": "Heavy.com",
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQOTlCNFE3Q0k0SzBycDJPLTBWcFZreENuWWdUTXBNeE91b21lWFJLMWdORlkyMTVyM1p4T1UxVDVsVTdoRzl1SlQwczlmem1Ia3diXzBRY0hDNk1ZLVFRU0ZSMFJweWwzdzNnVHFtZWMzYThVTF9rS1hkb0FkY1NnSTJiRVB2TFRxQXE4X3RzOUcwQzNzSEJzZmo5ek9mc3FjMTgyVnFmamxYcDJiV2U1WTRETWVKamw0QXBnR29QM2w?oc=5"
+       }
+      ]
+     }
+    ]
+   },
+   "home": {
+    "name": "Oklahoma",
+    "rank": "#22",
+    "record": "6–4",
+    "ats": "ATS 5–5",
+    "sp": {
+     "overall": 41,
+     "offense": 98,
+     "defense": 15
+    },
+    "last": [
+     {
+      "result": "W 24–17",
+      "opponent": "vs Ole Miss",
+      "opp_record": "(6–4, SP+ #24)"
+     },
+     {
+      "result": "W 23–7",
+      "opponent": "at Florida",
+      "opp_record": "(6–4, SP+ #47)"
+     },
+     {
+      "result": "L 25–42",
+      "opponent": "vs South Carolina",
+      "opp_record": "(6–4, SP+ #30)"
+     },
+     {
+      "result": "W 23–15",
+      "opponent": "at Mississippi State",
+      "opp_record": "(4–6, SP+ #71)"
+     }
+    ],
+    "win_pct": 71,
+    "news": [
+     {
+      "text": "Danny Okoye was upgraded to probable in Oklahoma's Thursday injury report for the Texas A&M game.",
+      "sources": [
+       {
+        "title": "Danny Okoye upgraded to probable in OU football's Thursday injury report for Texas A&M game",
+        "source": "Norman Transcript",
+        "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxQZEpVZENlcmxidjBpczhxWkhoLUJmbkVWeWJfQ2hBUU5xeko4eUN0aFVjUVNTZTktVnZKb0ZhckNIRTdvUUFXQzZreTBIaElHay1aNzlOTElUb21peGIyZHVJMkdZTHhLTzU2aF9JMHpBUEk4cWxDb1lnZjFlVWEyQ0lnS016Qld2cWdUVkFQODVzcmJoSW4xNG9wbl91eEVLUldfZk1FWU1vS05iNjBjazNrdkI1ejFqdURjZmhHTVpNSDVDeEVnUVBYNzJmZlhPeXBpWGVTUXRVV1I5cEF6ZlM4azNJQ19WNEZ2UjNiWXlUcXRQVHJIRHdBM2VhdkxtOHdTc2lrY1JFUlFxNUE?oc=5"
+       }
+      ]
+     },
+     {
+      "text": "Multiple Oklahoma players were upgraded ahead of the clash with Texas A&M.",
+      "sources": [
+       {
+        "title": "Multiple Oklahoma Players Upgraded Ahead of Clash With Texas A&M",
+        "source": "Sports Illustrated",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOVlNQczU1Wm5WVzY0REhOTUFnYnhoLWtVYmY2eklqR0NoeXlqSS1pVjR3ZnJpR0g1NWdIQ0t0V1E0ZFhmZXdVbjV3YlJZengxaTBEZWpmV0kwWllhMkVlZV9JRmtabDB3R05Eb01KcEtKQW5PdHlIN2VKNTgzNFBmcW1YRnBRSVY3c3U3b1EtOUR4eUYzRnFldWoxQUxjWW02NDg1RDZ3dG9ERllDenhpekN2dXpEMnJybEpmSTluSQ?oc=5"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": 401869958,
+   "anchor": "game-401869958",
+   "start": "2026-11-21T21:00:00+00:00",
+   "day": "Saturday, Nov 21",
+   "time": "3:00 PM CT",
+   "kickoff": "Sat, Nov 21 · 3:00 PM CT",
+   "neutral": false,
+   "venue": "Joan C. Edwards Stadium, Huntington, WV",
+   "final": null,
+   "spread": "Marshall −2.5",
+   "line_source": "DraftKings",
+   "tossup": true,
+   "prob_source": "betting odds",
+   "weather": "70°F · Wind 4 mph · Rain or snow 0%",
+   "flags": [
+    "Georgia State: one win from bowl eligibility",
+    "Marshall: one win from bowl eligibility"
+   ],
+   "away": {
+    "name": "Georgia State",
+    "rank": "",
+    "record": "5–5",
+    "ats": "ATS 6–4",
+    "sp": {
+     "overall": 104,
+     "offense": 78,
+     "defense": 122
+    },
+    "last": [
+     {
+      "result": "L 17–34",
+      "opponent": "vs Georgia Southern",
+      "opp_record": "(6–4, SP+ #62)"
+     },
+     {
+      "result": "W 39–23",
+      "opponent": "at App State",
+      "opp_record": "(6–4, SP+ #94)"
+     },
+     {
+      "result": "L 20–31",
+      "opponent": "vs Coastal Carolina",
+      "opp_record": "(4–6, SP+ #101)"
+     },
+     {
+      "result": "L 32–38",
+      "opponent": "at Arkansas State",
+      "opp_record": "(4–6, SP+ #100)"
+     }
+    ],
+    "win_pct": 45,
+    "news": []
+   },
+   "home": {
+    "name": "Marshall",
+    "rank": "",
+    "record": "5–5",
+    "ats": "ATS 3–7",
+    "sp": {
+     "overall": 116,
+     "offense": 99,
+     "defense": 119
+    },
+    "last": [
+     {
+      "result": "L 16–20",
+      "opponent": "vs App State",
+      "opp_record": "(6–4, SP+ #94)"
+     },
+     {
+      "result": "L 13–49",
+      "opponent": "at Georgia Southern",
+      "opp_record": "(6–4, SP+ #62)"
+     },
+     {
+      "result": "W 36–23",
+      "opponent": "at Old Dominion",
+      "opp_record": "(3–7, SP+ #124)"
+     },
+     {
+      "result": "W 20–13",
+      "opponent": "vs South Alabama",
+      "opp_record": "(5–5, SP+ #107)"
+     }
+    ],
+    "win_pct": 55,
+    "news": [
+     {
+      "text": "Marshall is evaluating whether staff changes will lead to an offensive rebound.",
+      "sources": [
+       {
+        "title": "Tyler's Talking Points: Will Herd staff changes lead to an offensive rebound?",
+        "source": "herald-dispatch.com",
+        "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxPM2xJWUNobWFVVEZkT29iU3dBZ0ZKLWhPR2k0NFZPaUQ0UzI4RFFrTFpjV3BuYnA4VGlxYTF2VFI4WGtiT1pWWGRYWlZKZldqV09ncXlLT1VmTUtaQ0dHSWxlcUpMbWgxSmlqQ2xCM295VXZORWlOVzlHX3ZlMWxCMGMwM3AzMTlCTms0RWx3dzFLQWx2MmpaN281UFZLS3BrRnNWNW5FUmIxLUtWV2JHNkpYUnZLWUIxNm01WDU2aTgtRFpHU3BDRGNKSk92WVpPOEFBeTdoQl9OcEo0Tjhla1BZTS1oYXpTT2FjNzYzQmdFN3ZtLTZTQUxoTUh5RWRFSmltRzlUdTNzSjA?oc=5"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": 401864543,
+   "anchor": "game-401864543",
+   "start": "2026-11-21T21:00:00+00:00",
+   "day": "Saturday, Nov 21",
+   "time": "3:00 PM CT",
+   "kickoff": "Sat, Nov 21 · 3:00 PM CT",
+   "neutral": false,
+   "venue": "Fargodome, Fargo, ND",
+   "final": null,
+   "spread": "North Dakota State −25.5",
+   "line_source": "DraftKings",
+   "tossup": false,
+   "prob_source": "betting odds",
+   "weather": "Indoors (dome): weather not a factor",
+   "flags": [],
+   "away": {
+    "name": "Northern Illinois",
+    "rank": "",
+    "record": "0–10",
+    "ats": "ATS 3–7",
+    "sp": {
+     "overall": 138,
+     "offense": 134,
+     "defense": 137
+    },
+    "last": [
+     {
+      "result": "L 7–28",
+      "opponent": "vs Nevada",
+      "opp_record": "(4–6, SP+ #92)"
+     },
+     {
+      "result": "L 19–30",
+      "opponent": "at San José State",
+      "opp_record": "(5–6, SP+ #118)"
+     },
+     {
+      "result": "L 24–31",
+      "opponent": "at UNLV",
+      "opp_record": "(6–4, SP+ #84)"
+     },
+     {
+      "result": "L 21–56",
+      "opponent": "vs Hawai'i",
+      "opp_record": "(3–7, SP+ #109)"
+     }
+    ],
+    "win_pct": 6,
+    "news": []
+   },
+   "home": {
+    "name": "North Dakota State",
+    "rank": "",
+    "record": "8–2",
+    "ats": "ATS 4–6",
+    "sp": {
+     "overall": 31,
+     "offense": 81,
+     "defense": 13
+    },
+    "last": [
+     {
+      "result": "W 21–13",
+      "opponent": "at Hawai'i",
+      "opp_record": "(3–7, SP+ #109)"
+     },
+     {
+      "result": "W 31–7",
+      "opponent": "vs UTEP",
+      "opp_record": "(1–9, SP+ #135)"
+     },
+     {
+      "result": "L 16–21",
+      "opponent": "at New Mexico",
+      "opp_record": "(8–2, SP+ #23)"
+     },
+     {
+      "result": "W 31–17",
+      "opponent": "vs Nevada",
+      "opp_record": "(4–6, SP+ #92)"
+     }
+    ],
+    "win_pct": 94,
+    "news": []
+   }
+  },
+  {
+   "id": 401871101,
+   "anchor": "game-401871101",
+   "start": "2026-11-21T21:00:00+00:00",
+   "day": "Saturday, Nov 21",
+   "time": "3:00 PM CT",
+   "kickoff": "Sat, Nov 21 · 3:00 PM CT",
+   "neutral": false,
+   "venue": "M. M. Roberts Stadium, Hattiesburg, MS",
+   "final": null,
+   "spread": "South Alabama −3.5",
+   "line_source": "DraftKings",
+   "tossup": false,
+   "prob_source": "betting odds",
+   "weather": "73°F · Wind 7 mph · Rain or snow 1%",
+   "flags": [
+    "South Alabama: one win from bowl eligibility"
+   ],
+   "away": {
+    "name": "South Alabama",
+    "rank": "",
+    "record": "5–5",
+    "ats": "ATS 6–4",
+    "sp": {
+     "overall": 107,
+     "offense": 71,
+     "defense": 129
+    },
+    "last": [
+     {
+      "result": "W 27–14",
+      "opponent": "vs Troy",
+      "opp_record": "(4–6, SP+ #123)"
+     },
+     {
+      "result": "L 26–28",
+      "opponent": "at Louisiana",
+      "opp_record": "(7–3, SP+ #54)"
+     },
+     {
+      "result": "L 20–35",
+      "opponent": "vs Louisiana Tech",
+      "opp_record": "(8–2, SP+ #53)"
+     },
+     {
+      "result": "L 13–20",
+      "opponent": "at Marshall",
+      "opp_record": "(5–5, SP+ #116)"
+     }
+    ],
+    "win_pct": 62,
+    "news": []
+   },
+   "home": {
+    "name": "Southern Miss",
+    "rank": "",
+    "record": "3–7",
+    "ats": "ATS 4–6",
+    "sp": {
+     "overall": 128,
+     "offense": 105,
+     "defense": 132
+    },
+    "last": [
+     {
+      "result": "L 31–63",
+      "opponent": "at Louisiana Tech",
+      "opp_record": "(8–2, SP+ #53)"
+     },
+     {
+      "result": "L 23–54",
+      "opponent": "vs James Madison",
+      "opp_record": "(8–3, SP+ #35)"
+     },
+     {
+      "result": "W 35–21",
+      "opponent": "at UL Monroe",
+      "opp_record": "(2–8, SP+ #133)"
+     },
+     {
+      "result": "W 35–31",
+      "opponent": "vs Louisiana",
+      "opp_record": "(7–3, SP+ #54)"
+     }
+    ],
+    "win_pct": 38,
+    "news": []
+   }
+  },
+  {
+   "id": 401869953,
+   "anchor": "game-401869953",
+   "start": "2026-11-21T21:00:00+00:00",
+   "day": "Saturday, Nov 21",
+   "time": "3:00 PM CT",
+   "kickoff": "Sat, Nov 21 · 3:00 PM CT",
+   "neutral": false,
+   "venue": "Veterans Memorial Stadium (AL), Troy, AL",
+   "final": null,
+   "spread": "Georgia Southern −9.5",
+   "line_source": "DraftKings",
+   "tossup": false,
+   "prob_source": "betting odds",
+   "weather": "63°F · Wind 8 mph · Rain or snow 16%",
+   "flags": [],
+   "away": {
+    "name": "Georgia Southern",
+    "rank": "",
+    "record": "6–4",
+    "ats": "ATS 9–1",
+    "sp": {
+     "overall": 62,
+     "offense": 64,
+     "defense": 54
+    },
+    "last": [
+     {
+      "result": "W 34–17",
+      "opponent": "at Georgia State",
+      "opp_record": "(5–5, SP+ #104)"
+     },
+     {
+      "result": "W 49–13",
+      "opponent": "vs Marshall",
+      "opp_record": "(5–5, SP+ #116)"
+     },
+     {
+      "result": "W 19–3",
+      "opponent": "vs App State",
+      "opp_record": "(6–4, SP+ #94)"
+     },
+     {
+      "result": "W 23–15",
+      "opponent": "at Old Dominion",
+      "opp_record": "(3–7, SP+ #124)"
+     }
+    ],
+    "win_pct": 75,
+    "news": []
+   },
+   "home": {
+    "name": "Troy",
+    "rank": "",
+    "record": "4–6",
+    "ats": "ATS 3–7",
+    "sp": {
+     "overall": 123,
+     "offense": 125,
+     "defense": 97
+    },
+    "last": [
+     {
+      "result": "L 14–27",
+      "opponent": "at South Alabama",
+      "opp_record": "(5–5, SP+ #107)"
+     },
+     {
+      "result": "L 17–41",
+      "opponent": "vs Louisiana Tech",
+      "opp_record": "(8–2, SP+ #53)"
+     },
+     {
+      "result": "W 24–21",
+      "opponent": "at James Madison",
+      "opp_record": "(8–3, SP+ #35)"
+     },
+     {
+      "result": "L 14–21",
+      "opponent": "vs UL Monroe",
+      "opp_record": "(2–8, SP+ #133)"
+     }
+    ],
+    "win_pct": 25,
+    "news": []
+   }
+  },
+  {
+   "id": 401860920,
+   "anchor": "game-401860920",
+   "start": "2026-11-21T23:00:00+00:00",
+   "day": "Saturday, Nov 21",
+   "time": "5:00 PM CT",
+   "kickoff": "Sat, Nov 21 · 5:00 PM CT",
+   "neutral": false,
+   "venue": "Bobcat Stadium (TX), San Marcos, TX",
+   "final": null,
+   "spread": "Texas State −13.5",
+   "line_source": "DraftKings",
+   "tossup": false,
+   "prob_source": "betting odds",
+   "weather": "68°F · Wind 4 mph · Rain or snow 2%",
+   "flags": [],
+   "away": {
+    "name": "Washington State",
+    "rank": "",
+    "record": "2–8",
+    "ats": "ATS 6–4",
+    "sp": {
+     "overall": 111,
+     "offense": 117,
+     "defense": 91
+    },
+    "last": [
+     {
+      "result": "W 73–7",
+      "opponent": "vs Colorado State",
+      "opp_record": "(3–7, SP+ #120)"
+     },
+     {
+      "result": "L 20–26",
+      "opponent": "at San Diego State",
+      "opp_record": "(5–5, SP+ #96)"
+     },
+     {
+      "result": "L 10–31",
+      "opponent": "vs Boise State",
+      "opp_record": "(9–1, SP+ #22)"
+     },
+     {
+      "result": "L 30–48",
+      "opponent": "at Oregon State",
+      "opp_record": "(5–5, SP+ #58)"
+     }
+    ],
+    "win_pct": 19,
+    "news": [
+     {
+      "text": "Kirby Moore made an intriguing position change for a Washington State freshman.",
+      "sources": [
+       {
+        "title": "Kirby Moore makes intriguing position change for Washington State freshman",
+        "source": "Sports Illustrated",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxONGMwZmxWX0FDa0VFZmJLc1VIYzQ4OVRnbnMyUVhZTEhCSlFRQUUyYnMzYUgxdzI1U2Y1VmRubThGbFNNelZMRkpIdmEwMm1QUXNDYTNQLWJ3dzV5MXFER0JVclIwWE5rMEFGWEk0blpPNTJMWnFacUVTdXBCQnFnZHByTWh0VEphMFJQQ2FUN3JoLTVzNW1FZnd4d1RLUWtRTV8xUEZFR3QzenEtdGdZcFN3eTZaY2tjQlg0UjJrSVBkdWdqbVE?oc=5"
+       }
+      ]
+     },
+     {
+      "text": "Kirby Moore hinted at changes to Washington State's rushing attack.",
+      "sources": [
+       {
+        "title": "Kirby Moore hints at changes to Washington State's rushing attack after record-setting performance",
+        "source": "Yahoo Sports",
+        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQMlA2bnU4WWhGcjF3eTk3TEx5YkFpcGRKSGR4WlEyVUxCQzloSjMxeHpiVXlQTHRENWpCQmcyV2hWYnRyLUdCaGhpZGczbFVGV2l3WlF3SFNXY0dNWU14a01MRGt2QllaWnhjcWtrd0lhZjhpVFpJc2lRNDFwa0ViSUgxcHFJOGdha0xrWmVR?oc=5"
+       }
+      ]
+     }
+    ]
+   },
+   "home": {
+    "name": "Texas State",
+    "rank": "",
+    "record": "6–4",
+    "ats": "ATS 5–5",
+    "sp": {
+     "overall": 46,
+     "offense": 11,
+     "defense": 101
+    },
+    "last": [
+     {
+      "result": "W 37–35",
+      "opponent": "vs Fresno State",
+      "opp_record": "(5–5, SP+ #56)"
+     },
+     {
+      "result": "W 42–21",
+      "opponent": "at Oregon State",
+      "opp_record": "(5–5, SP+ #58)"
+     },
+     {
+      "result": "L 45–46",
+      "opponent": "at Boise State",
+      "opp_record": "(9–1, SP+ #22)"
+     },
+     {
+      "result": "W 20–17",
+      "opponent": "vs Utah State",
+      "opp_record": "(4–6, SP+ #98)"
+     }
+    ],
+    "win_pct": 81,
+    "news": [
+     {
+      "text": "Texas State quarterback Brad Jackson faces a key transfer decision.",
+      "sources": [
+       {
+        "title": "Texas State, QB Brad Jackson Face Key Transfer Decision",
+        "source": "Yahoo Sports",
+        "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOaTlZSDNsMjl1TmxfQV9XcUtqVWZjd3ZBLUpFalhEQ1ROTXQ2NTVXaFNLelZGUmJ6Wnc2NnJac001ai12dmZOU01jRmdURWdGUVdiSHFnaDNJbHBkZDItVWkxYnlDUzFpV0k1VkhqZHhqY1B6eHlWLXNOUzNLZUNwaVdn?oc=5"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": 401858534,
+   "anchor": "game-401858534",
+   "start": "2026-11-21T23:15:00+00:00",
+   "day": "Saturday, Nov 21",
+   "time": "5:15 PM CT",
+   "kickoff": "Sat, Nov 21 · 5:15 PM CT",
+   "neutral": false,
+   "venue": "Los Angeles Memorial Coliseum, Los Angeles, CA",
+   "final": null,
+   "spread": "USC −17.5",
+   "line_source": "DraftKings",
+   "tossup": false,
+   "prob_source": "betting odds",
+   "weather": "68°F · Wind 2 mph · Rain or snow 0%",
+   "flags": [
+    "USC: ranked #18 (CFP)"
+   ],
+   "away": {
+    "name": "Maryland",
+    "rank": "",
+    "record": "4–6",
+    "ats": "ATS 5–4–1",
+    "sp": {
+     "overall": 75,
+     "offense": 71,
+     "defense": 81
+    },
+    "last": [
+     {
+      "result": "W 24–21",
+      "opponent": "vs Wisconsin",
+      "opp_record": "(6–4, SP+ #39)"
+     },
+     {
+      "result": "W 34–29",
+      "opponent": "at Purdue",
+      "opp_record": "(3–7, SP+ #91)"
+     },
+     {
+      "result": "L 17–20",
+      "opponent": "vs Illinois",
+      "opp_record": "(6–4, SP+ #44)"
+     },
+     {
+      "result": "L 30–37",
+      "opponent": "vs Rutgers",
+      "opp_record": "(2–8, SP+ #114)"
+     }
+    ],
+    "win_pct": 13,
+    "news": []
+   },
+   "home": {
+    "name": "USC",
+    "rank": "#18",
+    "record": "7–3",
+    "ats": "ATS 3–7",
+    "sp": {
+     "overall": 21,
+     "offense": 18,
+     "defense": 35
+    },
+    "last": [
+     {
+      "result": "L 13–27",
+      "opponent": "at Indiana",
+      "opp_record": "(9–1, SP+ #5)"
+     },
+     {
+      "result": "W 30–18",
+      "opponent": "vs Ohio State",
+      "opp_record": "(7–3, SP+ #4)"
+     },
+     {
+      "result": "L 7–24",
+      "opponent": "at Wisconsin",
+      "opp_record": "(6–4, SP+ #39)"
+     },
+     {
+      "result": "W 31–23",
+      "opponent": "at Penn State",
+      "opp_record": "(6–4, SP+ #27)"
+     }
+    ],
+    "win_pct": 87,
+    "news": [
+     {
+      "text": "USC released an injury report prior to playing Maryland.",
+      "sources": [
+       {
+        "title": "USC Trojans Injury Report Before Maryland Sees Key Changes",
+        "source": "Sports Illustrated",
+        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxORTkwVnY2MzlEcFdDZVJhOTBCV0VWbENwT0R3TmJ5VTJDQXg4eTNsUUJjNXFFa1U5N05MMHk4NE1zLU5waG9rOHFDenRUdy1id29NQW9WU2VNVC1wVURzdEhGMlVnNF8xOXBRaExvOEpPS3RBNGZWSHdEWnVGcnlDTmxBMW80bkJQYTlMeGttS0lCUzBMLTM5Szd1aUZvWVU?oc=5"
+       }
+      ]
+     },
+     {
+      "text": "Lincoln Riley stated that USC is pushing quarterback Jayden Maiava to utilize a key skill more.",
+      "sources": [
+       {
+        "title": "Lincoln Riley Names Key Skill That USC is Pushing Jayden Maiava To Utilize More",
+        "source": "Sports Illustrated",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxORUREY3VieTlTbDNtRXZxZlQwWjhtQkNzZzZLWl9nNU5nMHZIWHE5WUgtbWIycWlhVDFJeGdiUFA1eWwyeE5jaXFZM1hoNkRrUF94elk4a25HWG1VMXp5ZTlLd3VVYU1vNkhoZzh2bEdBaWlOUkl1RTIyc01aVHV3NE5NMWd1RHdrNVJJa1ZGQlc5YVZFd2ZmMEJfWnpwQW5UdE9WR1lMaDhsbk1WZ0R3T2RYZVMweGM?oc=5"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": 401856865,
+   "anchor": "game-401856865",
+   "start": "2026-11-22T00:00:00+00:00",
+   "day": "Saturday, Nov 21",
+   "time": "6:00 PM CT",
+   "kickoff": "Sat, Nov 21 · 6:00 PM CT",
+   "neutral": false,
+   "venue": "Bill Snyder Family Stadium, Manhattan, KS",
+   "final": null,
+   "spread": "Arizona −7.5",
+   "line_source": "DraftKings",
+   "tossup": false,
+   "prob_source": "betting odds",
+   "weather": "57°F · Wind 3 mph · Rain 69%",
+   "flags": [
+    "Arizona: ranked #19 (CFP)"
+   ],
+   "away": {
+    "name": "Arizona",
+    "rank": "#19",
+    "record": "7–3",
+    "ats": "ATS 4–6",
+    "sp": {
+     "overall": 20,
+     "offense": 12,
+     "defense": 38
+    },
+    "last": [
+     {
+      "result": "L 39–40",
+      "opponent": "vs Utah",
+      "opp_record": "(10–0, SP+ #10)"
+     },
+     {
+      "result": "W 29–28",
+      "opponent": "vs TCU",
+      "opp_record": "(5–5, SP+ #40)"
+     },
+     {
+      "result": "L 26–34",
+      "opponent": "at Texas Tech",
+      "opp_record": "(9–1, SP+ #13)"
+     },
+     {
+      "result": "W 39–3",
+      "opponent": "vs Iowa State",
+      "opp_record": "(5–5, SP+ #74)"
+     }
+    ],
+    "win_pct": 71,
+    "news": []
+   },
+   "home": {
+    "name": "Kansas State",
+    "rank": "",
+    "record": "4–6",
+    "ats": "ATS 4–5–1",
+    "sp": {
+     "overall": 52,
+     "offense": 48,
+     "defense": 63
+    },
+    "last": [
+     {
+      "result": "L 10–20",
+      "opponent": "at TCU",
+      "opp_record": "(5–5, SP+ #40)"
+     },
+     {
+      "result": "L 28–66",
+      "opponent": "vs Oklahoma State",
+      "opp_record": "(6–4, SP+ #25)"
+     },
+     {
+      "result": "L 24–27",
+      "opponent": "at Colorado",
+      "opp_record": "(4–6, SP+ #93)"
+     },
+     {
+      "result": "L 17–28",
+      "opponent": "at Arizona State",
+      "opp_record": "(6–4, SP+ #62)"
+     }
+    ],
+    "win_pct": 29,
+    "news": []
+   }
+  },
+  {
+   "id": 401869938,
+   "anchor": "game-401869938",
+   "start": "2026-11-22T00:00:00+00:00",
+   "day": "Saturday, Nov 21",
+   "time": "6:00 PM CT",
+   "kickoff": "Sat, Nov 21 · 6:00 PM CT",
+   "neutral": false,
+   "venue": "Joe Aillet Stadium, Ruston, LA",
+   "final": null,
+   "spread": "Louisiana Tech −14",
+   "line_source": "DraftKings",
+   "tossup": false,
+   "prob_source": "betting odds",
+   "weather": "68°F · Wind 6 mph · Rain or snow 1%",
+   "flags": [],
+   "away": {
+    "name": "Arkansas State",
+    "rank": "",
+    "record": "4–6",
+    "ats": "ATS 4–6",
+    "sp": {
+     "overall": 100,
+     "offense": 83,
+     "defense": 106
+    },
+    "last": [
+     {
+      "result": "L 21–28",
+      "opponent": "at Coastal Carolina",
+      "opp_record": "(4–6, SP+ #101)"
+     },
+     {
+      "result": "L 17–19",
+      "opponent": "vs UL Monroe",
+      "opp_record": "(2–8, SP+ #133)"
+     },
+     {
+      "result": "W 38–32",
+      "opponent": "vs Georgia State",
+      "opp_record": "(5–5, SP+ #104)"
+     },
+     {
+      "result": "W 23–13",
+      "opponent": "at Southern Miss",
+      "opp_record": "(3–7, SP+ #128)"
+     }
+    ],
+    "win_pct": 18,
+    "news": [
+     {
+      "text": "Arkansas State fired head coach Butch Jones.",
+      "sources": [
+       {
+        "title": "Who told Butch Jones he was fired? Arkansas State isn’t trying to hide their Hugh Freeze desire, per source",
+        "source": "A to Z Sports",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPd0dNUXVmS3hYRVMwWWtqTURQMmNPQ09Vc3pYX3VablE4X3pHVVJsa25pN0JjNlRGVFM3VVozOEFSYl85TmhPRExsYk5GZC1uTzFCVmlGZ2tZdTltYVhUTjFfMkg3S29vZmttNW9zLU51OXduSkg3d1RoWndDNjBqc3F0MThVcDdaX0lEWEhRWmo4UXcta05IZHdJbjBhbTFOZGxTcGFHLWdURWZWeThfS250MGtxTjBkWnN1MGRqeUFRaThD?oc=5"
+       },
+       {
+        "title": "17-Year College Football Head Coach Fired In Shocking Turn Of Events (Breaking News)",
+        "source": "Gridiron Heroics",
+        "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5pT0tsNXptNHZfTzJOMFRwM2ROUlZOUEZFUlRBbllGZXlZQkV0NFFzb1JpOFZBbjFsaW1SLUREdGVNUE9NTm9FS0E0dGgzWGljMnQ2a0NFbmp0cVlJU3dNYTVnX1VPczJtcWtkaTdmRkthcjhucUNxdE9IMkc?oc=5"
+       }
+      ]
+     }
+    ]
+   },
+   "home": {
+    "name": "Louisiana Tech",
+    "rank": "",
+    "record": "8–2",
+    "ats": "ATS 9–1",
+    "sp": {
+     "overall": 53,
+     "offense": 48,
+     "defense": 59
+    },
+    "last": [
+     {
+      "result": "W 63–31",
+      "opponent": "vs Southern Miss",
+      "opp_record": "(3–7, SP+ #128)"
+     },
+     {
+      "result": "W 41–17",
+      "opponent": "at Troy",
+      "opp_record": "(4–6, SP+ #123)"
+     },
+     {
+      "result": "W 35–20",
+      "opponent": "at South Alabama",
+      "opp_record": "(5–5, SP+ #107)"
+     },
+     {
+      "result": "W 26–0",
+      "opponent": "vs Old Dominion",
+      "opp_record": "(3–7, SP+ #124)"
+     }
+    ],
+    "win_pct": 82,
+    "news": []
+   }
+  },
+  {
+   "id": 401858302,
+   "anchor": "game-401858302",
+   "start": "2026-11-22T00:00:00+00:00",
+   "day": "Saturday, Nov 21",
+   "time": "6:00 PM CT",
+   "kickoff": "Sat, Nov 21 · 6:00 PM CT",
+   "neutral": false,
+   "venue": "Hard Rock Stadium, Miami Gardens, FL",
+   "final": null,
+   "spread": "Miami −20.5",
+   "line_source": "DraftKings",
+   "tossup": false,
+   "prob_source": "betting odds",
+   "weather": "73°F · Wind 5 mph · Rain 25%",
+   "flags": [
+    "Miami: ranked #7 (CFP)"
+   ],
+   "away": {
+    "name": "Virginia Tech",
+    "rank": "",
+    "record": "6–4",
+    "ats": "ATS 5–5",
+    "sp": {
+     "overall": 59,
+     "offense": 44,
+     "defense": 69
+    },
+    "last": [
+     {
+      "result": "L 22–40",
+      "opponent": "vs Stanford",
+      "opp_record": "(5–5, SP+ #106)"
+     },
+     {
+      "result": "L 28–51",
+      "opponent": "at SMU",
+      "opp_record": "(7–3, SP+ #28)"
+     },
+     {
+      "result": "W 20–16",
+      "opponent": "at Clemson",
+      "opp_record": "(6–4, SP+ #68)"
+     },
+     {
+      "result": "W 34–24",
+      "opponent": "vs Georgia Tech",
+      "opp_record": "(3–7, SP+ #97)"
+     }
+    ],
+    "win_pct": 9,
+    "news": []
+   },
+   "home": {
+    "name": "Miami",
+    "rank": "#7",
+    "record": "9–1",
+    "ats": "ATS 6–4",
+    "sp": {
+     "overall": 3,
+     "offense": 1,
+     "defense": 26
+    },
+    "last": [
+     {
+      "result": "W 36–25",
+      "opponent": "vs Duke",
+      "opp_record": "(7–3, SP+ #28)"
+     },
+     {
+      "result": "L 24–31",
+      "opponent": "at Notre Dame",
+      "opp_record": "(9–1, SP+ #2)"
+     },
+     {
+      "result": "W 38–35",
+      "opponent": "at North Carolina",
+      "opp_record": "(5–5, SP+ #50)"
+     },
+     {
+      "result": "W 52–23",
+      "opponent": "vs Pittsburgh",
+      "opp_record": "(6–4, SP+ #38)"
+     }
+    ],
+    "win_pct": 91,
+    "news": [
+     {
+      "text": "Miami shared news regarding Malachi Toney before the Virginia Tech game.",
+      "sources": [
+       {
+        "title": "Miami Shares Malachi Toney News Before Virginia Tech Game",
+        "source": "Yahoo Sports",
+        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOUWx0NmhIY2hlLTAxNWUwaTNqSFZuSFZGMmRQMXJmNEp2Wk1PTl9TR3JPZWJNOHRiQ0hIODFBeEFTZTFpSVBfWGNJSDZpU2IyM3BoWElvUXB1WnJraU5oQnhHNDJjcGplZkM5UTBmN2xuOHRSenJORi1EMEpJZV8yX2xsbUtpNzg?oc=5"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": 401864544,
+   "anchor": "game-401864544",
+   "start": "2026-11-22T00:00:00+00:00",
+   "day": "Saturday, Nov 21",
+   "time": "6:00 PM CT",
+   "kickoff": "Sat, Nov 21 · 6:00 PM CT",
+   "neutral": false,
+   "venue": "CEFCU Stadium, San Jose, CA",
+   "final": null,
+   "spread": "UNLV −6.5",
+   "line_source": "DraftKings",
+   "tossup": false,
+   "prob_source": "betting odds",
+   "weather": "53°F · Wind 5 mph · Rain or snow 8%",
+   "flags": [
+    "San José State: one win from bowl eligibility"
+   ],
+   "away": {
+    "name": "UNLV",
+    "rank": "",
+    "record": "6–4",
+    "ats": "ATS 5–5",
+    "sp": {
+     "overall": 84,
+     "offense": 80,
+     "defense": 88
+    },
+    "last": [
+     {
+      "result": "W 21–17",
+      "opponent": "at New Mexico",
+      "opp_record": "(8–2, SP+ #23)"
+     },
+     {
+      "result": "L 35–41",
+      "opponent": "vs Wyoming",
+      "opp_record": "(7–3, SP+ #90)"
+     },
+     {
+      "result": "W 31–24",
+      "opponent": "vs Northern Illinois",
+      "opp_record": "(0–10, SP+ #138)"
+     },
+     {
+      "result": "L 31–41",
+      "opponent": "at Air Force",
+      "opp_record": "(8–2, SP+ #65)"
+     }
+    ],
+    "win_pct": 68,
+    "news": []
+   },
+   "home": {
+    "name": "San José State",
+    "rank": "",
+    "record": "5–6",
+    "ats": "ATS 5–6",
+    "sp": {
+     "overall": 118,
+     "offense": 131,
+     "defense": 67
+    },
+    "last": [
+     {
+      "result": "L 3–24",
+      "opponent": "at Air Force",
+      "opp_record": "(8–2, SP+ #65)"
+     },
+     {
+      "result": "W 30–19",
+      "opponent": "vs Northern Illinois",
+      "opp_record": "(0–10, SP+ #138)"
+     },
+     {
+      "result": "L 16–21",
+      "opponent": "vs New Mexico",
+      "opp_record": "(8–2, SP+ #23)"
+     },
+     {
+      "result": "L 13–28",
+      "opponent": "at Nevada",
+      "opp_record": "(4–6, SP+ #92)"
+     }
+    ],
+    "win_pct": 32,
+    "news": [
+     {
+      "text": "San Jose State can count on Clark to help their offense keep moving.",
+      "sources": [
+       {
+        "title": "San Jose State Spartans can count on Clark to help offense keep moving",
+        "source": "The Mercury News",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQRXVJRm5zV3RnZTlxZHFHYUczRl9pT240RXpWcUl1RWJxT3d1bFM1TWN2YnpieXNMaE5GLS1oUG50RDhZNTVTOUlvZVh0cU1GTElPUEJvOWx5NGJyTWhfdndVYmdvQk8wWHFHeGVyZXhQUVpNSnRjbTBUM1BrRHFmZW5hODRVX3B6U2hmckpnczlvY2xSWEJiYWMxNkMxT3NVNjNOb3pGTTVmTVVfdlBzcTlB?oc=5"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": 401858308,
+   "anchor": "game-401858308",
+   "start": "2026-11-22T00:30:00+00:00",
+   "day": "Saturday, Nov 21",
+   "time": "6:30 PM CT",
+   "kickoff": "Sat, Nov 21 · 6:30 PM CT",
+   "neutral": false,
+   "venue": "California Memorial Stadium, Berkeley, CA",
+   "final": null,
+   "spread": "Stanford −2.5",
+   "line_source": "DraftKings",
+   "tossup": true,
+   "prob_source": "betting odds",
+   "weather": "51°F · Wind 9 mph · Rain 34%",
+   "flags": [
+    "Stanford: one win from bowl eligibility"
+   ],
+   "away": {
+    "name": "Stanford",
+    "rank": "",
+    "record": "5–5",
+    "ats": "ATS 4–6",
+    "sp": {
+     "overall": 106,
+     "offense": 94,
+     "defense": 112
+    },
+    "last": [
+     {
+      "result": "W 40–22",
+      "opponent": "at Virginia Tech",
+      "opp_record": "(6–4, SP+ #59)"
+     },
+     {
+      "result": "L 24–52",
+      "opponent": "at Louisville",
+      "opp_record": "(7–3, SP+ #17)"
+     },
+     {
+      "result": "W 31–28",
+      "opponent": "vs NC State",
+      "opp_record": "(4–6, SP+ #78)"
+     },
+     {
+      "result": "W 34–7",
+      "opponent": "vs Elon",
+      "opp_record": "(6–5)"
+     }
+    ],
+    "win_pct": 54,
+    "news": []
+   },
+   "home": {
+    "name": "California",
+    "rank": "",
+    "record": "3–7",
+    "ats": "ATS 2–8",
+    "sp": {
+     "overall": 119,
+     "offense": 114,
+     "defense": 107
+    },
+    "last": [
+     {
+      "result": "L 7–36",
+      "opponent": "at Virginia",
+      "opp_record": "(5–5, SP+ #56)"
+     },
+     {
+      "result": "L 10–31",
+      "opponent": "at NC State",
+      "opp_record": "(4–6, SP+ #78)"
+     },
+     {
+      "result": "L 20–59",
+      "opponent": "at SMU",
+      "opp_record": "(7–3, SP+ #28)"
+     },
+     {
+      "result": "L 7–41",
+      "opponent": "vs Wake Forest",
+      "opp_record": "(9–1, SP+ #7)"
+     }
+    ],
+    "win_pct": 46,
+    "news": []
+   }
+  },
+  {
+   "id": 401860918,
+   "anchor": "game-401860918",
+   "start": "2026-11-22T00:30:00+00:00",
+   "day": "Saturday, Nov 21",
+   "time": "6:30 PM CT",
+   "kickoff": "Sat, Nov 21 · 6:30 PM CT",
+   "neutral": false,
+   "venue": "Valley Children's Stadium, Fresno, CA",
+   "final": null,
+   "spread": "Fresno State −19.5",
+   "line_source": "DraftKings",
+   "tossup": false,
+   "prob_source": "betting odds",
+   "weather": "55°F · Wind 0 mph · Rain or snow 0%",
+   "flags": [
+    "Fresno State: one win from bowl eligibility"
+   ],
+   "away": {
+    "name": "Colorado State",
+    "rank": "",
+    "record": "3–7",
+    "ats": "ATS 4–6",
+    "sp": {
+     "overall": 120,
+     "offense": 55,
+     "defense": 138
+    },
+    "last": [
+     {
+      "result": "L 7–73",
+      "opponent": "at Washington State",
+      "opp_record": "(2–8, SP+ #111)"
+     },
+     {
+      "result": "L 38–64",
+      "opponent": "vs Boise State",
+      "opp_record": "(9–1, SP+ #22)"
+     },
+     {
+      "result": "L 14–31",
+      "opponent": "at Utah State",
+      "opp_record": "(4–6, SP+ #98)"
+     },
+     {
+      "result": "W 56–49",
+      "opponent": "vs San Diego State",
+      "opp_record": "(5–5, SP+ #96)"
+     }
+    ],
+    "win_pct": 10,
+    "news": []
+   },
+   "home": {
+    "name": "Fresno State",
+    "rank": "",
+    "record": "5–5",
+    "ats": "ATS 7–3",
+    "sp": {
+     "overall": 56,
+     "offense": 59,
+     "defense": 58
+    },
+    "last": [
+     {
+      "result": "L 35–37",
+      "opponent": "at Texas State",
+      "opp_record": "(6–4, SP+ #46)"
+     },
+     {
+      "result": "L 10–17",
+      "opponent": "at Utah State",
+      "opp_record": "(4–6, SP+ #98)"
+     },
+     {
+      "result": "W 38–22",
+      "opponent": "vs Oregon State",
+      "opp_record": "(5–5, SP+ #58)"
+     },
+     {
+      "result": "L 23–26",
+      "opponent": "at San Diego State",
+      "opp_record": "(5–5, SP+ #96)"
+     }
+    ],
+    "win_pct": 90,
+    "news": []
+   }
+  },
+  {
+   "id": 401858306,
+   "anchor": "game-401858306",
+   "start": "2026-11-22T00:30:00+00:00",
+   "day": "Saturday, Nov 21",
+   "time": "6:30 PM CT",
+   "kickoff": "Sat, Nov 21 · 6:30 PM CT",
+   "neutral": false,
+   "venue": "L&N Federal Credit Union Stadium, Louisville, KY",
+   "final": null,
+   "spread": "Louisville −13.5",
+   "line_source": "DraftKings",
+   "tossup": false,
+   "prob_source": "betting odds",
+   "weather": "56°F · Wind 6 mph · Rain or snow 0%",
+   "flags": [
+    "Louisville: ranked #23 (CFP)"
+   ],
+   "away": {
+    "name": "Pittsburgh",
+    "rank": "",
+    "record": "6–4",
+    "ats": "ATS 5–5",
+    "sp": {
+     "overall": 38,
+     "offense": 61,
+     "defense": 29
+    },
+    "last": [
+     {
+      "result": "L 10–16",
+      "opponent": "vs Florida State",
+      "opp_record": "(5–5, SP+ #48)"
+     },
+     {
+      "result": "W 34–11",
+      "opponent": "vs Georgia Tech",
+      "opp_record": "(3–7, SP+ #97)"
+     },
+     {
+      "result": "L 23–52",
+      "opponent": "at Miami",
+      "opp_record": "(9–1, SP+ #3)"
+     },
+     {
+      "result": "L 21–27",
+      "opponent": "at Boston College",
+      "opp_record": "(4–6, SP+ #103)"
+     }
+    ],
+    "win_pct": 18,
+    "news": []
+   },
+   "home": {
+    "name": "Louisville",
+    "rank": "#23",
+    "record": "7–3",
+    "ats": "ATS 6–4",
+    "sp": {
+     "overall": 17,
+     "offense": 4,
+     "defense": 40
+    },
+    "last": [
+     {
+      "result": "W 16–14",
+      "opponent": "at North Carolina",
+      "opp_record": "(5–5, SP+ #50)"
+     },
+     {
+      "result": "W 44–17",
+      "opponent": "at Georgia Tech",
+      "opp_record": "(3–7, SP+ #97)"
+     },
+     {
+      "result": "W 52–24",
+      "opponent": "vs Stanford",
+      "opp_record": "(5–5, SP+ #106)"
+     },
+     {
+      "result": "W 34–26",
+      "opponent": "at Syracuse",
+      "opp_record": "(5–5, SP+ #83)"
+     }
+    ],
+    "win_pct": 82,
+    "news": []
+   }
+  },
+  {
+   "id": 401856751,
+   "anchor": "game-401856751",
+   "start": "2026-11-22T00:30:00+00:00",
+   "day": "Saturday, Nov 21",
+   "time": "6:30 PM CT",
+   "kickoff": "Sat, Nov 21 · 6:30 PM CT",
+   "neutral": false,
+   "venue": "Memorial Stadium, Columbia, MO",
+   "final": null,
+   "spread": "Missouri −4.5",
+   "line_source": "DraftKings",
+   "tossup": false,
+   "prob_source": "betting odds",
+   "weather": "63°F · Wind 7 mph · Rain or snow 1%",
+   "flags": [
+    "Kentucky: ranked #16 (CFP)"
+   ],
+   "away": {
+    "name": "Kentucky",
+    "rank": "#16",
+    "record": "7–3",
+    "ats": "ATS 7–3",
+    "sp": {
+     "overall": 42,
+     "offense": 39,
+     "defense": 45
+    },
+    "last": [
+     {
+      "result": "L 14–21",
+      "opponent": "vs Florida",
+      "opp_record": "(6–4, SP+ #47)"
+     },
+     {
+      "result": "L 6–34",
+      "opponent": "at Tennessee",
+      "opp_record": "(8–2, SP+ #11)"
+     },
+     {
+      "result": "W 34–17",
+      "opponent": "vs Vanderbilt",
+      "opp_record": "(4–6, SP+ #80)"
+     },
+     {
+      "result": "W 21–13",
+      "opponent": "at Oklahoma",
+      "opp_record": "(6–4, SP+ #41)"
+     }
+    ],
+    "win_pct": 36,
+    "news": [
+     {
+      "text": "Nic Anderson is trending toward playing in Saturday's game against Missouri according to the injury report.",
+      "sources": [
+       {
+        "title": "Kentucky vs. Missouri Injury Report: Nic Anderson trending toward playing Saturday",
+        "source": "A Sea Of Blue",
+        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNbENTclZMWXhxMnJjcXc4MWNkZVZwQks4ME5SdUk3OGhBd3h5N0o5N0JMWlgtcFF1cHRXcmVFS2xoUkY1RDVOYWlnSzRhbmdOMkxDRTVfYkJEc3pkTEN5cnVQeXBGMnVvTGU1aEhoWnZXQnFUSVYzbktJeHRlY0FxOUJFZnpwcElJdWIxRzVfbVNabW1GUUVtQ19VZG1MX2c?oc=5"
+       }
+      ]
+     }
+    ]
+   },
+   "home": {
+    "name": "Missouri",
+    "rank": "",
+    "record": "6–4",
+    "ats": "ATS 4–6",
+    "sp": {
+     "overall": 32,
+     "offense": 48,
+     "defense": 24
+    },
+    "last": [
+     {
+      "result": "L 21–48",
+      "opponent": "at Georgia",
+      "opp_record": "(9–1, SP+ #1)"
+     },
+     {
+      "result": "L 20–34",
+      "opponent": "vs Texas",
+      "opp_record": "(8–2, SP+ #8)"
+     },
+     {
+      "result": "W 34–10",
+      "opponent": "at Arkansas",
+      "opp_record": "(4–6, SP+ #76)"
+     },
+     {
+      "result": "L 3–31",
+      "opponent": "at Ole Miss",
+      "opp_record": "(6–4, SP+ #24)"
+     }
+    ],
+    "win_pct": 64,
+    "news": []
+   }
+  },
+  {
+   "id": 401858307,
+   "anchor": "game-401858307",
+   "start": "2026-11-22T00:30:00+00:00",
+   "day": "Saturday, Nov 21",
+   "time": "6:30 PM CT",
+   "kickoff": "Sat, Nov 21 · 6:30 PM CT",
+   "neutral": false,
+   "venue": "Notre Dame Stadium, Notre Dame, IN",
+   "final": null,
+   "spread": "Notre Dame −20.5",
+   "line_source": "DraftKings",
+   "tossup": false,
+   "prob_source": "betting odds",
+   "weather": "51°F · Wind 6 mph · Rain or snow 1%",
+   "flags": [
+    "Notre Dame: ranked #6 (CFP)"
+   ],
+   "away": {
+    "name": "SMU",
+    "rank": "",
+    "record": "7–3",
+    "ats": "ATS 3–5–2",
+    "sp": {
+     "overall": 28,
+     "offense": 20,
+     "defense": 43
+    },
+    "last": [
+     {
+      "result": "L 7–49",
+      "opponent": "vs Wake Forest",
+      "opp_record": "(9–1, SP+ #7)"
+     },
+     {
+      "result": "W 51–28",
+      "opponent": "vs Virginia Tech",
+      "opp_record": "(6–4, SP+ #59)"
+     },
+     {
+      "result": "L 27–30",
+      "opponent": "at Syracuse",
+      "opp_record": "(5–5, SP+ #83)"
+     },
+     {
+      "result": "W 59–20",
+      "opponent": "vs California",
+      "opp_record": "(3–7, SP+ #119)"
+     }
+    ],
+    "win_pct": 9,
+    "news": []
+   },
+   "home": {
+    "name": "Notre Dame",
+    "rank": "#6",
+    "record": "9–1",
+    "ats": "ATS 5–5",
+    "sp": {
+     "overall": 2,
+     "offense": 3,
+     "defense": 14
+    },
+    "last": [
+     {
+      "result": "W 41–7",
+      "opponent": "vs Boston College",
+      "opp_record": "(4–6, SP+ #103)"
+     },
+     {
+      "result": "W 31–24",
+      "opponent": "vs Miami",
+      "opp_record": "(9–1, SP+ #3)"
+     },
+     {
+      "result": "W 35–13",
+      "opponent": "vs Navy (neutral)",
+      "opp_record": "(3–6, SP+ #88)"
+     },
+     {
+      "result": "L 24–28",
+      "opponent": "at BYU",
+      "opp_record": "(8–2, SP+ #15)"
+     }
+    ],
+    "win_pct": 91,
+    "news": []
+   }
+  },
+  {
+   "id": 401856753,
+   "anchor": "game-401856753",
+   "start": "2026-11-22T00:30:00+00:00",
+   "day": "Saturday, Nov 21",
+   "time": "6:30 PM CT",
+   "kickoff": "Sat, Nov 21 · 6:30 PM CT",
+   "neutral": false,
+   "venue": "Williams-Brice Stadium, Columbia, SC",
+   "final": null,
+   "spread": "Georgia −14.5",
+   "line_source": "DraftKings",
+   "tossup": false,
+   "prob_source": "betting odds",
+   "weather": "58°F · Wind 10 mph · Rain 74%",
+   "flags": [
+    "Georgia: ranked #1 (CFP)",
+    "South Carolina: ranked #21 (CFP)"
+   ],
+   "away": {
+    "name": "Georgia",
+    "rank": "#1",
+    "record": "9–1",
+    "ats": "ATS 8–2",
+    "sp": {
+     "overall": 1,
+     "offense": 2,
+     "defense": 1
+    },
+    "last": [
+     {
+      "result": "W 48–21",
+      "opponent": "vs Missouri",
+      "opp_record": "(6–4, SP+ #32)"
+     },
+     {
+      "result": "W 42–7",
+      "opponent": "at Ole Miss",
+      "opp_record": "(6–4, SP+ #24)"
+     },
+     {
+      "result": "W 27–8",
+      "opponent": "vs Florida (neutral)",
+      "opp_record": "(6–4, SP+ #47)"
+     },
+     {
+      "result": "L 24–27",
+      "opponent": "vs Auburn",
+      "opp_record": "(6–4, SP+ #49)"
+     }
+    ],
+    "win_pct": 85,
+    "news": [
+     {
+      "text": "At least 8 South Carolina players are out for the game against Georgia.",
+      "sources": [
+       {
+        "title": "At least 8 South Carolina players out vs. Georgia football",
+        "source": "UGA Wire",
+        "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNZS1oLVFyV29PV1ZFVlNrdDRBa1M3YUJ6ZHZxNDh3MUVaUGg3cEs5QWl5Z250SU9vdWFXaWtib2J6YThPQmo5dlRoaTh3d21qT2hkaHgtNjh1QXQzVnJWZkRnejVzV183ZVpXQWhoSmdfZ0NxWHF6aGdtREhrcWlVM21KVEw2VnFVb1ZTMktKbW5CNURVWXV3ck8wMEZ5WnVBSUxtX3BzOWRLb1FUWjRZZTc3ckdmNlMwZzZkUGV2aXNQVXdUV09NaVJ5Tm5yODJLbXBn?oc=5"
+       }
+      ]
+     },
+     {
+      "text": "A Georgia Bulldog receiver has been ruled out according to the injury report.",
+      "sources": [
+       {
+        "title": "Georgia Injury Report: Bulldog receiver ruled out",
+        "source": "On3",
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOSnZVVmdYb0w2elFfb1RTOUxIcEVRZU5RTGV2WGozWjBNWEpJT25XOXhHTWxQMU11TFQxS0FvRGRfRDhqbktKUHdIUkVqZTRDanprLWY1SEZoM1ZTSXJacXZuNE9wNncyOHF5MUNSY1gzRmhpN3Y5a1FQUk1QNUJmNXRmTGoyX05reW43SThVSkQ3bHAxX1I4d0lsR2tlZw?oc=5"
+       }
+      ]
+     }
+    ]
+   },
+   "home": {
+    "name": "South Carolina",
+    "rank": "#21",
+    "record": "6–4",
+    "ats": "ATS 5–5",
+    "sp": {
+     "overall": 30,
+     "offense": 33,
+     "defense": 36
+    },
+    "last": [
+     {
+      "result": "L 6–34",
+      "opponent": "at Arkansas",
+      "opp_record": "(4–6, SP+ #76)"
+     },
+     {
+      "result": "W 17–9",
+      "opponent": "vs Texas A&M",
+      "opp_record": "(4–6, SP+ #44)"
+     },
+     {
+      "result": "W 42–25",
+      "opponent": "at Oklahoma",
+      "opp_record": "(6–4, SP+ #41)"
+     },
+     {
+      "result": "W 27–24",
+      "opponent": "vs Tennessee",
+      "opp_record": "(8–2, SP+ #11)"
+     }
+    ],
+    "win_pct": 15,
+    "news": [
+     {
+      "text": "At least 8 South Carolina players are out for the game against Georgia.",
+      "sources": [
+       {
+        "title": "At least 8 South Carolina players out vs. Georgia football",
+        "source": "UGA Wire",
+        "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNZS1oLVFyV29PV1ZFVlNrdDRBa1M3YUJ6ZHZxNDh3MUVaUGg3cEs5QWl5Z250SU9vdWFXaWtib2J6YThPQmo5dlRoaTh3d21qT2hkaHgtNjh1QXQzVnJWZkRnejVzV183ZVpXQWhoSmdfZ0NxWHF6aGdtREhrcWlVM21KVEw2VnFVb1ZTMktKbW5CNURVWXV3ck8wMEZ5WnVBSUxtX3BzOWRLb1FUWjRZZTc3ckdmNlMwZzZkUGV2aXNQVXdUV09NaVJ5Tm5yODJLbXBn?oc=5"
+       }
+      ]
+     },
+     {
+      "text": "Players adjusted for South Carolina in the latest availability report.",
+      "sources": [
+       {
+        "title": "Players adjusted for South Carolina in latest availability report",
+        "source": "247Sports",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQSExNQURweWdlOUJ6WmpwSTBfTm9HRG4ycTVpelpSeGVQdlJUZjF1cWpRSWlOY3ZNal84VGpUNnlCQWgyRHpvOG9xOEpwMnBoQXVzb0dJWEJCVy1ZQUtVd2lfU1ZTZDFvWG02WnJrYzlTcS1tcjdWQ2hnWHd2WUtNaVpUT3hUWTlmNllnMFoyaG96NVhCS0tUcm8wUEVKbG9Mc0lXckZzQ3RPc3VSeGFBYUx1V3BwWEJzSE0yWDNpTmNDdw?oc=5"
+       }
+      ]
+     },
+     {
+      "text": "Questions surround whether LaNorris Sellers will play against Georgia.",
+      "sources": [
+       {
+        "title": "South Carolina vs Georgia predictions: If LaNorris Sellers plays is upset possible?",
+        "source": "Yahoo Sports",
+        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQR283VlNjSnMtOEVUV3hfRGFCOHdoMlJpaXpoR29ZeTZUbDZTVUFJVlFpLV80czlHNnBla0dUR2dQaTljN0pjZGxNTXBNemVYQ0NaQUE4a3JfUUdCSXpIN3dwMGJ6VFVEX0M2RVdPN2xBendYNGlEeExpV0xuUFRmOFNwVEUwMnZLMDF5cDhXWQ?oc=5"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": 401862836,
+   "anchor": "game-401862836",
+   "start": "2026-11-22T01:00:00+00:00",
+   "day": "Saturday, Nov 21",
+   "time": "7:00 PM CT",
+   "kickoff": "Sat, Nov 21 · 7:00 PM CT",
+   "neutral": false,
+   "venue": "Protective Stadium, Birmingham, AL",
+   "final": null,
+   "spread": "UTSA −6.5",
+   "line_source": "DraftKings",
+   "tossup": false,
+   "prob_source": "betting odds",
+   "weather": "62°F · Wind 5 mph · Rain or snow 2%",
+   "flags": [],
+   "away": {
+    "name": "UTSA",
+    "rank": "",
+    "record": "8–2",
+    "ats": "ATS 6–4",
+    "sp": {
+     "overall": 61,
+     "offense": 32,
+     "defense": 95
+    },
+    "last": [
+     {
+      "result": "W 35–16",
+      "opponent": "vs North Texas",
+      "opp_record": "(7–3, SP+ #67)"
+     },
+     {
+      "result": "L 29–60",
+      "opponent": "at Florida Atlantic",
+      "opp_record": "(6–4, SP+ #86)"
+     },
+     {
+      "result": "W 42–19",
+      "opponent": "at Tulane",
+      "opp_record": "(5–5, SP+ #112)"
+     },
+     {
+      "result": "W 38–34",
+      "opponent": "vs Navy",
+      "opp_record": "(3–6, SP+ #88)"
+     }
+    ],
+    "win_pct": 68,
+    "news": []
+   },
+   "home": {
+    "name": "UAB",
+    "rank": "",
+    "record": "6–4",
+    "ats": "ATS 5–4–1",
+    "sp": {
+     "overall": 95,
+     "offense": 105,
+     "defense": 65
+    },
+    "last": [
+     {
+      "result": "W 36–10",
+      "opponent": "at Temple",
+      "opp_record": "(2–9, SP+ #115)"
+     },
+     {
+      "result": "W 23–12",
+      "opponent": "vs Charlotte",
+      "opp_record": "(1–9, SP+ #134)"
+     },
+     {
+      "result": "L 10–30",
+      "opponent": "at South Florida",
+      "opp_record": "(6–4, SP+ #60)"
+     },
+     {
+      "result": "W 30–17",
+      "opponent": "vs East Carolina",
+      "opp_record": "(6–4, SP+ #88)"
+     }
+    ],
+    "win_pct": 32,
+    "news": []
+   }
+  },
+  {
+   "id": 401856872,
+   "anchor": "game-401856872",
+   "start": "2026-11-22T02:00:00+00:00",
+   "day": "Saturday, Nov 21",
+   "time": "8:00 PM CT",
+   "kickoff": "Sat, Nov 21 · 8:00 PM CT",
+   "neutral": false,
+   "venue": "Amon G. Carter Stadium, Fort Worth, TX",
+   "final": null,
+   "spread": "Utah −7.5",
+   "line_source": "DraftKings",
+   "tossup": false,
+   "prob_source": "betting odds",
+   "weather": "65°F · Wind 7 mph · Rain or snow 3%",
+   "flags": [
+    "Utah: ranked #2 (CFP)",
+    "TCU: one win from bowl eligibility"
+   ],
+   "away": {
+    "name": "Utah",
+    "rank": "#2",
+    "record": "10–0",
+    "ats": "ATS 8–2",
+    "sp": {
+     "overall": 10,
+     "offense": 4,
+     "defense": 23
+    },
+    "last": [
+     {
+      "result": "W 40–39",
+      "opponent": "at Arizona",
+      "opp_record": "(7–3, SP+ #20)"
+     },
+     {
+      "result": "W 28–20",
+      "opponent": "vs BYU",
+      "opp_record": "(8–2, SP+ #15)"
+     },
+     {
+      "result": "W 49–25",
+      "opponent": "at Cincinnati",
+      "opp_record": "(5–5, SP+ #72)"
+     },
+     {
+      "result": "W 21–13",
+      "opponent": "vs Houston",
+      "opp_record": "(7–3, SP+ #25)"
+     }
+    ],
+    "win_pct": 71,
+    "news": []
+   },
+   "home": {
+    "name": "TCU",
+    "rank": "",
+    "record": "5–5",
+    "ats": "ATS 4–6",
+    "sp": {
+     "overall": 40,
+     "offense": 88,
+     "defense": 16
+    },
+    "last": [
+     {
+      "result": "W 20–10",
+      "opponent": "vs Kansas State",
+      "opp_record": "(4–6, SP+ #52)"
+     },
+     {
+      "result": "L 28–29",
+      "opponent": "at Arizona",
+      "opp_record": "(7–3, SP+ #20)"
+     },
+     {
+      "result": "W 22–16",
+      "opponent": "vs Kansas",
+      "opp_record": "(4–6, SP+ #50)"
+     },
+     {
+      "result": "L 20–24",
+      "opponent": "vs West Virginia",
+      "opp_record": "(5–5, SP+ #81)"
+     }
+    ],
+    "win_pct": 29,
+    "news": []
+   }
+  },
+  {
+   "id": 401860925,
+   "anchor": "game-401860925",
+   "start": "2026-11-22T02:30:00+00:00",
+   "day": "Saturday, Nov 21",
+   "time": "8:30 PM CT",
+   "kickoff": "Sat, Nov 21 · 8:30 PM CT",
+   "neutral": false,
+   "venue": "Albertsons Stadium, Boise, ID",
+   "final": null,
+   "spread": "Boise State −17.5",
+   "line_source": "DraftKings",
+   "tossup": false,
+   "prob_source": "betting odds",
+   "weather": "40°F · Wind 10 mph · Rain or snow 1%",
+   "flags": [
+    "San Diego State: one win from bowl eligibility",
+    "Boise State: ranked #17 (CFP)"
+   ],
+   "away": {
+    "name": "San Diego State",
+    "rank": "",
+    "record": "5–5",
+    "ats": "ATS 4–6",
+    "sp": {
+     "overall": 96,
+     "offense": 88,
+     "defense": 97
+    },
+    "last": [
+     {
+      "result": "W 30–13",
+      "opponent": "vs Utah State",
+      "opp_record": "(4–6, SP+ #98)"
+     },
+     {
+      "result": "W 26–20",
+      "opponent": "vs Washington State",
+      "opp_record": "(2–8, SP+ #111)"
+     },
+     {
+      "result": "L 49–56",
+      "opponent": "at Colorado State",
+      "opp_record": "(3–7, SP+ #120)"
+     },
+     {
+      "result": "W 26–23",
+      "opponent": "vs Fresno State",
+      "opp_record": "(5–5, SP+ #56)"
+     }
+    ],
+    "win_pct": 13,
+    "news": [
+     {
+      "text": "San Diego State was ravaged by mumps, though the team can still play for the Pac-12 title.",
+      "sources": [
+       {
+        "title": "Mumps ravaged San Diego State. Somehow, Aztecs can still play for Pac-12 title",
+        "source": "USA Today",
+        "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPdHBIa2FDckwyd3JSYXdqZFd6c0pWWnpHZElRbkNwd1JFN2hHMFJCRENfUU1vZmY4TGo0cjY5YXN1cEprQVBEY3lacHJZek1TWDB4aF9hcVZ3cmpNaTAxOUJlMVBwb3dPeGFnSUdfbHIxbzF3bmMzN3dVczNxQUlPU3FsclhJYmxaTDZXVXN1aTZSenhZSUJxNmdyLWdHMGxtcEpQVDZmLWRFbmhCaElQZ2dXUXVuc3c3WHpZcTR6SkJoUWR6Z3FsQlJOV2YxWUNCTk9laEktdEhLUUt6RFhF?oc=5"
+       }
+      ]
+     }
+    ]
+   },
+   "home": {
+    "name": "Boise State",
+    "rank": "#17",
+    "record": "9–1",
+    "ats": "ATS 5–5",
+    "sp": {
+     "overall": 22,
+     "offense": 6,
+     "defense": 77
+    },
+    "last": [
+     {
+      "result": "W 46–41",
+      "opponent": "vs Oregon State",
+      "opp_record": "(5–5, SP+ #58)"
+     },
+     {
+      "result": "W 64–38",
+      "opponent": "at Colorado State",
+      "opp_record": "(3–7, SP+ #120)"
+     },
+     {
+      "result": "W 46–45",
+      "opponent": "vs Texas State",
+      "opp_record": "(6–4, SP+ #46)"
+     },
+     {
+      "result": "W 31–10",
+      "opponent": "at Washington State",
+      "opp_record": "(2–8, SP+ #111)"
+     }
+    ],
+    "win_pct": 87,
+    "news": [
+     {
+      "text": "A weather forecast is available for the Boise State game against San Diego State on November 21.",
+      "sources": [
+       {
+        "title": "Boise State Football Weather Forecast: Nov. 21 vs. San Diego State",
+        "source": "sports.betmgm.com",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPNm5RVVAtdW5obERuV3RCLVRmNkFCLWxMTENFcGkycjJ5MnZWR3NUY0VtbHZJNUI5T0tEbEtQUmF2amhXcDBaT0FFbXpwRV82SlF2dmxqREhkU09oMVdIOGFYUG1lcGVMNjR3VHkyUjdmNDhJTFBCdmllam9YWEF1aEd0ellZTmEyZ3RfNm8yRHA1T2Q1bl9ieUxFYzdfbDZ3cHZuSzFVUnQzNkl0eDBNY2o0dW15UEFBUHFtbw?oc=5"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": 401856870,
+   "anchor": "game-401856870",
+   "start": "2026-11-22T03:15:00+00:00",
+   "day": "Saturday, Nov 21",
+   "time": "9:15 PM CT",
+   "kickoff": "Sat, Nov 21 · 9:15 PM CT",
+   "neutral": false,
+   "venue": "Mountain America Stadium, Tempe, AZ",
+   "final": null,
+   "spread": "Oklahoma State −2.5",
+   "line_source": "DraftKings",
+   "tossup": true,
+   "prob_source": "betting odds",
+   "weather": "54°F · Wind 4 mph · Rain or snow 0%",
+   "flags": [],
+   "away": {
+    "name": "Oklahoma State",
+    "rank": "",
+    "record": "6–4",
+    "ats": "ATS 7–3",
+    "sp": {
+     "overall": 25,
+     "offense": 8,
+     "defense": 81
+    },
+    "last": [
+     {
+      "result": "L 27–52",
+      "opponent": "vs Texas Tech",
+      "opp_record": "(9–1, SP+ #13)"
+     },
+     {
+      "result": "W 66–28",
+      "opponent": "at Kansas State",
+      "opp_record": "(4–6, SP+ #52)"
+     },
+     {
+      "result": "L 49–51",
+      "opponent": "at Iowa State",
+      "opp_record": "(5–5, SP+ #74)"
+     },
+     {
+      "result": "W 57–24",
+      "opponent": "vs Colorado",
+      "opp_record": "(4–6, SP+ #93)"
+     }
+    ],
+    "win_pct": 56,
+    "news": [
+     {
+      "text": "Drew Mestemaker is questionable for the upcoming game against Arizona State.",
+      "sources": [
+       {
+        "title": "Drew Mestemaker injury status revealed for Oklahoma State football game vs Arizona State",
+        "source": "Yahoo Sports",
+        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOTU9zZTFpd2pTTTFXdkpHNnN6ejlnem5HWjZEd2lLSUF4eGpMYm0zV3dOemlOZGdHR1BxNnZScUFFcXo5LXhfSGpmSDZnYXJMaTZHcjRNSy1TOE55NTBTcVpsTG82a1pLVTl0RFFmQjFBS3d2bHJRLUgyZXJTVERVTTdJYTZtc2tlQkE3S2NrUXk?oc=5"
+       },
+       {
+        "title": "Drew Mestemaker Questionable on First Oklahoma State-Arizona State Player Report",
+        "source": "Sports Illustrated",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQZE5YamJYWGkwVlhiYXNUUWJlNGk4UF9nV19LblZQZ0xrNDc4bjUwLWZ1Sm5YVmhDeDJQajhZMVJTMzU4Smd4b2VISE1uX2dHNHlwYlhqZ0dEVkFkby1DNXNKdTFYcHQ0ZXN0aGpsRTZ6eGFGNnVDN0dsUzdGa2JER09yU09vcG56TEpCSDRZdjdVUzVzdFVvMzdwQjIwazVVMlhoOWtzNzhtdGF0UWExOWRB?oc=5"
+       }
+      ]
+     }
+    ]
+   },
+   "home": {
+    "name": "Arizona State",
+    "rank": "",
+    "record": "6–4",
+    "ats": "ATS 6–4",
+    "sp": {
+     "overall": 62,
+     "offense": 75,
+     "defense": 46
+    },
+    "last": [
+     {
+      "result": "W 26–13",
+      "opponent": "at UCF",
+      "opp_record": "(5–5, SP+ #72)"
+     },
+     {
+      "result": "W 20–10",
+      "opponent": "vs Colorado",
+      "opp_record": "(4–6, SP+ #93)"
+     },
+     {
+      "result": "L 20–27",
+      "opponent": "at BYU",
+      "opp_record": "(8–2, SP+ #15)"
+     },
+     {
+      "result": "W 28–17",
+      "opponent": "vs Kansas State",
+      "opp_record": "(4–6, SP+ #52)"
+     }
+    ],
+    "win_pct": 44,
+    "news": [
+     {
+      "text": "Oklahoma State quarterback Drew Mestemaker is questionable for the game against Arizona State.",
+      "sources": [
+       {
+        "title": "Oklahoma State QB Drew Mestemaker questionable vs. Arizona State",
+        "source": "SuperWest Sports",
+        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQNk5MWWtFdWpHOV9xaFJBZFlyOHJTdktscmM2c3hjNWdna0xfTDd2dWZESzcxbUtyQ0ZXMXNrUTdIbnJ6Q1BHelpvUWdOM3M3YUxpNjlwNHl4Q0xEQkVuTENiTVR4R1U5U1k2ZUU4RjZQZ0hWNDJqSmtHZlQyWVlGdmZ1dFp3YVFJQzI1Z29vemptQUdDSF9J?oc=5"
+       },
+       {
+        "title": "Drew Mestemaker injury status revealed for Oklahoma State football game vs Arizona State",
+        "source": "Yahoo Sports",
+        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOTU9zZTFpd2pTTTFXdkpHNnN6ejlnem5HWjZEd2lLSUF4eGpMYm0zV3dOemlOZGdHR1BxNnZScUFFcXo5LXhfSGpmSDZnYXJMaTZHcjRNSy1TOE55NTBTcVpsTG82a1pLVTl0RFFmQjFBS3d2bHJRLUgyZXJTVERVTTdJYTZtc2tlQkE3S2NrUXk?oc=5"
+       }
+      ]
+     },
+     {
+      "text": "Starting Arizona State receiver Omarion Miller is listed out for the matchup against Oklahoma State.",
+      "sources": [
+       {
+        "title": "BIG LOSS: Starting ASU Receiver Omarion Miller listed OUT for Saturday's Matchup with Oklahoma State",
+        "source": "Yahoo Sports",
+        "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPc2I2bllGaXlMNFVRZmxNazlUUWlfQlhjUzQxOVU3Y3o1aUR2S3lka09wbUlGSTNQVzVMUVVOTlFsNER0NE1kZVl4VVVvUTF3R0o1Mmo3UFNUaTF1SG5sdkNmMVRpblBfdkxXcklwQktaTVQ2R042REtvRFBGaEVjZjB6NDg2dw?oc=5"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": 401864541,
+   "anchor": "game-401864541",
+   "start": "2026-11-22T03:30:00+00:00",
+   "day": "Saturday, Nov 21",
+   "time": "9:30 PM CT",
+   "kickoff": "Sat, Nov 21 · 9:30 PM CT",
+   "neutral": false,
+   "venue": "Mackay Stadium, Reno, NV",
+   "final": null,
+   "spread": "Nevada −5.5",
+   "line_source": "DraftKings",
+   "tossup": false,
+   "prob_source": "betting odds",
+   "weather": "36°F · Wind 3 mph · Rain or snow 0%",
+   "flags": [],
+   "away": {
+    "name": "Hawai'i",
+    "rank": "",
+    "record": "3–7",
+    "ats": "ATS 5–5",
+    "sp": {
+     "overall": 109,
+     "offense": 124,
+     "defense": 76
+    },
+    "last": [
+     {
+      "result": "L 13–21",
+      "opponent": "vs North Dakota State",
+      "opp_record": "(8–2, SP+ #31)"
+     },
+     {
+      "result": "W 17–14",
+      "opponent": "at UTEP",
+      "opp_record": "(1–9, SP+ #135)"
+     },
+     {
+      "result": "W 56–21",
+      "opponent": "at Northern Illinois",
+      "opp_record": "(0–10, SP+ #138)"
+     },
+     {
+      "result": "L 10–21",
+      "opponent": "vs New Mexico",
+      "opp_record": "(8–2, SP+ #23)"
+     }
+    ],
+    "win_pct": 34,
+    "news": []
+   },
+   "home": {
+    "name": "Nevada",
+    "rank": "",
+    "record": "4–6",
+    "ats": "ATS 6–4",
+    "sp": {
+     "overall": 92,
+     "offense": 112,
+     "defense": 56
+    },
+    "last": [
+     {
+      "result": "W 28–7",
+      "opponent": "at Northern Illinois",
+      "opp_record": "(0–10, SP+ #138)"
+     },
+     {
+      "result": "L 3–31",
+      "opponent": "vs New Mexico",
+      "opp_record": "(8–2, SP+ #23)"
+     },
+     {
+      "result": "L 0–27",
+      "opponent": "at UCLA",
+      "opp_record": "(10–0, SP+ #12)"
+     },
+     {
+      "result": "W 28–13",
+      "opponent": "vs San José State",
+      "opp_record": "(5–6, SP+ #118)"
+     }
+    ],
+    "win_pct": 66,
+    "news": []
+   }
+  },
+  {
+   "id": 401860919,
+   "anchor": "game-401860919",
+   "start": "2026-11-22T03:30:00+00:00",
+   "day": "Saturday, Nov 21",
+   "time": "9:30 PM CT",
+   "kickoff": "Sat, Nov 21 · 9:30 PM CT",
+   "neutral": false,
+   "venue": "Reser Stadium, Corvallis, OR",
+   "final": null,
+   "spread": "Oregon State −8.5",
+   "line_source": "DraftKings",
+   "tossup": false,
+   "prob_source": "betting odds",
+   "weather": "42°F · Wind 8 mph · Rain 60%",
+   "flags": [
+    "Oregon State: one win from bowl eligibility"
+   ],
+   "away": {
+    "name": "Utah State",
+    "rank": "",
+    "record": "4–6",
+    "ats": "ATS 6–4",
+    "sp": {
+     "overall": 98,
+     "offense": 121,
+     "defense": 49
+    },
+    "last": [
+     {
+      "result": "L 13–30",
+      "opponent": "at San Diego State",
+      "opp_record": "(5–5, SP+ #96)"
+     },
+     {
+      "result": "W 17–10",
+      "opponent": "vs Fresno State",
+      "opp_record": "(5–5, SP+ #56)"
+     },
+     {
+      "result": "W 31–14",
+      "opponent": "vs Colorado State",
+      "opp_record": "(3–7, SP+ #120)"
+     },
+     {
+      "result": "L 17–20",
+      "opponent": "at Texas State",
+      "opp_record": "(6–4, SP+ #46)"
+     }
+    ],
+    "win_pct": 27,
+    "news": []
+   },
+   "home": {
+    "name": "Oregon State",
+    "rank": "",
+    "record": "5–5",
+    "ats": "ATS 7–3",
+    "sp": {
+     "overall": 58,
+     "offense": 26,
+     "defense": 94
+    },
+    "last": [
+     {
+      "result": "L 41–46",
+      "opponent": "at Boise State",
+      "opp_record": "(9–1, SP+ #22)"
+     },
+     {
+      "result": "L 21–42",
+      "opponent": "vs Texas State",
+      "opp_record": "(6–4, SP+ #46)"
+     },
+     {
+      "result": "L 22–38",
+      "opponent": "at Fresno State",
+      "opp_record": "(5–5, SP+ #56)"
+     },
+     {
+      "result": "W 48–30",
+      "opponent": "vs Washington State",
+      "opp_record": "(2–8, SP+ #111)"
+     }
+    ],
+    "win_pct": 73,
+    "news": [
+     {
+      "text": "The Oregon State secondary suffered another hit with Howard being ruled out.",
+      "sources": [
+       {
+        "title": "OSU secondary takes another hit with Howard ruled out",
+        "source": "OregonLive.com",
+        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQMEZyNWVCNDVJem1yYzQ5aloxRVk2bEFrY2xDenYxQVFYajZrZmNQWmhvd3R5SXR6dTFFeTVOUkNsdlRnR3l6RGFMYXdVQy1IVHRpZzlSRHFrdUlmc3gtOXp4czFmQS10U1NvajdPSFZxZEt2T1Atc0xmbi1sR3NGdEdBMVZBMlFJZ2ZZRmFRd0Q2QTlYejBZ?oc=5"
+       }
+      ]
+     },
+     {
+      "text": "A hand injury keeps Atkinson sidelined for the upcoming game against Utah State.",
+      "sources": [
+       {
+        "title": "Hand injury keeps Atkinson sidelined for OSU's Utah State game",
+        "source": "OregonLive.com",
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQcGlEeDUtaHhua0xLWVNyV25mWU5qTkxyZldXMDRvSVNZdGt1MUI3cTlMdWtwSnNUYndCMG0xUkcxaXhLaXRmVE9wc3BsTUJtVDFGNVdpZG9NUk5SeGNmVklycGpPXzRzRV9TejFXTkx6UHdiSVV2MnVVMTJ6NVlfaGhlZWdZSFVPS0tsS3lZWGNYZ3RWQjBHVXMzcmUtZw?oc=5"
+       }
+      ]
+     }
+    ]
+   }
+  }
+ ]
+}

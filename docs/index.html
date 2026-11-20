@@ -1,0 +1,391 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pick'em Prep</title>
+<link rel="icon" href="data:,">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=Inter:wght@400;500;600;700&display=swap">
+<style>
+  :root {
+    --ground: #F4F5F2; --card: #FFFFFF; --line: #DADDD6; --rule: #ECEEE9;
+    --ink: #14171A; --quiet: #565C63; --green: #17603A; --green-tint: #E6F0EA;
+    --orange-ink: #8A3B00; --orange-tint: #FDEBD3;
+    --display: 'Barlow Condensed', 'Arial Narrow', sans-serif;
+  }
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body { margin: 0; background: var(--ground); color: var(--ink); font: 400 15px/1.45 Inter, system-ui, sans-serif; }
+  a { color: var(--green); }
+  .wrap { max-width: 1200px; margin: 0 auto; padding: 32px 20px 56px; display: flex; flex-direction: column; gap: 22px; }
+  .eyebrow, .label { margin: 0; font-size: 12px; font-weight: 600; letter-spacing: .06em; text-transform: uppercase; color: var(--quiet); }
+  .eyebrow { color: var(--green); font-weight: 700; font-size: 13px; }
+  h1 { margin: 4px 0; font-family: var(--display); font-weight: 700; font-size: clamp(36px, 6vw, 52px); line-height: 1; }
+  .updated { margin: 0; color: var(--quiet); font-size: 14px; }
+  .week-picker { display: flex; align-items: center; gap: 10px; margin-top: 12px; }
+  .week-picker[hidden] { display: none; }
+  .week-picker select { min-height: 44px; padding: 0 12px; border: 1px solid #C9CDC4; border-radius: 10px; background: var(--card); font: 500 15px Inter, system-ui, sans-serif; color: var(--ink); }
+  .info { display: flex; flex-wrap: wrap; gap: 10px 28px; padding: 14px 18px; background: var(--card); border: 1px solid var(--line); border-radius: 12px; font-size: 14px; color: #3A4046; }
+  .info strong { color: var(--ink); }
+  .badge { display: inline-block; padding: 3px 9px; border-radius: 999px; background: var(--orange-tint); color: var(--orange-ink); font-size: 11px; font-weight: 700; letter-spacing: .05em; text-transform: uppercase; }
+  .layout { display: flex; flex-wrap: wrap; align-items: flex-start; gap: 24px; }
+
+  /* game list */
+  .games-list { flex: 1 1 260px; max-width: 100%; background: var(--card); border: 1px solid var(--line); border-radius: 16px; padding: 16px; }
+  .games-list summary { cursor: pointer; font-family: var(--display); font-weight: 700; font-size: 24px; line-height: 1.2; min-height: 32px; }
+  .games-list label { display: flex; flex-direction: column; gap: 6px; margin: 12px 0 4px; }
+  .games-list input { min-height: 44px; padding: 0 12px; border: 1px solid #C9CDC4; border-radius: 10px; font: inherit; color: var(--ink); }
+  .games-list ul { list-style: none; margin: 4px 0 0; padding: 0; display: flex; flex-direction: column; gap: 4px; }
+  .games-list .day { margin: 14px 0 2px; }
+  .games-list a { display: flex; flex-direction: column; gap: 2px; min-height: 44px; padding: 9px 12px; border-radius: 10px; background: var(--ground); color: var(--ink); text-decoration: none; }
+  .games-list a:hover, .games-list a:focus-visible { background: var(--green-tint); }
+  .games-list .meta { display: flex; justify-content: space-between; gap: 8px; font-size: 12px; color: var(--quiet); }
+  .games-list .matchup { font-size: 14px; font-weight: 600; line-height: 1.3; }
+  .games-list .line { font-size: 13px; color: var(--quiet); }
+  .toss { font-weight: 700; letter-spacing: .05em; color: var(--orange-ink); }
+  @media (min-width: 900px) {
+    .games-list { position: sticky; top: 16px; max-height: calc(100vh - 32px); overflow-y: auto; flex: 0 0 280px; }
+  }
+
+  /* cards */
+  main { flex: 999 1 560px; min-width: 0; display: flex; flex-direction: column; gap: 22px; }
+  .card { background: var(--card); border: 1px solid var(--line); border-radius: 16px; padding: 22px; display: flex; flex-direction: column; gap: 18px; scroll-margin-top: 16px; }
+  #cards { display: flex; flex-direction: column; gap: 22px; }
+  .card.hidden, .games-list li.hidden, .games-list .day.hidden, .empty[hidden] { display: none; }
+  .top-right { display: flex; align-items: center; gap: 10px; }
+  .slate-btn { min-height: 36px; padding: 0 12px; border: 1px solid var(--line); border-radius: 999px; background: var(--card); color: var(--quiet); font: 600 13px Inter, system-ui, sans-serif; cursor: pointer; }
+  .slate-btn:hover { border-color: var(--green); color: var(--green); }
+  .slate-btn[aria-pressed="true"] { background: var(--green); border-color: var(--green); color: #fff; }
+  .card.on-slate { border-color: var(--green); box-shadow: inset 4px 0 0 var(--green); }
+  .games-list .star { display: none; color: var(--green); }
+  .games-list li.on-slate .star { display: inline; }
+  .slate-only { flex-direction: row !important; align-items: center; gap: 10px !important; min-height: 44px; margin: 4px 0 !important; font-size: 14px; font-weight: 600; cursor: pointer; }
+  .slate-only input { width: 20px; height: 20px; min-height: 0 !important; accent-color: var(--green); }
+  .top { display: flex; justify-content: space-between; align-items: center; gap: 12px; flex-wrap: wrap; font-size: 13px; font-weight: 600; color: var(--quiet); }
+  .final { font-weight: 700; color: var(--ink); }
+  .team { display: flex; align-items: center; gap: 12px; }
+  .team .who { display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 10px; flex: 1 1 auto; min-width: 0; }
+  .rank { font-family: var(--display); font-weight: 700; font-size: 18px; color: var(--quiet); }
+  .name { font-family: var(--display); font-weight: 700; font-size: 30px; line-height: 1.05; }
+  .home-tag { align-self: center; padding: 2px 7px; border: 1px solid var(--ink); border-radius: 4px; font-size: 11px; font-weight: 700; letter-spacing: .06em; }
+  .rec { font-size: 13px; color: var(--quiet); }
+  .pct { font-family: var(--display); font-weight: 700; font-size: 26px; }
+  .prob { display: flex; flex-direction: column; gap: 6px; }
+  .bar { display: flex; height: 10px; border-radius: 999px; overflow: hidden; background: #2B3A47; }
+  .bar span { background: #B9C3CC; }
+  .bar-key { display: flex; justify-content: space-between; gap: 8px; font-size: 12px; color: var(--quiet); }
+  .stats { display: flex; flex-wrap: wrap; gap: 12px; }
+  .stat { flex: 1 1 200px; padding: 12px 14px; background: var(--ground); border-radius: 10px; }
+  .stat .big { margin: 4px 0 0; font-family: var(--display); font-weight: 700; font-size: 26px; line-height: 1.1; }
+  .stat .text { margin: 6px 0 0; font-size: 15px; font-weight: 600; line-height: 1.35; }
+  .ratings table { width: 100%; margin-top: 6px; border-collapse: collapse; font-size: 14px; }
+  .ratings th, .ratings td { padding: 7px 8px; border-top: 1px solid var(--rule); text-align: center; }
+  .ratings thead th { border-top: 0; font-size: 12px; font-weight: 600; color: var(--quiet); }
+  .ratings tbody th { text-align: left; font-weight: 600; padding-left: 0; }
+  .ratings td { font-family: var(--display); font-weight: 700; font-size: 20px; font-variant-numeric: tabular-nums; color: var(--quiet); }
+  .ratings td.top25 { color: var(--green); }
+  .ratings td.unrated { font: 400 13px Inter, system-ui, sans-serif; }
+  .flags { display: flex; flex-wrap: wrap; gap: 8px; }
+  .flags span { padding: 6px 12px; border-radius: 999px; background: var(--green-tint); color: var(--green); font-size: 13px; font-weight: 600; }
+  .history { display: flex; flex-wrap: wrap; gap: 20px; }
+  .history section { flex: 1 1 240px; min-width: 0; }
+  .history h3 { margin: 0 0 4px; }
+  .history ul { list-style: none; margin: 0; padding: 0; }
+  .history li { display: flex; justify-content: space-between; align-items: baseline; gap: 8px; padding: 8px 0; border-top: 1px solid var(--rule); font-size: 13px; line-height: 1.35; }
+  .history .opp-rec { color: var(--quiet); }
+  .notes { padding: 12px 14px; border: 1px dashed #BFC4BC; border-radius: 10px; }
+  .notes p { margin: 6px 0 0; font-size: 14px; }
+  .notes .none { color: var(--quiet); }
+  .news-team { font-weight: 700; }
+  .news ul { margin: 4px 0 0; padding-left: 20px; font-size: 14px; }
+  .news li { margin: 4px 0; }
+  .news .src a { margin-right: 4px; font-size: 12px; white-space: nowrap; }  .empty { padding: 32px; background: var(--card); border: 1px solid var(--line); border-radius: 16px; }
+  footer { font-size: 13px; color: var(--quiet); }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <p class="eyebrow">Yahoo College Pick'em</p>
+    <h1 id="title">Pick'em Prep</h1>
+    <p class="updated" id="updated">Loading…</p>
+    <label class="label week-picker" id="week-picker" hidden>Week
+      <select id="week"></select>
+    </label>
+  </header>
+
+  <div class="info">
+    <span><strong>Spreads shown are the market line.</strong> Yahoo's can differ, so pick against Yahoo's number.</span>
+    <span><span class="badge">Toss-up</span> spread under 3 points</span>
+    <span><strong>ATS</strong> = record against the spread</span>
+    <span><strong>SP+</strong> = efficiency rating; #1 is best, green = top 25. Early in the season it leans on preseason expectations.</span>
+    <span><strong>"In the news"</strong> notes are AI summaries of headlines. Click the source to check.</span>
+  </div>
+
+  <div class="layout">
+    <details class="games-list" id="games-list" open>
+      <summary>All games <span id="game-count"></span></summary>
+      <label class="label" for="find">Find a team
+        <input id="find" type="search" placeholder="Type a team name" autocomplete="off">
+      </label>
+      <label class="slate-only"><input id="slate-only" type="checkbox"> Only my Yahoo games <span id="slate-count"></span></label>
+      <div id="list"></div>
+    </details>
+    <main>
+      <div class="empty" id="slate-empty" hidden>No Yahoo games flagged for this week yet. Tap "☆ Add to Yahoo slate" on a game, or uncheck "Only my Yahoo games".</div>
+      <div id="cards"></div>
+    </main>
+  </div>
+
+  <footer>
+    Data: CollegeFootballData.com (games, lines, records, rankings, SP+ ratings), Open-Meteo (weather),
+    and Google News headlines summarized by Gemini (news notes).
+    Updates Thursday and Friday mornings. This page helps with research; it never makes the pick.
+  </footer>
+</div>
+
+<script>
+// Small helper: builds an element without ever treating data as HTML.
+function el(tag, attrs, ...children) {
+  const node = document.createElement(tag);
+  for (const [key, value] of Object.entries(attrs || {})) {
+    if (value === null || value === undefined || value === false) continue;
+    if (key === 'class') node.className = value;
+    else node.setAttribute(key, value);
+  }
+  for (const child of children.flat()) {
+    if (child === null || child === undefined || child === false) continue;
+    node.append(child instanceof Node ? child : document.createTextNode(String(child)));
+  }
+  return node;
+}
+
+// notes.txt: one note per line, "Team name: the note". Lines starting with # are skipped.
+function parseNotes(text) {
+  const notes = {};
+  for (const raw of text.split('\n')) {
+    const line = raw.trim();
+    if (!line || line.startsWith('#')) continue;
+    const cut = line.indexOf(':');
+    if (cut < 1) continue;
+    const team = line.slice(0, cut).trim().toLowerCase();
+    (notes[team] = notes[team] || []).push(line.slice(cut + 1).trim());
+  }
+  return notes;
+}
+
+function teamRow(team, isHome, neutral) {
+  return el('div', { class: 'team' },
+    el('div', { class: 'who' },
+      team.rank ? el('span', { class: 'rank' }, team.rank) : null,
+      el('span', { class: 'name' }, team.name),
+      isHome && !neutral ? el('span', { class: 'home-tag' }, 'HOME') : null,
+      el('span', { class: 'rec' }, `${team.record} · ${team.ats}`)),
+    el('span', { class: 'pct' }, team.win_pct === null ? '–' : `${team.win_pct}%`));
+}
+
+function history(team) {
+  return el('section', {},
+    el('h3', { class: 'label' }, `${team.name} · last ${team.last.length}`),
+    team.last.length
+      ? el('ul', {}, team.last.map(r => el('li', {},
+          el('span', {}, el('strong', {}, r.result), ` ${r.opponent} `, el('span', { class: 'opp-rec' }, r.opp_record)))))
+      : el('p', { class: 'rec' }, 'No games played yet'));
+}
+
+// SP+ national ranks for both teams. Top 25 in bold. Hidden for weeks saved before ratings existed.
+function ratings(g, spTeams) {
+  if (!g.away.sp && !g.home.sp) return null;
+  const cell = rank => el('td', { class: rank && rank <= 25 ? 'top25' : null }, rank ? `#${rank}` : '–');
+  const row = team => el('tr', {}, el('th', { scope: 'row' }, team.name),
+    team.sp ? [cell(team.sp.overall), cell(team.sp.offense), cell(team.sp.defense)]
+            : el('td', { colspan: 3, class: 'unrated' }, 'Not rated (FCS)'));
+  return el('div', { class: 'ratings' },
+    el('p', { class: 'label' }, `Team ratings · SP+ national rank${spTeams ? ` of ${spTeams}` : ''}`),
+    el('table', {},
+      el('thead', {}, el('tr', {}, el('th', {}, ''), el('th', {}, 'Overall'), el('th', {}, 'Offense'), el('th', {}, 'Defense'))),
+      el('tbody', {}, row(g.away), row(g.home))));
+}
+
+function card(g, notes, spTeams) {
+  const gameNotes = [...(notes[g.away.name.toLowerCase()] || []), ...(notes[g.home.name.toLowerCase()] || [])];
+  return el('article', { class: 'card', id: g.anchor, 'data-game': g.id, 'data-teams': `${g.away.name} ${g.home.name}`.toLowerCase() },
+    el('div', { class: 'top' },
+      g.final ? el('span', { class: 'final' }, g.final) : el('span', {}, `${g.kickoff}${g.neutral ? ' · Neutral site' : ''}`),
+      el('span', { class: 'top-right' },
+        g.tossup ? el('span', { class: 'badge' }, 'Toss-up') : null,
+        el('button', { class: 'slate-btn', type: 'button', 'data-game': g.id }))),
+    el('div', {},
+      teamRow(g.away, false, g.neutral),
+      teamRow(g.home, true, g.neutral)),
+    g.away.win_pct === null ? null : el('div', { class: 'prob' },
+      el('p', { class: 'label' }, `Win probability (from ${g.prob_source})`),
+      el('div', { class: 'bar', 'aria-hidden': 'true' }, el('span', { style: `width:${g.away.win_pct}%` })),
+      el('div', { class: 'bar-key' }, el('span', {}, g.away.name), el('span', {}, g.home.name))),
+    el('div', { class: 'stats' },
+      el('div', { class: 'stat' },
+        el('p', { class: 'label' }, g.line_source ? `Spread (${g.line_source})` : 'Spread (market line)'),
+        el('p', { class: 'big' }, g.spread)),
+      el('div', { class: 'stat' },
+        el('p', { class: 'label' }, 'Kickoff weather'),
+        el('p', { class: 'text' }, g.weather),
+        g.venue ? el('p', { class: 'rec' }, g.venue) : null)),
+    ratings(g, spTeams),
+    g.flags.length ? el('div', { class: 'flags' }, g.flags.map(f => el('span', {}, f))) : null,
+    el('div', { class: 'history' }, history(g.away), history(g.home)),
+    el('div', { class: 'notes' },
+      el('p', { class: 'label' }, 'Notes'),
+      gameNotes.length ? gameNotes.map(n => el('p', {}, n)) : null,
+      newsBlock(g.away), newsBlock(g.home),
+      !gameNotes.length && !Array.isArray(g.away.news) && !Array.isArray(g.home.news)
+        ? el('p', { class: 'none' }, 'Nothing notable yet.') : null));
+}
+
+// AI news notes. news is null when the team wasn't checked, [] when nothing turned up.
+function newsBlock(team) {
+  if (!Array.isArray(team.news)) return null;
+  if (!team.news.length) return el('p', { class: 'none' }, `${team.name}: nothing notable in the news this week.`);
+  return el('div', { class: 'news' },
+    el('p', { class: 'news-team' }, `${team.name} in the news`),
+    el('ul', {}, team.news.map(n => el('li', {},
+      n.text, ' ',
+      el('span', { class: 'src' }, n.sources.filter(s => /^https:\/\//.test(s.url)).map((s, i) =>
+        el('a', { href: s.url, target: '_blank', rel: 'noopener noreferrer', title: s.title },
+          `[${s.source || 'source'}${n.sources.length > 1 ? ` ${i + 1}` : ''}]`)))))));
+}
+
+function buildList(games) {
+  const list = document.getElementById('list');
+  let day = null, ul = null;
+  for (const g of games) {
+    if (g.day !== day) {
+      day = g.day;
+      list.append(el('p', { class: 'label day', 'data-day': day }, day));
+      ul = el('ul', { 'data-day': day });
+      list.append(ul);
+    }
+    ul.append(el('li', { 'data-game': g.id, 'data-teams': `${g.away.name} ${g.home.name}`.toLowerCase() },
+      el('a', { href: `#${g.anchor}` },
+        el('span', { class: 'meta' },
+          el('span', {}, el('span', { class: 'star', 'aria-label': 'On Yahoo slate' }, '★ '), g.final ? 'Final' : g.time),
+          g.tossup ? el('span', { class: 'toss' }, 'TOSS-UP') : null),
+        el('span', { class: 'matchup' }, `${g.away.name} @ ${g.home.name}`),
+        el('span', { class: 'line' }, g.spread))));
+  }
+}
+
+// Browser storage can be missing or blocked (private windows), so every use is wrapped.
+const store = {
+  get(key, fallback) { try { const v = localStorage.getItem(key); return v === null ? fallback : JSON.parse(v); } catch { return fallback; } },
+  set(key, value) { try { localStorage.setItem(key, JSON.stringify(value)); } catch { /* not saved; fine */ } },
+};
+
+// Yahoo slate flags: game ids saved in this browser only (not shared between devices).
+const slate = new Set(store.get('yahooSlate', []).map(String));
+
+function refreshSlate() {
+  document.querySelectorAll('[data-game]').forEach(node => node.classList.toggle('on-slate', slate.has(node.dataset.game)));
+  document.querySelectorAll('.slate-btn').forEach(btn => {
+    const on = slate.has(btn.dataset.game);
+    btn.setAttribute('aria-pressed', String(on));
+    btn.textContent = on ? '★ On Yahoo slate' : '☆ Add to Yahoo slate';
+  });
+  const flagged = document.querySelectorAll('article.on-slate').length;
+  document.getElementById('slate-count').textContent = flagged ? `(${flagged})` : '';
+  filter();
+}
+
+function filter() {
+  const term = document.getElementById('find').value.trim().toLowerCase();
+  const onlySlate = document.getElementById('slate-only').checked;
+  document.querySelectorAll('[data-teams]').forEach(node => node.classList.toggle('hidden',
+    (term !== '' && !node.dataset.teams.includes(term)) || (onlySlate && !slate.has(node.dataset.game))));
+  document.querySelectorAll('#list ul').forEach(ul => {
+    const empty = !ul.querySelector('li:not(.hidden)');
+    ul.classList.toggle('hidden', empty);
+    document.querySelector(`#list p[data-day="${CSS.escape(ul.dataset.day)}"]`).classList.toggle('hidden', empty);
+  });
+  document.getElementById('slate-empty').hidden = !(onlySlate && !term && !document.querySelector('article.on-slate'));
+}
+
+const bust = `?t=${Date.now()}`;   // always get the newest files, not a cached copy
+const getJSON = path => fetch(path + bust).then(r => { if (!r.ok) throw new Error(`${path}: ${r.status}`); return r.json(); });
+
+// Draws one week. Typed notes (notes.txt) only belong on the current week.
+function render(data, notes, isLatest) {
+  const games = data.games || [];
+  document.title = `Pick'em Prep · ${data.title || ''}`;
+  document.getElementById('title').textContent = data.title
+    ? `Pick'em Prep · ${data.title}${isLatest ? '' : ` ${data.season}`}` : "Pick'em Prep";
+  document.getElementById('updated').textContent = !data.generated_label
+    ? 'Not updated yet. The first update runs Thursday morning, or run it now from GitHub.'
+    : isLatest ? `Updated ${data.generated_label} · Next update Thursday or Friday morning`
+      + (data.news_status ? ` · News notes: ${data.news_status}` : '')
+    : `Past week (saved ${data.generated_label}). Lines and news are as of that day.`;
+  document.getElementById('game-count').textContent = games.length ? `(${games.length})` : '';
+  document.getElementById('find').value = '';
+
+  const cards = document.getElementById('cards');
+  cards.replaceChildren();
+  document.getElementById('list').replaceChildren();
+  if (!games.length) {
+    cards.append(el('div', { class: 'empty' }, 'No games to show yet.'));
+    return;
+  }
+  cards.append(...games.map(g => card(g, isLatest ? notes : {}, data.sp_teams)));
+  buildList(games);
+  refreshSlate();
+}
+
+// Week picker: lists every saved week from weeks/index.json. Hidden until there are two.
+function buildWeekPicker(weeks, latest, notes) {
+  if (weeks.length < 2) return;
+  const isLatestWeek = w => w.season === latest.season && w.season_type === latest.season_type && w.week === latest.week;
+  const select = document.getElementById('week');
+  select.replaceChildren(...weeks.map(w => el('option', { value: w.file, selected: isLatestWeek(w) ? 'selected' : null },
+    isLatestWeek(w) ? `${w.label} (this week)` : w.label)));
+  select.addEventListener('change', async () => {
+    const w = weeks.find(x => x.file === select.value);
+    try {
+      render(isLatestWeek(w) ? latest : await getJSON(`weeks/${w.file}`), notes, isLatestWeek(w));
+    } catch (err) {
+      document.getElementById('updated').textContent = 'Could not load that week. Try refreshing the page.';
+      console.error(err);
+    }
+  });
+  document.getElementById('week-picker').hidden = false;
+}
+
+async function start() {
+  const [data, notesText, weeks] = await Promise.all([
+    getJSON('data.json'),
+    fetch(`notes.txt${bust}`).then(r => (r.ok ? r.text() : '')).catch(() => ''),
+    getJSON('weeks/index.json').catch(() => []),
+  ]);
+  const notes = parseNotes(notesText);
+  render(data, notes, true);
+  buildWeekPicker(weeks, data, notes);
+  document.getElementById('find').addEventListener('input', filter);
+  const onlySlate = document.getElementById('slate-only');
+  onlySlate.checked = store.get('slateOnly', false);
+  onlySlate.addEventListener('change', () => { store.set('slateOnly', onlySlate.checked); filter(); });
+  document.getElementById('cards').addEventListener('click', e => {
+    const btn = e.target.closest('.slate-btn');
+    if (!btn) return;
+    slate.has(btn.dataset.game) ? slate.delete(btn.dataset.game) : slate.add(btn.dataset.game);
+    store.set('yahooSlate', [...slate]);
+    refreshSlate();
+  });
+  filter();
+  if (window.matchMedia('(max-width: 899px)').matches) document.getElementById('games-list').open = false;
+}
+
+start().catch(err => {
+  document.getElementById('updated').textContent = 'Could not load the data file. Try refreshing the page.';
+  console.error(err);
+});
+</script>
+</body>
+</html>

@@ -1,0 +1,7 @@
+# Notes for the dashboard.
+# One note per line: the team name exactly as the dashboard shows it, a colon, then the note.
+# The note appears on that team's game. Lines starting with # are ignored.
+# Edit this file on GitHub (pencil icon), click "Commit changes", and the page updates in a minute or two.
+#
+# Example:
+# Texas A&M: Starting QB listed questionable (ankle). Check Friday's update.
